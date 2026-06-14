@@ -47,7 +47,10 @@ data/MNIST/
 # --- Snapshot archives ---
 *.zip
 
-# --- LaTeX build intermediates (sources .tex/.bbl/.cls/.bib and final .pdf are kept) ---
+# --- Manuscript / paper folder (kept local; intentionally not published in this repo) ---
+paper/
+
+# --- LaTeX build intermediates ---
 *.aux
 *.log
 *.blg

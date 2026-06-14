@@ -1,0 +1,13 @@
+model_name,model_family,model_variant,split_eval,analysis_variant,position,num_facts,found_rate,invariance_depth_mean,mean_invariance_gap,peak_invariance_gap
+qwen2_5_0_5b_instruct,qwen,instruct,all,all_families,subject,90,1.0,0.4666666666666667,0.1172336852107425,0.9922790173535286
+qwen2_5_0_5b_instruct,qwen,instruct,all,all_families,preanswer,90,1.0,20.733333333333334,-0.07621898484925738,0.21771901338269894
+qwen2_5_0_5b_instruct,qwen,instruct,all,no_chat,subject,90,0.32222222222222224,0.0,0.08275543642984957,0.9873876854530477
+qwen2_5_0_5b_instruct,qwen,instruct,all,no_chat,preanswer,90,0.9777777777777777,20.988636363636363,-0.11617881874018422,0.15143084603976575
+qwen2_5_0_5b_instruct,qwen,instruct,all,length_matched_delta4,subject,90,0.32222222222222224,0.0,0.07313536301153634,0.9914741842839355
+qwen2_5_0_5b_instruct,qwen,instruct,all,length_matched_delta4,preanswer,90,0.5222222222222223,21.02127659574468,-0.16557499709499468,0.1318035616462392
+qwen2_5_0_5b_instruct,qwen,instruct,holdout,all_families,subject,20,1.0,0.0,0.19314240469697477,0.9974672633610074
+qwen2_5_0_5b_instruct,qwen,instruct,holdout,all_families,preanswer,20,1.0,20.8,-0.07705190650528441,0.21965904533863068
+qwen2_5_0_5b_instruct,qwen,instruct,holdout,no_chat,subject,20,1.0,0.0,0.1600643078544826,0.9922869742483642
+qwen2_5_0_5b_instruct,qwen,instruct,holdout,no_chat,preanswer,20,0.9,21.0,-0.11698384588572805,0.15047478234326395
+qwen2_5_0_5b_instruct,qwen,instruct,holdout,length_matched_delta4,subject,20,1.0,0.45,0.16036210569611598,0.9966315633246268
+qwen2_5_0_5b_instruct,qwen,instruct,holdout,length_matched_delta4,preanswer,20,0.4,21.0,-0.1674400438738549,0.12796542178029602

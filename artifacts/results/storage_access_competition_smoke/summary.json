@@ -1,0 +1,8 @@
+{
+  "num_models": 2,
+  "artifacts": {
+    "multimodel_layer_similarity_summary": "artifacts/results/storage_access_competition_smoke/multimodel_layer_similarity_summary.csv",
+    "multimodel_fact_invariance_summary": "artifacts/results/storage_access_competition_smoke/multimodel_fact_invariance_summary.csv",
+    "multimodel_preanswer_invariance_heatmap_png": "artifacts/results/storage_access_competition_smoke/multimodel_preanswer_invariance_heatmap.png"
+  }
+}

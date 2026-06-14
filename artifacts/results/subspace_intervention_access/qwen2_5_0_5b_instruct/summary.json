@@ -1,0 +1,9 @@
+{
+  "model_name": "qwen2_5_0_5b_instruct",
+  "model_variant": "instruct",
+  "artifacts": {
+    "interventions": "artifacts/results/subspace_intervention_access/qwen2_5_0_5b_instruct/subspace_interventions.csv",
+    "summary": "artifacts/results/subspace_intervention_access/qwen2_5_0_5b_instruct/summary.csv",
+    "alignment_delta_bar_png": "artifacts/results/subspace_intervention_access/qwen2_5_0_5b_instruct/alignment_delta_bar.png"
+  }
+}

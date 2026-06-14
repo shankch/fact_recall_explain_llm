@@ -1,0 +1,42 @@
+country,prompt,prompt_family,expected_capital,top_prediction,generated_text,normalized_generated_text,target_rank,target_margin,exact_match,contains_expected
+Afghanistan,What is the capital of Afghanistan?,raw_question,Kabul,"
+
+",The capital of Afghanistan is Kabul.,kabul.,35,-9.3125,1.0,1.0
+Afghanistan,The capital of Afghanistan is,declarative,Kabul,Kabul,"Kabul.
+
+The capital of Afghanistan is",kabul.,1,8.5,1.0,1.0
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,Kabul,Kabul,"Kabul
+Q: What is the capital",kabul,1,3.75,1.0,1.0
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,Kabul,Kabul,Kabul,kabul,1,1.5,1.0,1.0
+Albania,What is the capital of Albania?,raw_question,Tirana,"
+
+",The capital of Albania is Berat.,berat.,54,-11.0,0.0,0.0
+Albania,The capital of Albania is,declarative,Tirana,Tir,"Tirja, and the capital of Albania","tirja, and the capital of albania",1,3.75,0.0,0.0
+Albania,"Q: What is the capital of Albania?
+A:",qa,Tirana,Tir,"Tirja
+Q: What is the",tirja,1,1.0,0.0,0.0
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,Tirana,Berat,Berat,berat,75,-8.75,0.0,0.0
+Algeria,What is the capital of Algeria?,raw_question,Algiers,"
+
+",The capital of Algeria is Algiers,lgiers,21,-9.8125,0.0,0.0
+Algeria,The capital of Algeria is,declarative,Algiers,Al,"Algiers.
+The capital of Algeria",lgiers.,1,2.375,0.0,0.0
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,Algiers,The,The capital of Algeria is Algiers.,lgiers.,6,-0.875,0.0,0.0
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,Algiers,Alger,Algeria,lgeria,6441,-21.625,0.0,0.0
+Andorra,What is the capital of Andorra?,raw_question,Andorra la Vella,"
+
+","A) Barcelona
+B) Madrid",barcelona,3,-3.25,0.0,0.0
+Andorra,The capital of Andorra is,declarative,Andorra la Vella,Andorra,Andorra la Vella. Andorra la V,ndorra la vella. andorra la v,1,0.25,0.0,0.0
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,Andorra la Vella,Andorra,Andorra is the capital of the Kingdom of,ndorra is the capital of the kingdom of,1,4.0,0.0,0.0
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,Andorra la Vella,And,Andorra,ndorra,3,-0.75,0.0,0.0
+Angola,What is the capital of Angola?,raw_question,Luanda,"
+
+",The capital of Angola is Luanda,luanda,24,-9.5625,1.0,1.0
+Angola,The capital of Angola is,declarative,Luanda,Lu,"Luanda, and the capital of the","luanda, and the capital of the",1,2.5,1.0,1.0
+Angola,"Q: What is the capital of Angola?
+A:",qa,Luanda,The,The capital of Angola is Luanda.,luanda.,8,-3.0625,1.0,1.0
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,Luanda,Ang,Angola,ngola,926,-18.0,0.0,0.0

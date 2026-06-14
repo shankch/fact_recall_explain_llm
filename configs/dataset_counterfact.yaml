@@ -1,0 +1,15 @@
+fact_source: counterfact
+raw_url: https://rome.baulab.info/data/dsets/counterfact.json
+output_dir: artifacts/datasets/counterfact
+raw_file: raw_counterfact.json
+prepared_file: prepared_facts.jsonl
+limit: 240
+paraphrases_per_fact: 3
+neighborhood_controls_per_fact: 3
+attribute_controls_per_fact: 3
+min_prompt_words: 3
+split_ratios:
+  dev: 0.6
+  eval: 0.25
+  stress: 0.15
+seed: 13

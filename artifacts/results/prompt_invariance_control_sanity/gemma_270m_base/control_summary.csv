@@ -1,0 +1,9 @@
+relation,prompt_family,answer_f1,target_selectivity,same_subject_control_f1,same_relation_control_f1,lexical_distractor_f1,max_control_f1
+capital,chat_template,0.5,0.5,0.0,0.0,0.0,0.0
+capital,declarative,0.2857142857142857,0.2857142857142857,0.0,0.0,0.0,0.0
+capital,qa,0.0,0.0,0.0,0.0,0.0,0.0
+capital,raw_question,0.0,0.0,0.0,0.0,0.0,0.0
+official_language,chat_template,0.0,0.0,0.0,0.0,0.0,0.0
+official_language,declarative,0.125,0.125,0.0,0.0,0.0,0.0
+official_language,qa,0.125,0.125,0.0,0.0,0.0,0.0
+official_language,raw_question,0.0,0.0,0.0,0.0,0.0,0.0

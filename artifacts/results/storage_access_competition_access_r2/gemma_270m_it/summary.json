@@ -1,0 +1,17 @@
+{
+  "model_name": "gemma_270m_it",
+  "model_family": "gemma",
+  "model_variant": "instruct",
+  "num_prompts": 360,
+  "subject_invariance_depth_mean": 0.12222222222222222,
+  "preanswer_invariance_depth_mean": 12.0,
+  "artifacts": {
+    "profiles": "artifacts/results/storage_access_competition_access_r2/gemma_270m_it/activation_profiles.jsonl",
+    "layer_similarity_summary": "artifacts/results/storage_access_competition_access_r2/gemma_270m_it/layer_similarity_summary.csv",
+    "fact_layer_similarity": "artifacts/results/storage_access_competition_access_r2/gemma_270m_it/fact_layer_similarity.csv",
+    "fact_invariance_summary": "artifacts/results/storage_access_competition_access_r2/gemma_270m_it/fact_invariance_summary.csv",
+    "control_variant_summary": "artifacts/results/storage_access_competition_access_r2/gemma_270m_it/control_variant_summary.csv",
+    "subject_dynamics_png": "artifacts/results/storage_access_competition_access_r2/gemma_270m_it/subject_dynamics.png",
+    "preanswer_dynamics_png": "artifacts/results/storage_access_competition_access_r2/gemma_270m_it/preanswer_dynamics.png"
+  }
+}

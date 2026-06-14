@@ -1,0 +1,9 @@
+candidate_type,prompt_family,answer_f1_drop,contains_drop
+invariant,chat_template,-0.0011904761904761862,0.0
+invariant,declarative,0.0,0.0
+invariant,qa,-0.02666666666666666,-0.1
+invariant,raw_question,-0.02666666666666666,0.0
+prompt_sensitive,chat_template,0.13079365079365082,0.0
+prompt_sensitive,declarative,-0.005432900432900428,-0.1
+prompt_sensitive,qa,0.04857142857142857,0.1
+prompt_sensitive,raw_question,0.007142857142857145,0.0

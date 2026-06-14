@@ -1,0 +1,3 @@
+model_name,model_variant,best_family,worst_family,early_layer,late_layer,project_best_answer_f1_delta_mean,project_best_selectivity_delta_mean,project_best_alignment_delta_mean,patch_worst_answer_f1_delta_mean,patch_worst_selectivity_delta_mean,patch_worst_alignment_delta_mean,patch_worst_answer_f1_improve_rate,patch_worst_alignment_improve_rate,project_best_alignment_drop_rate
+gemma_270m_base,base,declarative,qa,0,12,-0.1168650793650793,-0.1168650793650793,-0.1589847306410471,0.0367003367003367,0.0367003367003367,0.0240564395984013,0.1666666666666666,0.8333333333333334,0.75
+qwen2_5_0_5b_base,base,qa,raw_question,0,21,-0.1680555555555555,-0.1680555555555555,-0.0320761899153391,-0.0303030303030303,-0.0303030303030303,-0.0028782486915588,0.0,0.3333333333333333,0.25

@@ -1,0 +1,13 @@
+case_id,relation_id,layer,parameter_group,margin_drop,rank_change
+1219,P190,0,attn_o_proj,-1.6875,-4331
+1219,P190,0,mlp_down_proj,-1.5,-5070
+17886,P140,0,attn_o_proj,2.4375,1
+17886,P140,0,mlp_down_proj,1.6875,109
+20899,P39,0,attn_o_proj,2.265625,900
+20899,P39,0,mlp_down_proj,0.9140625,3757
+11953,P17,0,attn_o_proj,1.875,1450
+11953,P17,0,mlp_down_proj,-0.9375,-103
+12671,P364,0,attn_o_proj,1.953125,1611
+12671,P364,0,mlp_down_proj,2.921875,4779
+5362,P178,0,attn_o_proj,2.5,-60
+5362,P178,0,mlp_down_proj,0.3125,-25

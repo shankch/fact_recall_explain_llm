@@ -1,0 +1,13 @@
+model_name,model_family,model_variant,split_eval,analysis_variant,position,num_facts,found_rate,invariance_depth_mean,mean_invariance_gap,peak_invariance_gap
+gemma_270m_base,gemma,base,all,all_families,subject,90,1.0,0.13333333333333333,0.06076891562123136,0.8756445918652211
+gemma_270m_base,gemma,base,all,all_families,preanswer,90,1.0,12.0,0.01090268467209604,0.15704887557555647
+gemma_270m_base,gemma,base,all,no_chat,subject,90,1.0,0.13333333333333333,0.06006151183887764,0.8758864291499253
+gemma_270m_base,gemma,base,all,no_chat,preanswer,90,1.0,12.0,0.006917905853907192,0.15328116627300492
+gemma_270m_base,gemma,base,all,length_matched_delta4,subject,90,1.0,0.2,0.055907443613805716,0.8802254627568319
+gemma_270m_base,gemma,base,all,length_matched_delta4,preanswer,90,0.9444444444444444,12.0,-0.020823875530696423,0.12762617434446633
+gemma_270m_base,gemma,base,holdout,all_families,subject,20,1.0,0.25,0.059101817811218406,0.7284424818741779
+gemma_270m_base,gemma,base,holdout,all_families,preanswer,20,1.0,12.0,0.009882736495799488,0.1441252393027146
+gemma_270m_base,gemma,base,holdout,no_chat,subject,20,1.0,0.3,0.05819542487707648,0.7086445057281741
+gemma_270m_base,gemma,base,holdout,no_chat,preanswer,20,1.0,12.0,0.00571340404665519,0.1382513024188854
+gemma_270m_base,gemma,base,holdout,length_matched_delta4,subject,20,1.0,0.3,0.05261654110579914,0.6528010703623295
+gemma_270m_base,gemma,base,holdout,length_matched_delta4,preanswer,20,0.95,12.0,-0.021448541306125897,0.11280049880345666

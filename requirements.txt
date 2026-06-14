@@ -1,0 +1,20 @@
+# Python dependencies for the SLM factual-recall / explainability study.
+# Tested with Python 3.11.15 (see README "Tested Setup").
+#
+# GPU note: install a CUDA-matched PyTorch build FIRST, e.g. (CUDA 12.4):
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# then `pip install -r requirements.txt` for the rest.
+
+torch==2.6.0
+torchvision            # only used by mnist_cuda_check.py (optional GPU sanity check)
+transformers==5.3.0
+numpy==2.3.5
+pandas==3.0.1
+scikit-learn
+matplotlib
+seaborn
+PyYAML==6.0.3
+fastapi==0.135.1
+uvicorn==0.41.0
+pydantic
+huggingface_hub        # used by scripts/download_models.py

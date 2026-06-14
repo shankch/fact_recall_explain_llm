@@ -1,0 +1,45 @@
+seed: 13
+benchmark_dir: artifacts/datasets/prompt_invariance_access_r2
+output_dir: artifacts/results/prompt_invariance_access_r2
+seed_facts_path: data/factual_seed_access_revision.json
+limit_per_relation: 18
+relations:
+  - capital
+  - official_language
+  - currency
+  - headquarters
+  - birth_place
+prompt_families:
+  - raw_question
+  - declarative
+  - qa
+  - chat_template
+max_new_tokens: 10
+top_neurons: 64
+ablation_neurons: 12
+bootstrap_samples: 600
+models:
+  - name: gemma_270m_base
+    path: models/gemma-3-270m
+    family: gemma
+    variant: base
+  - name: gemma_270m_it
+    path: models/gemma-3-270m-it
+    family: gemma
+    variant: instruct
+  - name: qwen2_5_0_5b_base
+    path: models/Qwen2.5-0.5B
+    family: qwen
+    variant: base
+  - name: qwen2_5_0_5b_instruct
+    path: models/Qwen2.5-0.5B-Instruct
+    family: qwen
+    variant: instruct
+  - name: smollm2_360m_base
+    path: models/SmolLM2-360M
+    family: smollm2
+    variant: base
+  - name: smollm2_360m_instruct
+    path: models/SmolLM2-360M-Instruct
+    family: smollm2
+    variant: instruct

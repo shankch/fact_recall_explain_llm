@@ -1,0 +1,10 @@
+{
+  "num_models": 6,
+  "artifacts": {
+    "multimodel_subspace_intervention_summary": "artifacts/results/subspace_intervention_access_controlled/multimodel_subspace_intervention_summary.csv",
+    "multimodel_subspace_interventions": "artifacts/results/subspace_intervention_access_controlled/multimodel_subspace_interventions.csv",
+    "multimodel_patch_alignment_gain_png": "artifacts/results/subspace_intervention_access_controlled/multimodel_patch_alignment_gain.png",
+    "multimodel_project_alignment_delta_png": "artifacts/results/subspace_intervention_access_controlled/multimodel_project_alignment_delta.png",
+    "report": "artifacts/results/subspace_intervention_access_controlled/multimodel_subspace_intervention_report.md"
+  }
+}

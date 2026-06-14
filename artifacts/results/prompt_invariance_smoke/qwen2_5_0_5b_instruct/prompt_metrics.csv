@@ -1,0 +1,114 @@
+model_name,model_family,model_variant,fact_id,relation,subject,expected_answer,prompt_family,split,generated_text,normalized_generated_text,top_prediction,target_rank,target_margin,full_exact_match,contains_expected,answer_f1,answer_similarity,same_subject_control_fact_id,same_relation_control_fact_id,lexical_distractor
+qwen2_5_0_5b_instruct,qwen,instruct,capital:0,capital,Afghanistan,Kabul,raw_question,analysis,"The capital of Afghanistan is Kabul. 
+
+Kab",kabul kab,The,4,-1.3125,0.0,1.0,0.6666666666666666,0.7142857142857143,official_language:0,capital:1,Tirana
+qwen2_5_0_5b_instruct,qwen,instruct,capital:0,capital,Afghanistan,Kabul,declarative,analysis,"located in the province of:
+
+A) Kabul",located in the province of a kabul,located,6,-1.5625,0.0,1.0,0.25,0.2564102564102564,official_language:0,capital:1,Tirana
+qwen2_5_0_5b_instruct,qwen,instruct,capital:0,capital,Afghanistan,Kabul,qa,analysis,"Kabul
+Is the question answered in a satisfactory fashion",kabul is the question answered in a satisfactory fashion,Kabul,1,1.875,0.0,1.0,0.19999999999999998,0.16393442622950818,official_language:0,capital:1,Tirana
+qwen2_5_0_5b_instruct,qwen,instruct,capital:0,capital,Afghanistan,Kabul,chat_template,analysis,Kabul,kabul,K,2,-0.5,1.0,1.0,1.0,1.0,official_language:0,capital:1,Tirana
+qwen2_5_0_5b_instruct,qwen,instruct,capital:1,capital,Albania,Tirana,raw_question,analysis,The capital of Albania is Tirana. It is,tirana it is,The,5,-2.8125,0.0,1.0,0.5,0.6666666666666666,official_language:1,capital:0,Kabul
+qwen2_5_0_5b_instruct,qwen,instruct,capital:1,capital,Albania,Tirana,declarative,analysis,"located in the ____.
+A. South
+B",located in the ____ a south b,located,5,-2.0625,0.0,0.0,0.0,0.17142857142857143,official_language:1,capital:0,Kabul
+qwen2_5_0_5b_instruct,qwen,instruct,capital:1,capital,Albania,Tirana,qa,analysis,"Tirana
+What is a good question to ask",tirana what is a good question to ask,Tir,1,1.3125,0.0,1.0,0.2222222222222222,0.27906976744186046,official_language:1,capital:0,Kabul
+qwen2_5_0_5b_instruct,qwen,instruct,capital:1,capital,Albania,Tirana,chat_template,analysis,Bishkek,bishkek,B,3,-0.75,0.0,0.0,0.0,0.15384615384615385,official_language:1,capital:0,Kabul
+qwen2_5_0_5b_instruct,qwen,instruct,capital:2,capital,Algeria,Algiers,raw_question,analysis,"The capital of Algeria is Algiers. 
+
+To",lgiers to,Algeria,9,-3.6875,0.0,0.0,0.0,0.75,official_language:2,capital:0,Andorra la Vella
+qwen2_5_0_5b_instruct,qwen,instruct,capital:2,capital,Algeria,Algiers,declarative,analysis,Algiers. It is the largest city in North,lgiers it is the largest city in north,Alg,1,0.0625,0.0,0.0,0.0,0.26666666666666666,official_language:2,capital:0,Andorra la Vella
+qwen2_5_0_5b_instruct,qwen,instruct,capital:2,capital,Algeria,Algiers,qa,analysis,"Algiers
+What is a good question to ask",lgiers what is a good question to ask,Alg,1,4.5,0.0,0.0,0.0,0.2727272727272727,official_language:2,capital:0,Andorra la Vella
+qwen2_5_0_5b_instruct,qwen,instruct,capital:2,capital,Algeria,Algiers,chat_template,analysis,Algiers,lgiers,Alg,2,-4.0,0.0,0.0,0.0,0.9230769230769231,official_language:2,capital:0,Andorra la Vella
+qwen2_5_0_5b_instruct,qwen,instruct,capital:3,capital,Andorra,Andorra la Vella,raw_question,holdout,Andorra is a sovereign state located in Europe.,ndorra is a sovereign state located in europe,And,1,1.75,0.0,0.0,0.0,0.39344262295081966,official_language:3,capital:0,Algiers
+qwen2_5_0_5b_instruct,qwen,instruct,capital:3,capital,Andorra,Andorra la Vella,declarative,holdout,the town of Gourdon. The town has,the town of gourdon the town has,the,7,-2.375,0.0,0.0,0.0,0.25,official_language:3,capital:0,Algiers
+qwen2_5_0_5b_instruct,qwen,instruct,capital:3,capital,Andorra,Andorra la Vella,qa,holdout,"Girona
+What is the significance of this",girona what is the significance of this,G,3,-0.6875,0.0,0.0,0.0,0.2545454545454545,official_language:3,capital:0,Algiers
+qwen2_5_0_5b_instruct,qwen,instruct,capital:3,capital,Andorra,Andorra la Vella,chat_template,holdout,Andorra la Vella,ndorra la vella,And,21,-7.6875,0.0,0.0,0.6666666666666666,0.967741935483871,official_language:3,capital:0,Algiers
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:0,official_language,Afghanistan,Dari,raw_question,analysis,Afghanistan has no official language. The country uses the,fghanistan has no official language the country uses the,Afghanistan,87,-7.125,0.0,0.0,0.0,0.0967741935483871,capital:0,official_language:1,Albanian
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:0,official_language,Afghanistan,Dari,declarative,analysis,______. A: English B: Arabic C:,______ a english b arabic c,______,34,-3.875,0.0,0.0,0.0,0.1935483870967742,capital:0,official_language:1,Albanian
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:0,official_language,Afghanistan,Dari,qa,analysis,"Pashto
+What is the relationship between Afghanistan",pashto what is the relationship between afghanistan,Pas,1,2.125,0.0,1.0,0.25,0.21052631578947367,capital:0,official_language:1,Albanian
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:0,official_language,Afghanistan,Dari,chat_template,analysis,Afghanistan's official language is the Afgh,fghanistan's official language is the afgh,Af,89,-8.25,0.0,0.0,0.0,0.125,capital:0,official_language:1,Albanian
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:1,official_language,Albania,Albanian,raw_question,analysis,Albanian is the only official language of Albania.,lbanian is the only official language of albania,Albania,2,-1.25,0.0,0.0,0.0,0.25,capital:1,official_language:0,Arabic
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:1,official_language,Albania,Albanian,declarative,analysis,"____.
+A. Albanian
+B. Maced",____ a albanian b maced,____,5,-0.625,0.0,1.0,0.33333333333333337,0.5161290322580645,capital:1,official_language:0,Arabic
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:1,official_language,Albania,Albanian,qa,analysis,"Albanian
+What is the answer? (Available",lbanian what is the answer? available,Alban,1,4.5,0.0,0.0,0.0,0.3111111111111111,capital:1,official_language:0,Arabic
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:1,official_language,Albania,Albanian,chat_template,analysis,Albanian Language,lbanian language,Al,2,-1.625,0.0,0.0,0.0,0.5833333333333334,capital:1,official_language:0,Arabic
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:2,official_language,Algeria,Arabic,raw_question,analysis,"Algeria has three official languages: French, Arabic and",lgeria has three official languages french arabic and,Algeria,10,-3.8125,0.0,1.0,0.2222222222222222,0.2033898305084746,capital:2,official_language:0,Albanian
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:2,official_language,Algeria,Arabic,declarative,analysis,______. A. French B. Arabic C.,______ a french b arabic c,______,4,-0.25,0.0,1.0,0.2857142857142857,0.375,capital:2,official_language:0,Albanian
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:2,official_language,Algeria,Arabic,qa,analysis,"Arabic
+What is the relationship between Algeria and Arabic",rabic what is the relationship between algeria and arabic,Arabic,1,0.125,0.0,1.0,0.19999999999999998,0.19047619047619047,capital:2,official_language:0,Albanian
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:2,official_language,Algeria,Arabic,chat_template,analysis,French,french,French,19,-5.375,0.0,0.0,0.0,0.3333333333333333,capital:2,official_language:0,Albanian
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:3,official_language,Andorra,Catalan,raw_question,holdout,An official language of Andorra is the French language,the french language,And,32,-5.9375,0.0,0.0,0.0,0.3076923076923077,capital:3,official_language:0,Dari
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:3,official_language,Andorra,Catalan,declarative,holdout,"____.
+A. French
+B. Spanish",____ a french b spanish,____,20,-2.625,0.0,0.0,0.0,0.2,capital:3,official_language:0,Dari
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:3,official_language,Andorra,Catalan,qa,holdout,"French
+Is the above claim true?
+Options:",french is the above claim true? options,French,2,-0.125,0.0,0.0,0.0,0.2608695652173913,capital:3,official_language:0,Dari
+qwen2_5_0_5b_instruct,qwen,instruct,official_language:3,official_language,Andorra,Catalan,chat_template,holdout,French,french,French,56,-8.375,0.0,0.0,0.0,0.15384615384615385,capital:3,official_language:0,Dari
+qwen2_5_0_5b_instruct,qwen,instruct,currency:0,currency,Afghanistan,Afghan afghani,raw_question,analysis,The currency of Afghanistan is the Afghan dollar. It,the afghan dollar it,Afghanistan,11,-3.75,0.0,0.0,0.3333333333333333,0.5294117647058824,capital:0,currency:1,Albanian lek
+qwen2_5_0_5b_instruct,qwen,instruct,currency:0,currency,Afghanistan,Afghan afghani,declarative,analysis,the Afghan dollar. The official name for the currency,the afghan dollar the official name for the currency,the,58,-7.5,0.0,0.0,0.1818181818181818,0.2727272727272727,capital:0,currency:1,Albanian lek
+qwen2_5_0_5b_instruct,qwen,instruct,currency:0,currency,Afghanistan,Afghan afghani,qa,analysis,"The currency of Afghanistan is the Afghan dollar.
+Is",the afghan dollar is,The,2,-1.6875,0.0,0.0,0.3333333333333333,0.5294117647058824,capital:0,currency:1,Albanian lek
+qwen2_5_0_5b_instruct,qwen,instruct,currency:0,currency,Afghanistan,Afghan afghani,chat_template,analysis,Afghan Afghani,fghan afghani,Af,6,-6.125,0.0,0.0,0.5,0.9629629629629629,capital:0,currency:1,Albanian lek
+qwen2_5_0_5b_instruct,qwen,instruct,currency:1,currency,Albania,Albanian lek,raw_question,analysis,The currency of Albania is the Albanian Lek,the albanian lek,Albania,5,-3.75,0.0,1.0,0.8,0.8571428571428571,capital:1,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:1,currency,Albania,Albanian lek,declarative,analysis,the Albanian Lira. The official currency symbol,the albanian lira the official currency symbol,the,16,-6.5625,0.0,0.0,0.22222222222222224,0.3793103448275862,capital:1,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:1,currency,Albania,Albanian lek,qa,analysis,The currency of Albania is the Albanian Lek,the albanian lek,The,2,-2.0625,0.0,1.0,0.8,0.8571428571428571,capital:1,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:1,currency,Albania,Albanian lek,chat_template,analysis,Albanian Lek,lbanian lek,Al,14,-6.1875,0.0,0.0,0.5,0.9565217391304348,capital:1,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:2,currency,Algeria,Algerian dinar,raw_question,analysis,The official currency of Algeria is the Algerian D,the official currency of algeria is the algerian d,Algeria,3,-1.625,0.0,0.0,0.1818181818181818,0.3125,capital:2,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:2,currency,Algeria,Algerian dinar,declarative,analysis,the Algerian Dinar. The currency symbol for,the algerian dinar the currency symbol for,the,9,-5.125,0.0,1.0,0.4444444444444445,0.5,capital:2,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:2,currency,Algeria,Algerian dinar,qa,analysis,The currency of Algeria is the Algerian Dinar,the algerian dinar,The,2,-1.5,0.0,1.0,0.8,0.875,capital:2,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:2,currency,Algeria,Algerian dinar,chat_template,analysis,Algerian Dinar (ADN),lgerian dinar adn,Al,8,-4.6875,0.0,0.0,0.4,0.8387096774193549,capital:2,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:3,currency,Andorra,euro,raw_question,holdout,Andorra's currency is the andorran (,ndorra's currency is the andorran,And,2272,-14.0625,0.0,0.0,0.0,0.16216216216216217,capital:3,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:3,currency,Andorra,euro,declarative,holdout,the andorran (andorran peseta,the andorran andorran peseta,the,887,-14.71875,0.0,0.0,0.0,0.125,capital:3,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:3,currency,Andorra,euro,qa,holdout,The currency of Andorra is the andorran,the andorran,The,18,-6.375,0.0,0.0,0.0,0.25,capital:3,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,currency:3,currency,Andorra,euro,chat_template,holdout,Euro,euro,Euro,56,-8.0,1.0,1.0,1.0,1.0,capital:3,currency:0,Afghan afghani
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:0,headquarters,Amazon,Seattle,raw_question,analysis,"Amazon's headquarters are located in Seattle, Washington.",mazon's headquarters are located in seattle washington,Amazon,91,-6.8125,0.0,1.0,0.4444444444444445,0.5,,headquarters:1,Santa Clara
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:0,headquarters,Amazon,Seattle,declarative,analysis,"which city?
+A. New York
+B.",which city? a new york b,which,2,-0.5625,0.0,0.0,0.0,0.23809523809523808,,headquarters:1,Santa Clara
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:0,headquarters,Amazon,Seattle,qa,analysis,"Seattle, Washington
+Is this question correct? Yes",seattle washington is this question correct? yes,Seattle,1,0.0625,0.0,1.0,0.4444444444444445,0.5454545454545454,,headquarters:1,Santa Clara
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:0,headquarters,Amazon,Seattle,chat_template,analysis,Seattle,seattle,Seattle,4,-4.875,1.0,1.0,1.0,1.0,,headquarters:1,Santa Clara
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:1,headquarters,Apple,Cupertino,raw_question,analysis,"The headquarters of Apple is located in Cupertino, California",the headquarters of apple is located in cupertino california,Apple,95,-5.75,0.0,1.0,0.3636363636363636,0.5,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:1,headquarters,Apple,Cupertino,declarative,analysis,"Cupertino, California. The company has a large number",cupertino california the company has a large number,Cupertino,1,1.5,0.0,1.0,0.4,0.5633802816901409,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:1,headquarters,Apple,Cupertino,qa,analysis,"Mountain View, California
+Is this question correct?",mountain view california is this question correct?,Mountain,3,-0.375,0.0,0.0,0.22222222222222224,0.42857142857142855,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:1,headquarters,Apple,Cupertino,chat_template,analysis,San Francisco,san francisco,San,6,-2.625,0.0,0.0,0.0,0.18181818181818182,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:2,headquarters,IBM,Armonk,raw_question,analysis,"IBM's headquarters are located in Armonk,",ibm's headquarters are located in armonk,IBM,600,-10.25,0.0,1.0,0.2857142857142857,0.2608695652173913,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:2,headquarters,IBM,Armonk,declarative,analysis,"which city?
+A. New York
+B.",which city? a new york b,which,27,-4.5625,0.0,0.0,0.4444444444444444,0.5128205128205128,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:2,headquarters,IBM,Armonk,qa,analysis,The headquarters of IBM is located in Armonk,the headquarters of ibm is located in armonk,The,49,-5.375,0.0,1.0,0.2222222222222222,0.24,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:2,headquarters,IBM,Armonk,chat_template,analysis,New York City,new york city,New,1587,-11.78125,0.0,0.0,0.6666666666666666,0.5714285714285714,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:3,headquarters,Intel,Santa Clara,raw_question,holdout,"The headquarters of Intel is located in Santa Clara,",the headquarters of intel is located in santa clara,Intel,397,-7.875,0.0,1.0,0.3636363636363636,0.3548387096774194,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:3,headquarters,Intel,Santa Clara,declarative,holdout,"which city?
+A. San Francisco
+B.",which city? a san francisco b,which,2,-1.4375,0.0,0.0,0.0,0.3137254901960784,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:3,headquarters,Intel,Santa Clara,qa,holdout,"The headquarters of Intel is located in Santa Clara,",the headquarters of intel is located in santa clara,The,6,-2.0,0.0,1.0,0.3636363636363636,0.3548387096774194,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,headquarters:3,headquarters,Intel,Santa Clara,chat_template,holdout,"Santa Clara, California",santa clara california,Santa,76,-5.3125,1.0,1.0,1.0,1.0,,headquarters:0,Seattle
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:0,birth_place,Adele,London,raw_question,analysis,"Adele was born in Liverpool, England. She",liverpool england she,Ade,110,-8.0,0.0,0.0,0.0,0.2962962962962963,,birth_place:1,Honolulu
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:0,birth_place,Adele,London,declarative,analysis,1980 and she is currently,1980 and she is currently,Ġ,7,-1.9375,0.0,0.0,0.0,0.1935483870967742,,birth_place:1,Honolulu
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:0,birth_place,Adele,London,qa,analysis,"Adele was born in Liverpool, England.
+Is",liverpool england is,Ade,3,-1.6875,0.0,0.0,0.0,0.3076923076923077,,birth_place:1,Honolulu
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:0,birth_place,Adele,London,chat_template,analysis,London,london,London,18,-4.6875,1.0,1.0,1.0,1.0,,birth_place:1,Honolulu
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:1,birth_place,Barack Obama,Honolulu,raw_question,analysis,"I'm sorry, but I cannot provide answers on",i'm sorry but i cannot provide answers on,Barack,343,-8.65625,0.0,0.0,0.0,0.17857142857142858,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:1,birth_place,Barack Obama,Honolulu,declarative,analysis,"Honolulu, Hawaii on January 20,",honolulu hawaii on january 20,Honolulu,1,0.375,0.0,1.0,0.5714285714285715,0.6818181818181818,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:1,birth_place,Barack Obama,Honolulu,qa,analysis,"Washington, D.C.",washington d c,Washington,13,-3.0625,0.0,0.0,0.0,0.2727272727272727,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:1,birth_place,Barack Obama,Honolulu,chat_template,analysis,"Dakota City, Nebraska",dakota city nebraska,D,91,-5.6875,0.0,0.0,0.0,0.17142857142857143,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:2,birth_place,Bill Gates,Seattle,raw_question,analysis,"I'm sorry, but I cannot provide answers on",i'm sorry but i cannot provide answers on,Bill,493,-9.375,0.0,0.0,0.0,0.3050847457627119,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:2,birth_place,Bill Gates,Seattle,declarative,analysis,"Seattle, Washington on July 24,",seattle washington on july 24,Seattle,1,0.6875,0.0,1.0,0.5714285714285715,0.7659574468085106,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:2,birth_place,Bill Gates,Seattle,qa,analysis,"In Seattle, Washington
+Is this answer correct?",in seattle washington is this answer correct?,Bill,6,-1.75,0.0,1.0,0.4444444444444445,0.5714285714285714,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:2,birth_place,Bill Gates,Seattle,chat_template,analysis,"Microsoft, USA",microsoft usa,Microsoft,62,-5.8125,0.0,0.0,0.0,0.2,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,raw_question,holdout,"Cristiano Ronaldo was born in Portugal, specifically in the",portugal specifically in the,Cristiano,246,-8.875,0.0,0.0,0.0,0.17142857142857143,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,declarative,holdout,Portugal and is a professional footballer. He has,portugal and is a professional footballer he has,Portugal,101,-5.8125,0.0,0.0,0.0,0.10909090909090909,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,qa,holdout,"Lisbon, Portugal
+Is this question correct? Yes",lisbon portugal is this question correct? yes,Lisbon,40,-4.25,0.0,0.0,0.0,0.11538461538461539,,birth_place:0,London
+qwen2_5_0_5b_instruct,qwen,instruct,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,chat_template,holdout,Portugal,portugal,Port,23919,-17.83203125,0.0,0.0,0.0,0.4,,birth_place:0,London

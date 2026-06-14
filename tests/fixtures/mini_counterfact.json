@@ -1,0 +1,56 @@
+[
+  {
+    "case_id": 0,
+    "pararel_idx": 10,
+    "requested_rewrite": {
+      "prompt": "The capital of {} is",
+      "relation_id": "P36",
+      "target_new": {"str": "Lyon", "id": "Q456"},
+      "target_true": {"str": "Paris", "id": "Q90"},
+      "subject": "France"
+    },
+    "paraphrase_prompts": [
+      "{} has its capital in Paris",
+      "The city that serves as the capital of France is"
+    ],
+    "neighborhood_prompts": ["The capital of Germany is", "The capital of Spain is"],
+    "attribute_prompts": ["France is located in", "France belongs to the continent of"],
+    "generation_prompts": ["France's capital is"]
+  },
+  {
+    "case_id": 1,
+    "pararel_idx": 11,
+    "requested_rewrite": {
+      "prompt": "The author of {} is",
+      "relation_id": "P50",
+      "target_new": {"str": "Arthur Conan Doyle", "id": "Q35610"},
+      "target_true": {"str": "Jane Austen", "id": "Q36322"},
+      "subject": "Pride and Prejudice"
+    },
+    "paraphrase_prompts": [
+      "Pride and Prejudice was written by",
+      "The novelist behind Pride and Prejudice is"
+    ],
+    "neighborhood_prompts": ["The author of Hamlet is", "The author of Moby-Dick is"],
+    "attribute_prompts": ["Pride and Prejudice was first published in", "Pride and Prejudice is a"],
+    "generation_prompts": ["The writer of Pride and Prejudice is"]
+  },
+  {
+    "case_id": 2,
+    "pararel_idx": 12,
+    "requested_rewrite": {
+      "prompt": "The currency used in {} is",
+      "relation_id": "P38",
+      "target_new": {"str": "pound sterling", "id": "Q25224"},
+      "target_true": {"str": "yen", "id": "Q8146"},
+      "subject": "Japan"
+    },
+    "paraphrase_prompts": [
+      "Japan uses the currency",
+      "The official money of Japan is the"
+    ],
+    "neighborhood_prompts": ["The currency used in India is", "The currency used in Canada is"],
+    "attribute_prompts": ["Japan is located in", "Japan has the population of"],
+    "generation_prompts": ["Japan's currency is the"]
+  }
+]

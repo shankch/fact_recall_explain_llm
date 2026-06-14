@@ -1,0 +1,5 @@
+prompt_family,target_rank_mean,target_rank_median,target_margin_mean,target_margin_median,exact_match_mean,exact_match_median,contains_expected_mean,contains_expected_median
+chat_template,1489.2,75.0,-9.525,-8.75,0.2,0.0,0.2,0.0
+declarative,1.0,1.0,3.475,2.5,0.4,0.0,0.4,0.0
+qa,3.4,1.0,0.9625,1.0,0.4,0.0,0.4,0.0
+raw_question,27.4,24.0,-8.5875,-9.5625,0.4,0.0,0.4,0.0

@@ -1,0 +1,29 @@
+{
+  "model_name": "gemma_270m_it",
+  "model_family": "gemma",
+  "model_variant": "instruct",
+  "num_prompts": 160,
+  "mean_answer_f1": 0.23784045815295815,
+  "mean_contains_expected": 0.35,
+  "mean_full_exact_match": 0.0625,
+  "best_prompt_family_by_answer_f1": "raw_question",
+  "artifacts": {
+    "metrics": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/prompt_metrics.csv",
+    "norms": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/layer_component_norms.csv",
+    "family_summary": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/family_summary.csv",
+    "overall_family_summary": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/overall_family_summary.csv",
+    "bootstrap_summary": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/bootstrap_summary.csv",
+    "paired_family_comparisons": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/paired_family_comparisons.csv",
+    "neuron_scores": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/neuron_scores.csv",
+    "top_invariant_neurons": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/top_invariant_neurons.csv",
+    "top_prompt_sensitive_neurons": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/top_prompt_sensitive_neurons.csv",
+    "neuron_ablation": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/neuron_ablation.csv",
+    "neuron_ablation_summary": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/neuron_ablation_summary.csv",
+    "mlp_activations": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/mlp_activations.npz",
+    "profiles": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/prompt_profiles.jsonl",
+    "answer_f1_by_family_png": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/answer_f1_by_family.png",
+    "answer_f1_relation_heatmap_png": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/answer_f1_relation_heatmap.png",
+    "ablation_effects_png": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/ablation_effects.png",
+    "report": "artifacts/results/prompt_invariance_expanded/gemma_270m_it/prompt_invariance_report.md"
+  }
+}

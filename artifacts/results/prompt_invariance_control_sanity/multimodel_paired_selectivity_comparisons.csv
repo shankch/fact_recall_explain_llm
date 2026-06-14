@@ -1,0 +1,13 @@
+relation,metric,family_a,family_b,mean_diff,ci_low,ci_high,sign_test_pvalue,num_pairs,model_name
+capital,target_selectivity,chat_template,declarative,-0.2142857142857143,-0.7142857142857143,0.2857142857142857,1.0,2,gemma_270m_base
+capital,target_selectivity,chat_template,qa,-0.5,-1.0,0.0,1.0,2,gemma_270m_base
+capital,target_selectivity,chat_template,raw_question,-0.5,-1.0,0.0,1.0,2,gemma_270m_base
+capital,target_selectivity,declarative,qa,-0.2857142857142857,-0.2857142857142857,-0.2857142857142857,0.5,2,gemma_270m_base
+capital,target_selectivity,declarative,raw_question,-0.2857142857142857,-0.2857142857142857,-0.2857142857142857,0.5,2,gemma_270m_base
+capital,target_selectivity,qa,raw_question,0.0,0.0,0.0,1.0,2,gemma_270m_base
+official_language,target_selectivity,chat_template,declarative,0.125,0.0,0.25,1.0,2,gemma_270m_base
+official_language,target_selectivity,chat_template,qa,0.125,0.0,0.25,1.0,2,gemma_270m_base
+official_language,target_selectivity,chat_template,raw_question,0.0,0.0,0.0,1.0,2,gemma_270m_base
+official_language,target_selectivity,declarative,qa,0.0,-0.25,0.25,1.0,2,gemma_270m_base
+official_language,target_selectivity,declarative,raw_question,-0.125,-0.25,0.0,1.0,2,gemma_270m_base
+official_language,target_selectivity,qa,raw_question,-0.125,-0.25,0.0,1.0,2,gemma_270m_base

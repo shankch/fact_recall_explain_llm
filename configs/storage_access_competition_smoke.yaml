@@ -1,0 +1,22 @@
+seed: 13
+benchmark_dir: artifacts/datasets/storage_access_competition_smoke
+output_dir: artifacts/results/storage_access_competition_smoke
+limit_per_relation: 4
+relations:
+  - capital
+  - official_language
+  - currency
+prompt_families:
+  - raw_question
+  - declarative
+  - qa
+  - chat_template
+models:
+  - name: gemma_270m_base
+    path: models/gemma-3-270m
+    family: gemma
+    variant: base
+  - name: qwen2_5_0_5b_base
+    path: models/Qwen2.5-0.5B
+    family: qwen
+    variant: base

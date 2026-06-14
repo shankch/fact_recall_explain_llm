@@ -1,0 +1,9 @@
+candidate_type,prompt_family,answer_f1_drop,contains_drop,target_selectivity_drop,same_subject_control_f1_increase,same_relation_control_f1_increase,lexical_distractor_f1_increase,max_control_f1_increase
+invariant,chat_template,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+invariant,declarative,0.013214285714285717,0.0,0.013214285714285717,0.0,0.0,0.0,0.0
+invariant,qa,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+invariant,raw_question,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+prompt_sensitive,chat_template,0.05805555555555556,0.1,0.037222222222222226,0.0,-0.025,0.004166666666666668,-0.020833333333333332
+prompt_sensitive,declarative,0.07068181818181818,0.1,0.06234848484848484,0.0,-0.02261904761904762,-0.010714285714285713,-0.008333333333333331
+prompt_sensitive,qa,-0.0503968253968254,-0.05,-0.0378968253968254,0.0,0.0,0.0125,0.0125
+prompt_sensitive,raw_question,-0.12333333333333334,-0.1,-0.03666666666666667,0.0,0.0,0.08666666666666667,0.08666666666666667

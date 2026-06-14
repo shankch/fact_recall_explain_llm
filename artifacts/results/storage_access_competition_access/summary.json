@@ -1,0 +1,11 @@
+{
+  "num_models": 6,
+  "artifacts": {
+    "multimodel_layer_similarity_summary": "artifacts/results/storage_access_competition_access/multimodel_layer_similarity_summary.csv",
+    "multimodel_fact_invariance_summary": "artifacts/results/storage_access_competition_access/multimodel_fact_invariance_summary.csv",
+    "multimodel_summary": "artifacts/results/storage_access_competition_access/multimodel_summary.csv",
+    "multimodel_subject_invariance_heatmap_png": "artifacts/results/storage_access_competition_access/multimodel_subject_invariance_heatmap.png",
+    "multimodel_preanswer_invariance_heatmap_png": "artifacts/results/storage_access_competition_access/multimodel_preanswer_invariance_heatmap.png",
+    "report": "artifacts/results/storage_access_competition_access/multimodel_storage_access_report.md"
+  }
+}

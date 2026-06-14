@@ -1,0 +1,97 @@
+case_id,split,relation_id,subject,prompt_kind,prompt,target_true,target_new,target_token_id,target_rank,target_margin,exact_match,subject_start,subject_end,top_prediction
+6808,dev,P131,Union University,canonical,Union University is in,Tennessee,Texas,27806,203,-1.125,0.0,0,1,a
+6808,dev,P131,Union University,paraphrase,"Georgia: A Brief History Macon: Mercer University Press, 2012. Union University can be found in",Tennessee,Texas,27806,74,1.9375,0.0,18,18,the
+6808,dev,P131,Union University,paraphrase,Krim unsuccessfully tries to interrupt the royal parade. Union University is within,Tennessee,Texas,27806,12680,-2.25,0.0,11,11,a
+6808,dev,P131,Union University,generation,Union University's surroundings include,Tennessee,Texas,27806,6458,-2.0625,0.0,0,1,a
+4876,dev,P937,Johannes Burman,canonical,Johannes Burman found employment in,Amsterdam,London,28007,75,-3.375,0.0,0,2,the
+4876,dev,P937,Johannes Burman,paraphrase,"Gestation lasts 21 days, with only one young per litter. Johannes Burman worked in the city of",Amsterdam,London,28007,10,-1.375,0.0,16,17,London
+4876,dev,P937,Johannes Burman,paraphrase,Heathcote's oldest son Chris was The Reptiles' roadie. Johannes Burman took up work in,Amsterdam,London,28007,9711,-7.25,0.0,16,17,the
+4876,dev,P937,Johannes Burman,generation,Johannes Burman's work office is surrounded by,Amsterdam,London,28007,6199,-2.125,0.0,0,2,a
+17517,dev,P1303,Wes Montgomery,canonical,Wes Montgomery plays,guitar,piano,15583,188,2.125,0.0,0,1,a
+17517,dev,P1303,Wes Montgomery,paraphrase,"References External links Ba Fan Men Category:Chinese martial arts Wes Montgomery, playing the",guitar,piano,15583,23,-0.5,0.0,12,12,role
+17517,dev,P1303,Wes Montgomery,paraphrase,"The business prospered for over 100 years. Wes Montgomery, performing on the",guitar,piano,15583,425,-2.0,0.0,13,13,stage
+17517,dev,P1303,Wes Montgomery,generation,Wes Montgomery is incredible at,guitar,piano,15583,1294,-0.0625,0.0,0,1,his
+2348,dev,P30,Dennistoun Glacier,canonical,Dennistoun Glacier is located in,Antarctica,Europe,96919,3,3.6875,0.0,0,3,the
+2348,dev,P30,Dennistoun Glacier,paraphrase,"Prose works, in contrast, are hardly known. Dennistoun Glacier is located in the continent",Antarctica,Europe,96919,29,1.5625,0.0,12,14,of
+2348,dev,P30,Dennistoun Glacier,paraphrase,"University of Minnesota Press. Dennistoun Glacier, in",Antarctica,Europe,96919,113,3.4375,0.0,6,8,his
+2348,dev,P30,Dennistoun Glacier,generation,People around Dennistoun Glacier speak the language of,Antarctica,Europe,96919,300,3.09375,0.0,3,5,the
+731,dev,P176,Chevrolet Equinox,canonical,"Chevrolet Equinox, produced by",Chevrolet,Triumph,63697,7,6.125,0.0,0,2,General
+731,dev,P176,Chevrolet Equinox,paraphrase,Houghton Mifflin Company. Chevrolet Equinox is produced by,Chevrolet,Triumph,63697,3,5.625,0.0,6,7,the
+731,dev,P176,Chevrolet Equinox,paraphrase,"Wine Spectator, 2005 (November 30), 30(12), 17. Chevrolet Equinox, created by",Chevrolet,Triumph,63697,51,4.25,0.0,27,28,the
+731,dev,P176,Chevrolet Equinox,generation,Chevrolet Equinox is my favorite product out of everything created by,Chevrolet,Triumph,63697,6,7.1875,0.0,0,2,the
+14527,dev,P106,Claude Antoine Dacosta,canonical,The occupation of Claude Antoine Dacosta is,politician,actor,48101,6487,2.109375,0.0,4,6,a
+14527,dev,P106,Claude Antoine Dacosta,paraphrase,"""People loved his artwork. Claude Antoine Dacosta's profession is an",politician,actor,48101,7039,-10.3828125,0.0,7,9,art
+14527,dev,P106,Claude Antoine Dacosta,paraphrase,"XXX-629. Claude Antoine Dacosta, who works as",politician,actor,48101,777,-1.875,0.0,7,9,a
+14527,dev,P106,Claude Antoine Dacosta,generation,Claude Antoine Dacosta's greatest accomplishment is,politician,actor,48101,21894,-2.125,0.0,0,3,undoubtedly
+7797,dev,P1303,Romero Lubambo,canonical,"Romero Lubambo, playing the",guitar,violin,15583,8,-1.75,0.0,0,3,role
+7797,dev,P1303,Romero Lubambo,paraphrase,"The postcode for Tasek Meradun is BF1520. Romero Lubambo, the",guitar,violin,15583,12923,-1.4375,0.0,16,17,author
+7797,dev,P1303,Romero Lubambo,paraphrase,"Genomes are linear and segmented, around 4.5kb in length. Romero Lubambo, performing on the",guitar,violin,15583,7843,-1.34375,0.0,17,18,
+7797,dev,P1303,Romero Lubambo,generation,Romero Lubambo produces the most amazing music on the,guitar,violin,15583,182,0.6875,0.0,0,3,planet
+6014,dev,P136,The Jazztet,canonical,The Jazztet plays,jazz,parody,32286,283,5.6875,0.0,0,3,a
+6014,dev,P136,The Jazztet,paraphrase,": 78. The Jazztet, who plays",jazz,parody,32286,37,8.0625,0.0,6,8,the
+6014,dev,P136,The Jazztet,paraphrase,It is located within the city of Gatineau. What does The Jazztet play? They play,jazz,parody,32286,9,9.5,0.0,13,15,a
+6014,dev,P136,The Jazztet,generation,The Jazztet is incredible at,jazz,parody,32286,2427,3.0625,0.0,0,3,its
+10223,dev,P159,Cogeco,canonical,Cogeco is headquartered in,Montreal,Seattle,34483,16,-0.125,0.0,0,1,New
+10223,dev,P159,Cogeco,paraphrase,It offers undergraduate courses in arts. The headquarter of Cogeco is located in,Montreal,Seattle,34483,31,-0.5,0.0,12,12,the
+10223,dev,P159,Cogeco,paraphrase,References Category:Populated places in Kolubara District The headquarters of Cogeco is in,Montreal,Seattle,34483,4836,-1.8125,0.0,15,15,the
+10223,dev,P159,Cogeco,generation,Cogeco's headquarters is surrounded by,Montreal,Seattle,34483,11105,-3.9375,0.0,0,1,a
+20810,dev,P176,Windows Phone 8,canonical,Windows Phone 8 is a product of,Microsoft,Nissan,9265,1,16.375,1.0,0,3,Microsoft
+20810,dev,P176,Windows Phone 8,paraphrase,The District has one city: Jangal. Windows Phone 8 is developed by,Microsoft,Nissan,9265,3,7.75,0.0,10,12,the
+20810,dev,P176,Windows Phone 8,paraphrase,For services to Education. Windows Phone 8 is produced by,Microsoft,Nissan,9265,1,12.25,1.0,6,8,Microsoft
+20810,dev,P176,Windows Phone 8,generation,Windows Phone 8 is sold by,Microsoft,Nissan,9265,1,11.25,1.0,0,3,Microsoft
+548,dev,P39,Friedrich Johannes Jacob Celestin von Schwarzenberg,canonical,Friedrich Johannes Jacob Celestin von Schwarzenberg holds the title of,cardinal,bishop,47775,1766,-0.09375,0.0,0,8,the
+548,dev,P39,Friedrich Johannes Jacob Celestin von Schwarzenberg,paraphrase,On 31 August 2018 he joined Pogoń Szczecin on loan. Friedrich Johannes Jacob Celestin von Schwarzenberg has the position of,cardinal,bishop,47775,12782,-3.84375,0.0,22,28,the
+548,dev,P39,Friedrich Johannes Jacob Celestin von Schwarzenberg,paraphrase,Drugs are bad for you. Friedrich Johannes Jacob Celestin von Schwarzenberg is a,cardinal,bishop,47775,1785,-1.625,0.0,7,13,famous
+548,dev,P39,Friedrich Johannes Jacob Celestin von Schwarzenberg,generation,Friedrich Johannes Jacob Celestin von Schwarzenberg works as a,cardinal,bishop,47775,3544,-4.625,0.0,0,8,professor
+365,dev,P276,"Holy Name Cathedral, Chicago",canonical,"Holy Name Cathedral, Chicago can be found in",Chicago,Santiago,10561,4,9.25,0.0,0,4,the
+365,dev,P276,"Holy Name Cathedral, Chicago",paraphrase,"The Yuan dynasty author Luo Tianxiang 駱天驤 wrote (tr. Holy Name Cathedral, Chicago is located in",Chicago,Santiago,10561,2,10.3125,0.0,18,21,the
+365,dev,P276,"Holy Name Cathedral, Chicago",paraphrase,"Release Two different versions of the original game were released. Holy Name Cathedral, Chicago is in",Chicago,Santiago,10561,405,5.90625,0.0,12,15,the
+365,dev,P276,"Holy Name Cathedral, Chicago",generation,"One can get to Holy Name Cathedral, Chicago by navigating",Chicago,Santiago,10561,11,7.1875,0.0,5,8,the
+14279,dev,P1412,Henry Louis Gates,canonical,Henry Louis Gates writes in,English,French,5422,901,0.25,0.0,0,2,his
+14279,dev,P1412,Henry Louis Gates,paraphrase,The Atlantic Monthly. Henry Louis Gates speaks,English,French,5422,296,2.4375,0.0,5,6,on
+14279,dev,P1412,Henry Louis Gates,paraphrase,History The manuscript came from the East. The language used by Henry Louis Gates is,English,French,5422,27,1.25,0.0,13,14,a
+14279,dev,P1412,Henry Louis Gates,generation,Henry Louis Gates's friends all speak the language of,English,French,5422,98,0.4375,0.0,0,2,the
+6011,dev,P127,Amstrad,canonical,Amstrad is owned by,Sky,BBC,17488,3130,-0.8125,0.0,0,2,the
+6011,dev,P127,Amstrad,paraphrase,"The upper hinds limbs have faint crossbars. Amstrad, by",Sky,BBC,17488,2692,2.96875,0.0,11,12,the
+6011,dev,P127,Amstrad,paraphrase,The period of cleansing began with a purity bath. Amstrad is from,Sky,BBC,17488,5351,0.6875,0.0,11,12,the
+6011,dev,P127,Amstrad,generation,Amstrad is sold by,Sky,BBC,17488,1988,-0.625,0.0,0,2,the
+6919,dev,P30,Volga Bulgaria,canonical,Volga Bulgaria belongs to the continent of,Europe,Africa,3879,1,7.0,1.0,0,2,Europe
+6919,dev,P30,Volga Bulgaria,paraphrase,"distant, and Vazamor, 32 km. Volga Bulgaria is in",Europe,Africa,3879,7,5.0,0.0,12,12,the
+6919,dev,P30,Volga Bulgaria,paraphrase,His last film was Cockneys vs Zombies (2012). Volga Bulgaria is located in the continent,Europe,Africa,3879,27,3.9375,0.0,15,15,of
+6919,dev,P30,Volga Bulgaria,generation,People around Volga Bulgaria speak the language of,Europe,Africa,3879,56,4.65625,0.0,3,3,the
+13752,dev,P131,National Museum Cardiff,canonical,"National Museum Cardiff, in",Cardiff,California,77907,3,13.1875,0.0,0,2,Wales
+13752,dev,P131,National Museum Cardiff,paraphrase,It is a very sad sight. National Museum Cardiff is in,Cardiff,California,77907,2941,-2.9375,0.0,8,9,a
+13752,dev,P131,National Museum Cardiff,paraphrase,The Helderberg MPA is in the warm temperate Agulhas bioregion. National Museum Cardiff is located in,Cardiff,California,77907,30,3.5,0.0,18,19,the
+13752,dev,P131,National Museum Cardiff,generation,One can get to National Museum Cardiff by navigating,Cardiff,California,77907,36,8.125,0.0,5,6,the
+10217,dev,P17,Landskrona BoIS,canonical,Landskrona BoIS is located in the country of,Sweden,Bermuda,27556,1,19.4375,1.0,0,4,Sweden
+10217,dev,P17,Landskrona BoIS,paraphrase,"Diego Velázquez, Philip IV. Landskrona BoIS, in",Sweden,Bermuda,27556,1302,7.603515625,0.0,8,11,the
+10217,dev,P17,Landskrona BoIS,paraphrase,"Newhouse, John. Landskrona BoIS, located in",Sweden,Bermuda,27556,14,7.5625,0.0,6,9,the
+10217,dev,P17,Landskrona BoIS,generation,One can get to Landskrona BoIS by navigating,Sweden,Bermuda,27556,442,5.859375,0.0,5,8,the
+3472,dev,P276,South by Southwest,canonical,Where is South by Southwest? It is located in,Austin,Athens,24278,2,9.5625,0.0,3,4,the
+3472,dev,P276,South by Southwest,paraphrase,"2 in A major, Op. South by Southwest is in",Austin,Athens,24278,91,3.4375,0.0,8,9,the
+3472,dev,P276,South by Southwest,paraphrase,He currently plays for Aluminium in the Azadegan League. South by Southwest can be found in,Austin,Athens,24278,258,2.1875,0.0,12,13,the
+3472,dev,P276,South by Southwest,generation,South by Southwest's surroundings include,Austin,Athens,24278,111,4.9375,0.0,0,2,the
+7267,dev,P140,Bahadur Shah I,canonical,Bahadur Shah I follows the religion of,Islam,Christianity,13623,2,8.9375,0.0,0,3,the
+7267,dev,P140,Bahadur Shah I,paraphrase,"In order to function, institutions must remain commercially viable. Bahadur Shah I is follower of",Islam,Christianity,13623,42,3.9375,0.0,12,13,the
+7267,dev,P140,Bahadur Shah I,paraphrase,ft. of space and features a restaurant/pub. The official religion of Bahadur Shah I is,Islam,Christianity,13623,2,5.1875,0.0,16,17,the
+7267,dev,P140,Bahadur Shah I,generation,Bahadur Shah I worships,Islam,Christianity,13623,219,3.59375,0.0,0,3,the
+18032,dev,P1412,Georges Ohnet,canonical,Georges Ohnet speaks the language,French,Russian,7830,168,3.125,0.0,0,2,of
+18032,dev,P1412,Georges Ohnet,paraphrase,Martadinata - Eddy Martadinata Jl. Georges Ohnet speaks,French,Russian,7830,38,1.125,0.0,11,12,on
+18032,dev,P1412,Georges Ohnet,paraphrase,He commissioned Richard Chopping to provide the artwork. The language used by Georges Ohnet is,French,Russian,7830,34,3.5,0.0,15,16,a
+18032,dev,P1412,Georges Ohnet,generation,Georges Ohnet's friends all speak the language of,French,Russian,7830,46,2.125,0.0,0,2,the
+12420,dev,P27,Thomas Bo Larsen,canonical,"Thomas Bo Larsen, a citizen of",Denmark,Norway,37932,2,1.5625,0.0,0,2,the
+12420,dev,P27,Thomas Bo Larsen,paraphrase,"Category:Unincorporated communities in Clarke County, Virginia Category:Unincorporated communities in Virginia Thomas Bo Larsen is a citizen of",Denmark,Norway,37932,159,0.5625,0.0,18,19,the
+12420,dev,P27,Thomas Bo Larsen,paraphrase,"He then approached Gibson, who also turned him down. Thomas Bo Larsen, who holds a citizenship from",Denmark,Norway,37932,15,-0.4375,0.0,12,13,the
+12420,dev,P27,Thomas Bo Larsen,generation,The passport that Thomas Bo Larsen carries is,Denmark,Norway,37932,20673,-2.03125,0.0,4,5,a
+7695,dev,P641,LeBron James,canonical,LeBron James is a professional,basketball,football,18660,1,9.125,1.0,0,2,basketball
+7695,dev,P641,LeBron James,paraphrase,References Category:Living people Category:1933 births What sport does LeBron James play? They play,basketball,football,18660,1,7.0,1.0,16,16,basketball
+7695,dev,P641,LeBron James,paraphrase,"In mid-2005, Visible School ended its relationship with Crichton College. LeBron James plays",basketball,football,18660,2,4.125,0.0,20,20,in
+7695,dev,P641,LeBron James,generation,LeBron James's greatest strength is,basketball,football,18660,62,3.0625,0.0,0,2,his
+20149,dev,P176,Family Computer Disk System,canonical,Family Computer Disk System is created by,Nintendo,Dodge,30811,113,8.03125,0.0,0,3,the
+20149,dev,P176,Family Computer Disk System,paraphrase,"She grew up there and in New Canaan, Connecticut. Family Computer Disk System, created by",Nintendo,Dodge,30811,594,3.75,0.0,12,14,the
+20149,dev,P176,Family Computer Disk System,paraphrase,Karl E. Mundt (R) 3. Family Computer Disk System is produced by,Nintendo,Dodge,30811,1417,3.4375,0.0,12,14,the
+20149,dev,P176,Family Computer Disk System,generation,Family Computer Disk System is sold by,Nintendo,Dodge,30811,72,9.25,0.0,0,3,[
+20587,dev,P449,Empty Nest,canonical,Empty Nest was originally aired on,NBC,CBS,48375,21,-1.25,0.0,0,1,the
+20587,dev,P449,Empty Nest,paraphrase,Located near the entrance is the Louis Menand House. Empty Nest premiered on,NBC,CBS,48375,692,-1.5,0.0,12,12,October
+20587,dev,P449,Empty Nest,paraphrase,March 2006. Empty Nest was released on,NBC,CBS,48375,3334,-2.125,0.0,8,8,March
+20587,dev,P449,Empty Nest,generation,Empty Nest aired alongside other programs including,NBC,CBS,48375,18,-0.375,0.0,0,1,""""

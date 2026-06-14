@@ -1,0 +1,7 @@
+{
+  "component_ablation_path": "artifacts/results/causal_default/component_ablation.csv",
+  "head_ablation_path": "artifacts/results/causal_default/head_ablation.csv",
+  "activation_patching_path": "artifacts/results/causal_default/activation_patching.csv",
+  "weight_zeroing_path": "artifacts/results/causal_default/weight_zeroing.csv",
+  "topk_curve_path": "artifacts/results/causal_default/topk_localization_curve.csv"
+}

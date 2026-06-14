@@ -1,0 +1,26 @@
+seed: 13
+benchmark_dir: artifacts/datasets/subspace_intervention_smoke
+output_dir: artifacts/results/subspace_intervention_smoke
+prompt_invariance_dir: artifacts/results/prompt_invariance_access
+storage_access_dir: artifacts/results/storage_access_competition_smoke
+limit_per_relation: 4
+relations:
+  - capital
+  - official_language
+  - currency
+prompt_families:
+  - raw_question
+  - declarative
+  - qa
+  - chat_template
+max_new_tokens: 10
+add_scale: 1.0
+models:
+  - name: gemma_270m_base
+    path: models/gemma-3-270m
+    family: gemma
+    variant: base
+  - name: qwen2_5_0_5b_base
+    path: models/Qwen2.5-0.5B
+    family: qwen
+    variant: base

@@ -1,0 +1,906 @@
+country,prompt,prompt_family,expected_capital,top_prediction,generated_text,normalized_generated_text,target_rank,target_margin,exact_match,contains_expected
+Afghanistan,What is the capital of Afghanistan?,raw_question,Kabul,"
+
+",The capital of Afghanistan is Kabul.,kabul.,35,-9.3125,1.0,1.0
+Afghanistan,The capital of Afghanistan is,declarative,Kabul,Kabul,"Kabul.
+
+The capital of Afghanistan is",kabul.,1,8.5,1.0,1.0
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,Kabul,Kabul,"Kabul
+Q: What is the capital",kabul,1,3.75,1.0,1.0
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,Kabul,Kabul,Kabul,kabul,1,1.5,1.0,1.0
+Albania,What is the capital of Albania?,raw_question,Tirana,"
+
+",The capital of Albania is Berat.,berat.,54,-11.0,0.0,0.0
+Albania,The capital of Albania is,declarative,Tirana,Tir,"Tirja, and the capital of Albania","tirja, and the capital of albania",1,3.75,0.0,0.0
+Albania,"Q: What is the capital of Albania?
+A:",qa,Tirana,Tir,"Tirja
+Q: What is the",tirja,1,1.0,0.0,0.0
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,Tirana,Berat,Berat,berat,75,-8.75,0.0,0.0
+Algeria,What is the capital of Algeria?,raw_question,Algiers,"
+
+",The capital of Algeria is Algiers,lgiers,21,-9.8125,0.0,0.0
+Algeria,The capital of Algeria is,declarative,Algiers,Al,"Algiers.
+The capital of Algeria",lgiers.,1,2.375,0.0,0.0
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,Algiers,The,The capital of Algeria is Algiers.,lgiers.,6,-0.875,0.0,0.0
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,Algiers,Alger,Algeria,lgeria,6441,-21.625,0.0,0.0
+Andorra,What is the capital of Andorra?,raw_question,Andorra la Vella,"
+
+","A) Barcelona
+B) Madrid",barcelona,3,-3.25,0.0,0.0
+Andorra,The capital of Andorra is,declarative,Andorra la Vella,Andorra,Andorra la Vella. Andorra la V,ndorra la vella. andorra la v,1,0.25,0.0,0.0
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,Andorra la Vella,Andorra,Andorra is the capital of the Kingdom of,ndorra is the capital of the kingdom of,1,4.0,0.0,0.0
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,Andorra la Vella,And,Andorra,ndorra,3,-0.75,0.0,0.0
+Angola,What is the capital of Angola?,raw_question,Luanda,"
+
+",The capital of Angola is Luanda,luanda,24,-9.5625,1.0,1.0
+Angola,The capital of Angola is,declarative,Luanda,Lu,"Luanda, and the capital of the","luanda, and the capital of the",1,2.5,1.0,1.0
+Angola,"Q: What is the capital of Angola?
+A:",qa,Luanda,The,The capital of Angola is Luanda.,luanda.,8,-3.0625,1.0,1.0
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,Luanda,Ang,Angola,ngola,926,-18.0,0.0,0.0
+Antigua and Barbuda,What is the capital of Antigua and Barbuda?,raw_question,Saint John's,"
+
+","A) Barbados
+B) Antigua",barbados,86,-12.25,0.0,0.0
+Antigua and Barbuda,The capital of Antigua and Barbuda is,declarative,Saint John's,Antigua,"Antigua.
+
+The capital of Antigua and",ntigua.,96,-6.375,0.0,0.0
+Antigua and Barbuda,"Q: What is the capital of Antigua and Barbuda?
+A:",qa,Saint John's,The,The capital of Antigua and Barbuda is,,25,-5.0625,0.0,0.0
+Antigua and Barbuda,What is the capital of Antigua and Barbuda? Answer with only the capital city.,chat_template,Saint John's,Ant,Antigua,ntigua,5724,-19.6875,0.0,0.0
+Argentina,What is the capital of Argentina?,raw_question,Buenos Aires,"
+
+","A) Buenos Aires
+B)",buenos aires,15,-8.0625,1.0,1.0
+Argentina,The capital of Argentina is,declarative,Buenos Aires,Buenos,"Buenos Aires.
+The capital of Argentina",buenos aires.,1,3.75,1.0,1.0
+Argentina,"Q: What is the capital of Argentina?
+A:",qa,Buenos Aires,Buenos,"Buenos Aires
+Q: What is the",buenos aires,1,2.875,1.0,1.0
+Argentina,What is the capital of Argentina? Answer with only the capital city.,chat_template,Buenos Aires,Buenos,Buenos Aires,buenos aires,8,-7.25,1.0,1.0
+Armenia,What is the capital of Armenia?,raw_question,Yerevan,"
+
+","A) Yerevan
+B) Yerevan",yerevan,26,-9.75,1.0,1.0
+Armenia,The capital of Armenia is,declarative,Yerevan,Yerevan,"Yerevan.
+The capital of Azerbaijan is",yerevan.,1,5.25,1.0,1.0
+Armenia,"Q: What is the capital of Armenia?
+A:",qa,Yerevan,Yerevan,"Yerevan
+Q: What is the capital",yerevan,1,3.5,1.0,1.0
+Armenia,What is the capital of Armenia? Answer with only the capital city.,chat_template,Yerevan,Yerevan,Yerevan,yerevan,1,4.25,1.0,1.0
+Australia,What is the capital of Australia?,raw_question,Canberra,"
+
+","A) Sydney
+B) Melbourne",sydney,6,-6.0,0.0,0.0
+Australia,The capital of Australia is,declarative,Canberra,Canberra,"Canberra.
+
+The capital of Australia is",canberra.,1,3.0,1.0,1.0
+Australia,"Q: What is the capital of Australia?
+A:",qa,Canberra,Canberra,"Canberra
+Q: What is the capital",canberra,1,0.75,1.0,1.0
+Australia,What is the capital of Australia? Answer with only the capital city.,chat_template,Canberra,Can,Canberra,canberra,3,-3.0,1.0,1.0
+Austria,What is the capital of Austria?,raw_question,Vienna,"
+
+","A) Vienna
+B) Berlin",vienna,9,-7.125,1.0,1.0
+Austria,The capital of Austria is,declarative,Vienna,Vienna,"Vienna.
+
+The capital of Austria is",vienna.,1,5.125,1.0,1.0
+Austria,"Q: What is the capital of Austria?
+A:",qa,Vienna,Vienna,"Vienna
+Q: What is the capital",vienna,1,2.625,1.0,1.0
+Austria,What is the capital of Austria? Answer with only the capital city.,chat_template,Vienna,Vienna,Vienna,vienna,33,-6.625,1.0,1.0
+Azerbaijan,What is the capital of Azerbaijan?,raw_question,Baku,"
+
+",The capital of Azerbaijan is Baku.,baku.,43,-10.8125,1.0,1.0
+Azerbaijan,The capital of Azerbaijan is,declarative,Baku,Baku,"Baku.
+The capital of Turkmenistan is",baku.,1,5.75,1.0,1.0
+Azerbaijan,"Q: What is the capital of Azerbaijan?
+A:",qa,Baku,Baku,"Baku
+Q: What is the capital",baku,1,1.5,1.0,1.0
+Azerbaijan,What is the capital of Azerbaijan? Answer with only the capital city.,chat_template,Baku,Azer,Azerbaijan,zerbaijan,7,-2.25,0.0,0.0
+Bahamas,What is the capital of Bahamas?,raw_question,Nassau,"
+
+",The capital of the Bahamas is Nassau,the capital of the bahamas is nassau,85,-10.9375,0.0,1.0
+Bahamas,The capital of Bahamas is,declarative,Nassau,Nassau,"Nassau.
+
+The capital of the United",nassau.,1,4.875,1.0,1.0
+Bahamas,"Q: What is the capital of Bahamas?
+A:",qa,Nassau,The,The capital of Bahamas is Nassau.,nassau.,1,0.0,1.0,1.0
+Bahamas,What is the capital of Bahamas? Answer with only the capital city.,chat_template,Nassau,Bah,Bahamas,bahamas,5,-0.875,0.0,0.0
+Bahrain,What is the capital of Bahrain?,raw_question,Manama,"
+
+",The capital of Bahrain is the capital,the capital,496,-13.6875,0.0,0.0
+Bahrain,The capital of Bahrain is,declarative,Manama,the,the capital of the city of Riyadh.,the capital of the city of riyadh.,4,-0.75,0.0,0.0
+Bahrain,"Q: What is the capital of Bahrain?
+A:",qa,Manama,Bahrain,Bahrain is the capital of the Kingdom of,bahrain is the capital of the kingdom of,51,-7.0,0.0,0.0
+Bahrain,What is the capital of Bahrain? Answer with only the capital city.,chat_template,Manama,Bah,Bahrain,bahrain,6323,-23.125,0.0,0.0
+Bangladesh,What is the capital of Bangladesh?,raw_question,Dhaka,"
+
+",The capital of Bangladesh is Dhaka.,dhaka.,9,-7.5,1.0,1.0
+Bangladesh,The capital of Bangladesh is,declarative,Dhaka,Dhaka,"Dhaka.
+The capital of Bangladesh is",dhaka.,1,4.0,1.0,1.0
+Bangladesh,"Q: What is the capital of Bangladesh?
+A:",qa,Dhaka,Dhaka,"Dhaka
+Q: What is the capital",dhaka,1,3.75,1.0,1.0
+Bangladesh,What is the capital of Bangladesh? Answer with only the capital city.,chat_template,Dhaka,Dh,Dhaka,dhaka,4,-2.0,1.0,1.0
+Barbados,What is the capital of Barbados?,raw_question,Bridgetown,"
+
+",The capital of Barbados is located in,located in,68,-11.375,0.0,0.0
+Barbados,The capital of Barbados is,declarative,Bridgetown,Bridget,"Bridgetown.
+The capital of Barbados",bridgetown.,1,2.125,1.0,1.0
+Barbados,"Q: What is the capital of Barbados?
+A:",qa,Bridgetown,Barbados,Barbados is the capital of the United Kingdom,barbados is the capital of the united kingdom,3,-1.75,0.0,0.0
+Barbados,What is the capital of Barbados? Answer with only the capital city.,chat_template,Bridgetown,Barb,Barbados,barbados,5,-1.25,0.0,0.0
+Belarus,What is the capital of Belarus?,raw_question,Minsk,"
+
+","A) Minsk
+B) Moscow",minsk,134,-12.0,1.0,1.0
+Belarus,The capital of Belarus is,declarative,Minsk,Minsk,"Minsk, and the capital of the United","minsk, and the capital of the united",1,5.0,1.0,1.0
+Belarus,"Q: What is the capital of Belarus?
+A:",qa,Minsk,Minsk,"Minsk
+
+Q: What is the capital",minsk,1,1.0,1.0,1.0
+Belarus,What is the capital of Belarus? Answer with only the capital city.,chat_template,Minsk,Vil,Vilnius,vilnius,6,-3.0,0.0,0.0
+Belgium,What is the capital of Belgium?,raw_question,Brussels,"
+
+","A) Brussels
+B) Amsterdam",brussels,26,-9.75,1.0,1.0
+Belgium,The capital of Belgium is,declarative,Brussels,Brussels,"Brussels.
+
+The capital of Belgium is",brussels.,1,4.375,1.0,1.0
+Belgium,"Q: What is the capital of Belgium?
+A:",qa,Brussels,The,The capital of Belgium is Brussels.,brussels.,2,0.0,1.0,1.0
+Belgium,What is the capital of Belgium? Answer with only the capital city.,chat_template,Brussels,Brussels,Brussels,brussels,16,-6.75,1.0,1.0
+Belize,What is the capital of Belize?,raw_question,Belmopan,"
+
+","A) San Juan
+B)",san juan,5,-5.875,0.0,0.0
+Belize,The capital of Belize is,declarative,Belmopan,Bel,"Belmopan.
+
+The capital of",belmopan.,1,2.625,1.0,1.0
+Belize,"Q: What is the capital of Belize?
+A:",qa,Belmopan,Belize,"Belize
+Q: What is the capital",belize,2,0.0,0.0,0.0
+Belize,What is the capital of Belize? Answer with only the capital city.,chat_template,Belmopan,Bel,Belize,belize,235,-10.75,0.0,0.0
+Benin,What is the capital of Benin?,raw_question,Porto-Novo,"
+
+",The capital of Benin is located in,located in,437,-13.8125,0.0,0.0
+Benin,The capital of Benin is,declarative,Porto-Novo,As,"Asunción, and the capital of Nigeria","sunción, and the capital of nigeria",8,-2.5,0.0,0.0
+Benin,"Q: What is the capital of Benin?
+A:",qa,Porto-Novo,Benin,"Benin
+Q: What is the capital",benin,15,-3.875,0.0,0.0
+Benin,What is the capital of Benin? Answer with only the capital city.,chat_template,Porto-Novo,As,"As of the current date, the capital","s of the current date, the capital",1952,-16.6875,0.0,0.0
+Bhutan,What is the capital of Bhutan?,raw_question,Thimphu,"
+
+",Bhutan is the capital of the,bhutan is the capital of the,35,-9.25,0.0,0.0
+Bhutan,The capital of Bhutan is,declarative,Thimphu,Th,"Thimphu, and the capital","thimphu, and the capital",1,2.25,1.0,1.0
+Bhutan,"Q: What is the capital of Bhutan?
+A:",qa,Thimphu,Th,"Thawang
+
+Q: What is",thawang,1,1.0,0.0,0.0
+Bhutan,What is the capital of Bhutan? Answer with only the capital city.,chat_template,Thimphu,Th,Thimphal,thimphal,816,-14.5625,0.0,0.0
+Bolivia,What is the capital of Bolivia?,raw_question,Sucre,"
+
+","A) Buenos Aires
+B)",buenos aires,495,-13.8125,0.0,0.0
+Bolivia,The capital of Bolivia is,declarative,Sucre,La,"La Paz, and the capital of Argentina","la paz, and the capital of argentina",30,-4.875,0.0,0.0
+Bolivia,"Q: What is the capital of Bolivia?
+A:",qa,Sucre,La,"La Paz
+Q: What is the",la paz,83,-6.875,0.0,0.0
+Bolivia,What is the capital of Bolivia? Answer with only the capital city.,chat_template,Sucre,La,La Paz,la paz,13157,-25.21875,0.0,0.0
+Bosnia and Herzegovina,What is the capital of Bosnia and Herzegovina?,raw_question,Sarajevo,"
+
+","A) Sarajevo
+B) Sarajevo",sarajevo,4,-6.25,1.0,1.0
+Bosnia and Herzegovina,The capital of Bosnia and Herzegovina is,declarative,Sarajevo,Sarajevo,"Sarajevo.
+The capital of Bosnia and",sarajevo.,1,4.875,1.0,1.0
+Bosnia and Herzegovina,"Q: What is the capital of Bosnia and Herzegovina?
+A:",qa,Sarajevo,Sarajevo,"Sarajevo
+Q: What is the capital",sarajevo,1,1.875,1.0,1.0
+Bosnia and Herzegovina,What is the capital of Bosnia and Herzegovina? Answer with only the capital city.,chat_template,Sarajevo,Sar,Sarajevo,sarajevo,12,-3.25,1.0,1.0
+Botswana,What is the capital of Botswana?,raw_question,Gaborone,"
+
+",The capital of Botswana is the capital,the capital,100,-11.875,0.0,0.0
+Botswana,The capital of Botswana is,declarative,Gaborone,G,"Gaborara.
+
+The capital of",gaborara.,1,2.375,0.0,0.0
+Botswana,"Q: What is the capital of Botswana?
+A:",qa,Gaborone,The,The capital of Botswana is the capital of,the capital of,8,-3.625,0.0,0.0
+Botswana,What is the capital of Botswana? Answer with only the capital city.,chat_template,Gaborone,Bots,Botswana,botswana,12877,-23.3046875,0.0,0.0
+Brazil,What is the capital of Brazil?,raw_question,Brasília,"
+
+","A) Rio de Janeiro
+B",rio de janeiro,20,-9.0,0.0,0.0
+Brazil,The capital of Brazil is,declarative,Brasília,Brasília,"Brasília, and the city of São Paulo","brasília, and the city of são paulo",1,4.0,1.0,1.0
+Brazil,"Q: What is the capital of Brazil?
+A:",qa,Brasília,São,"São Paulo
+Q: What is the",são paulo,1,0.0,0.0,0.0
+Brazil,What is the capital of Brazil? Answer with only the capital city.,chat_template,Brasília,Bras,Brasília,brasília,30,-8.5,1.0,1.0
+Brunei,What is the capital of Brunei?,raw_question,Bandar Seri Begawan,"
+
+","A) Kuala Lumpur
+B)",kuala lumpur,377,-13.53125,0.0,0.0
+Brunei,The capital of Brunei is,declarative,Bandar Seri Begawan,Bandar,"Bandar Seri Sulah.
+
+The capital",bandar seri sulah.,1,0.25,0.0,0.0
+Brunei,"Q: What is the capital of Brunei?
+A:",qa,Bandar Seri Begawan,Brunei,Brunei is the capital of Brunei.,brunei is the capital of brunei.,3,-0.625,0.0,0.0
+Brunei,What is the capital of Brunei? Answer with only the capital city.,chat_template,Bandar Seri Begawan,Br,Brunei,brunei,3,-1.0,0.0,0.0
+Bulgaria,What is the capital of Bulgaria?,raw_question,Sofia,"
+
+",The capital of Bulgaria is Sofia.,sofia.,17,-8.3125,1.0,1.0
+Bulgaria,The capital of Bulgaria is,declarative,Sofia,Sofia,"Sofia.
+The capital of Bulgaria is",sofia.,1,4.25,1.0,1.0
+Bulgaria,"Q: What is the capital of Bulgaria?
+A:",qa,Sofia,Sofia,"Sofia
+Q: What is the capital",sofia,1,0.125,1.0,1.0
+Bulgaria,What is the capital of Bulgaria? Answer with only the capital city.,chat_template,Sofia,Sofia,Sofia,sofia,117,-10.375,1.0,1.0
+Burkina Faso,What is the capital of Burkina Faso?,raw_question,Ouagadougou,"
+
+","A) Paris
+B) Rome",paris,157,-12.625,0.0,0.0
+Burkina Faso,The capital of Burkina Faso is,declarative,Ouagadougou,Ou,"Ouagadougou.
+
+**Explanation",ouagadougou.,1,0.125,1.0,1.0
+Burkina Faso,"Q: What is the capital of Burkina Faso?
+A:",qa,Ouagadougou,Paris,"Paris
+Q: What is the capital",paris,5,-2.375,0.0,0.0
+Burkina Faso,What is the capital of Burkina Faso? Answer with only the capital city.,chat_template,Ouagadougou,Ou,Ouagadougou,ouagadougou,222,-10.875,1.0,1.0
+Burundi,What is the capital of Burundi?,raw_question,Gitega,"
+
+",The capital of Burundi is Gite,gite,202,-12.0,0.0,0.0
+Burundi,The capital of Burundi is,declarative,Gitega,G,"Giteba, and the capital of","giteba, and the capital of",1,3.5,0.0,0.0
+Burundi,"Q: What is the capital of Burundi?
+A:",qa,Gitega,Burundi,Burundi is the capital of the country.,burundi is the capital of the country.,8,-4.0,0.0,0.0
+Burundi,What is the capital of Burundi? Answer with only the capital city.,chat_template,Gitega,Bur,Burundi,burundi,9609,-21.40625,0.0,0.0
+Cambodia,What is the capital of Cambodia?,raw_question,Phnom Penh,"
+
+",The capital of Cambodia is Phnom Penh,phnom penh,9,-7.6875,1.0,1.0
+Cambodia,The capital of Cambodia is,declarative,Phnom Penh,Phnom,"Phnom Penh.
+The capital of Cambodia",phnom penh.,1,2.75,1.0,1.0
+Cambodia,"Q: What is the capital of Cambodia?
+A:",qa,Phnom Penh,Phnom,"Phnom Penh
+Q: What is the",phnom penh,1,1.125,1.0,1.0
+Cambodia,What is the capital of Cambodia? Answer with only the capital city.,chat_template,Phnom Penh,Kamp,Kampong Phluk,kampong phluk,7,-4.0,0.0,0.0
+Cameroon,What is the capital of Cameroon?,raw_question,Yaoundé,"
+
+",The capital of Cameroon is Yaound,yaound,636,-14.0625,0.0,0.0
+Cameroon,The capital of Cameroon is,declarative,Yaoundé,Ya,"Yaoundy, and the city is","yaoundy, and the city is",1,4.0,0.0,0.0
+Cameroon,"Q: What is the capital of Cameroon?
+A:",qa,Yaoundé,The,The capital of Cameroon is Yaoundy,yaoundy,8,-2.75,0.0,0.0
+Cameroon,What is the capital of Cameroon? Answer with only the capital city.,chat_template,Yaoundé,Ya,Yaoundy,yaoundy,1043,-15.75,0.0,0.0
+Canada,What is the capital of Canada?,raw_question,Ottawa,"
+
+","A) Toronto
+B) Montreal",toronto,24,-8.875,0.0,0.0
+Canada,The capital of Canada is,declarative,Ottawa,Ottawa,"Ottawa, and the capital of the United","ottawa, and the capital of the united",1,4.25,1.0,1.0
+Canada,"Q: What is the capital of Canada?
+A:",qa,Ottawa,Ottawa,"Ottawa
+Q: What is the capital",ottawa,1,0.125,1.0,1.0
+Canada,What is the capital of Canada? Answer with only the capital city.,chat_template,Ottawa,Ottawa,Ottawa,ottawa,8,-6.625,1.0,1.0
+Cape Verde,What is the capital of Cape Verde?,raw_question,Praia,"
+
+",The capital of Cape Verde is Porto,porto,93,-11.5625,0.0,0.0
+Cape Verde,The capital of Cape Verde is,declarative,Praia,vá,"vá, a small, mountainous region in","vá, a small, mountainous region in",2,0.0,0.0,0.0
+Cape Verde,"Q: What is the capital of Cape Verde?
+A:",qa,Praia,Cape,"Cape Verde
+Q: What is the",cape verde,14,-3.0,0.0,0.0
+Cape Verde,What is the capital of Cape Verde? Answer with only the capital city.,chat_template,Praia,Port,Porto,porto,496,-14.625,0.0,0.0
+Central African Republic,What is the capital of Central African Republic?,raw_question,Bangui,"
+
+","A) Addis Ababa
+B)",addis ababa,860,-15.1875,0.0,0.0
+Central African Republic,The capital of Central African Republic is,declarative,Bangui,Ya,"Yaoundy, and it is a","yaoundy, and it is a",106,-5.75,0.0,0.0
+Central African Republic,"Q: What is the capital of Central African Republic?
+A:",qa,Bangui,The,The capital of Central African Republic is,,92,-4.625,0.0,0.0
+Central African Republic,What is the capital of Central African Republic? Answer with only the capital city.,chat_template,Bangui,Bras,Brasilia,brasilia,3652,-16.75,0.0,0.0
+Chad,What is the capital of Chad?,raw_question,N'Djamena,"
+
+",The capital of Chad is the capital,the capital,150,-11.5625,0.0,0.0
+Chad,The capital of Chad is,declarative,N'Djamena,the,"the capital of **Chad**.
+
+The",the capital of **chad**.,13,-2.5,0.0,0.0
+Chad,"Q: What is the capital of Chad?
+A:",qa,N'Djamena,Chad,Chad is the capital of Chad.,chad is the capital of chad.,25,-4.5,0.0,0.0
+Chad,What is the capital of Chad? Answer with only the capital city.,chat_template,N'Djamena,Chad,Chad,chad,32327,-25.11279296875,0.0,0.0
+Chile,What is the capital of Chile?,raw_question,Santiago,"
+
+","A) Buenos Aires
+B)",buenos aires,16,-8.25,0.0,0.0
+Chile,The capital of Chile is,declarative,Santiago,Santiago,"Santiago.
+
+The capital of Chile is",santiago.,1,4.75,1.0,1.0
+Chile,"Q: What is the capital of Chile?
+A:",qa,Santiago,Santiago,"Santiago
+Q: What is the capital",santiago,1,0.875,1.0,1.0
+Chile,What is the capital of Chile? Answer with only the capital city.,chat_template,Santiago,Santiago,Santiago,santiago,49,-7.75,1.0,1.0
+China,What is the capital of China?,raw_question,Beijing,"
+
+",The capital of China is located in,located in,17,-8.25,0.0,0.0
+China,The capital of China is,declarative,Beijing,Beijing,"Beijing.
+Beijing is a large city",beijing.,1,4.75,1.0,1.0
+China,"Q: What is the capital of China?
+A:",qa,Beijing,Beijing,"Beijing
+Q: What is the capital",beijing,1,1.125,1.0,1.0
+China,What is the capital of China? Answer with only the capital city.,chat_template,Beijing,Beijing,Beijing,beijing,14,-4.75,1.0,1.0
+Colombia,What is the capital of Colombia?,raw_question,Bogotá,"
+
+","A) Lima
+B) Bogotá",lima,19,-9.1875,0.0,0.0
+Colombia,The capital of Colombia is,declarative,Bogotá,Bogotá,"Bogotá.
+
+The capital of Colombia is",bogotá.,1,4.0,1.0,1.0
+Colombia,"Q: What is the capital of Colombia?
+A:",qa,Bogotá,Bogotá,"Bogotá
+Q: What is the capital",bogotá,1,2.625,1.0,1.0
+Colombia,What is the capital of Colombia? Answer with only the capital city.,chat_template,Bogotá,Bog,Bogota,bogota,6,-5.125,0.0,0.0
+Comoros,What is the capital of Comoros?,raw_question,Moroni,"
+
+",The capital of Comoros is the,the,201,-12.0625,0.0,0.0
+Comoros,The capital of Comoros is,declarative,Moroni,the,"the island of Komoji, which is","the island of komoji, which is",3,-1.25,0.0,0.0
+Comoros,"Q: What is the capital of Comoros?
+A:",qa,Moroni,The,The capital of Comoros is the capital,the capital,21,-2.625,0.0,0.0
+Comoros,What is the capital of Comoros? Answer with only the capital city.,chat_template,Moroni,Mor,Morocco,morocco,3033,-18.375,0.0,0.0
+Costa Rica,What is the capital of Costa Rica?,raw_question,San José,"
+
+",The capital of Costa Rica is located,located,27,-9.0625,0.0,0.0
+Costa Rica,The capital of Costa Rica is,declarative,San José,La,"La Fortuna, and it is known for","la fortuna, and it is known for",2,0.0,0.0,0.0
+Costa Rica,"Q: What is the capital of Costa Rica?
+A:",qa,San José,The,The capital of Costa Rica is San José,san josé,3,-0.875,1.0,1.0
+Costa Rica,What is the capital of Costa Rica? Answer with only the capital city.,chat_template,San José,San,San José,san josé,3815,-22.34375,1.0,1.0
+Croatia,What is the capital of Croatia?,raw_question,Zagreb,"
+
+","A) Zagreb
+B) Dubrovnik",zagreb,7,-7.0,1.0,1.0
+Croatia,The capital of Croatia is,declarative,Zagreb,Zagreb,"Zagreb.
+The capital of Croatia is",zagreb.,1,4.0,1.0,1.0
+Croatia,"Q: What is the capital of Croatia?
+A:",qa,Zagreb,Zagreb,"Zagreb
+Q: What is the capital",zagreb,1,2.875,1.0,1.0
+Croatia,What is the capital of Croatia? Answer with only the capital city.,chat_template,Zagreb,Zag,Zagreb,zagreb,4,-2.75,1.0,1.0
+Cuba,What is the capital of Cuba?,raw_question,Havana,"
+
+",The capital of Cuba is Havana.,havana.,69,-10.6875,1.0,1.0
+Cuba,The capital of Cuba is,declarative,Havana,Havana,"Havana, and the capital of the United","havana, and the capital of the united",1,4.0,1.0,1.0
+Cuba,"Q: What is the capital of Cuba?
+A:",qa,Havana,Havana,"Havana
+Q: What is the capital",havana,1,0.625,1.0,1.0
+Cuba,What is the capital of Cuba? Answer with only the capital city.,chat_template,Havana,C,Copenberg,copenberg,4,-1.75,0.0,0.0
+Cyprus,What is the capital of Cyprus?,raw_question,Nicosia,"
+
+",The capital of Cyprus is located in,located in,158,-12.4375,0.0,0.0
+Cyprus,The capital of Cyprus is,declarative,Nicosia,F,"Fethypia, and the capital","fethypia, and the capital",2,0.0,0.0,0.0
+Cyprus,"Q: What is the capital of Cyprus?
+A:",qa,Nicosia,The,The capital of Cyprus is Athens.,thens.,14,-4.25,0.0,0.0
+Cyprus,What is the capital of Cyprus? Answer with only the capital city.,chat_template,Nicosia,Athens,Athens,thens,14623,-27.8125,0.0,0.0
+Czechia,What is the capital of Czech Republic?,raw_question,Prague,"
+
+",The capital of Czech Republic is Prague,prague,10,-7.375,1.0,1.0
+Czechia,The capital of Czech Republic is,declarative,Prague,Prague,"Prague.
+The capital of the Czech",prague.,1,5.875,1.0,1.0
+Czechia,"Q: What is the capital of Czech Republic?
+A:",qa,Prague,Prague,"Prague
+Q: What is the capital",prague,1,1.5,1.0,1.0
+Czechia,What is the capital of Czech Republic? Answer with only the capital city.,chat_template,Prague,Pr,Prague,prague,32,-6.375,1.0,1.0
+DR Congo,What is the capital of DR Congo?,raw_question,Kinshasa,"
+
+","A) Kinshabet
+B",kinshabet,570,-14.15625,0.0,0.0
+DR Congo,The capital of DR Congo is,declarative,Kinshasa,Kin,"Kinshabet, and the capital of","kinshabet, and the capital of",1,1.0,0.0,0.0
+DR Congo,"Q: What is the capital of DR Congo?
+A:",qa,Kinshasa,The,The capital of DR Congo is Kinsh,kinsh,18,-2.8125,0.0,0.0
+DR Congo,What is the capital of DR Congo? Answer with only the capital city.,chat_template,Kinshasa,Kin,Kinshulu,kinshulu,596,-13.3125,0.0,0.0
+Denmark,What is the capital of Denmark?,raw_question,Copenhagen,"
+
+","A) Oslo
+B) Copenhagen",oslo,20,-9.3125,0.0,0.0
+Denmark,The capital of Denmark is,declarative,Copenhagen,Copenhagen,"Copenhagen.
+
+The capital of Denmark is",copenhagen.,1,3.875,1.0,1.0
+Denmark,"Q: What is the capital of Denmark?
+A:",qa,Copenhagen,Copenhagen,"Copenhagen
+Q: What is the capital",copenhagen,1,2.5,1.0,1.0
+Denmark,What is the capital of Denmark? Answer with only the capital city.,chat_template,Copenhagen,Denmark,Denmark,denmark,17,-4.75,0.0,0.0
+Djibouti,What is the capital of Djibouti?,raw_question,Djibouti,"
+
+",The capital of Djibouti is Djibouti City,djibouti city,4,-4.375,1.0,1.0
+Djibouti,The capital of Djibouti is,declarative,Djibouti,Djibouti,"Djibouti City.
+The capital of Djibouti",djibouti city.,1,4.875,1.0,1.0
+Djibouti,"Q: What is the capital of Djibouti?
+A:",qa,Djibouti,Djibouti,Djibouti is a country in Africa.,djibouti is a country in africa.,1,3.125,1.0,1.0
+Djibouti,What is the capital of Djibouti? Answer with only the capital city.,chat_template,Djibouti,Dj,Djibouti,djibouti,2,0.0,1.0,1.0
+Dominica,What is the capital of Dominica?,raw_question,Roseau,"
+
+",The capital of Dominica is the capital,the capital,272,-13.6875,0.0,0.0
+Dominica,The capital of Dominica is,declarative,Roseau,the,"the capital of the island.
+
+The",the capital of the island.,4,-1.5,0.0,0.0
+Dominica,"Q: What is the capital of Dominica?
+A:",qa,Roseau,The,The capital of Dominica is the capital of,the capital of,60,-6.875,0.0,0.0
+Dominica,What is the capital of Dominica? Answer with only the capital city.,chat_template,Roseau,Domin,Dominica,dominica,5656,-20.890625,0.0,0.0
+Dominican Republic,What is the capital of Dominican Republic?,raw_question,Santo Domingo,"
+
+",The capital of Dominican Republic is Santo,santo,19,-9.75,0.0,0.0
+Dominican Republic,The capital of Dominican Republic is,declarative,Santo Domingo,Santo,"Santo Domingo.
+The capital of the",santo domingo.,1,2.75,1.0,1.0
+Dominican Republic,"Q: What is the capital of Dominican Republic?
+A:",qa,Santo Domingo,Santo,"Santo Domingo
+Q: What is the",santo domingo,1,0.25,1.0,1.0
+Dominican Republic,What is the capital of Dominican Republic? Answer with only the capital city.,chat_template,Santo Domingo,Santo,Santo Domingo,santo domingo,108,-9.25,1.0,1.0
+Ecuador,What is the capital of Ecuador?,raw_question,Quito,"
+
+",The capital of Ecuador is Quito.,quito.,12,-8.0,1.0,1.0
+Ecuador,The capital of Ecuador is,declarative,Quito,Quito,"Quito.
+The capital of Ecuador is",quito.,1,8.25,1.0,1.0
+Ecuador,"Q: What is the capital of Ecuador?
+A:",qa,Quito,Quito,"Quito
+Q: What is the capital",quito,1,4.625,1.0,1.0
+Ecuador,What is the capital of Ecuador? Answer with only the capital city.,chat_template,Quito,Quito,Quito,quito,1,2.25,1.0,1.0
+Egypt,What is the capital of Egypt?,raw_question,Cairo,"
+
+",The capital of Egypt is located in,located in,62,-11.1875,0.0,0.0
+Egypt,The capital of Egypt is,declarative,Cairo,Cairo,"Cairo.
+The capital of Egypt is",cairo.,1,4.75,1.0,1.0
+Egypt,"Q: What is the capital of Egypt?
+A:",qa,Cairo,Cairo,"Cairo
+Q: What is the capital",cairo,1,0.875,1.0,1.0
+Egypt,What is the capital of Egypt? Answer with only the capital city.,chat_template,Cairo,Cairo,Cairo,cairo,23,-5.75,1.0,1.0
+El Salvador,What is the capital of El Salvador?,raw_question,San Salvador,"
+
+",The capital of El Salvador is San,san,32,-9.25,0.0,0.0
+El Salvador,The capital of El Salvador is,declarative,San Salvador,San,"San Salvador.
+
+The capital of El",san salvador.,1,2.0,1.0,1.0
+El Salvador,"Q: What is the capital of El Salvador?
+A:",qa,San Salvador,The,The capital of El Salvador is San Salvador,san salvador,3,-0.375,1.0,1.0
+El Salvador,What is the capital of El Salvador? Answer with only the capital city.,chat_template,San Salvador,San,San Salvador,san salvador,1481,-18.875,1.0,1.0
+Equatorial Guinea,What is the capital of Equatorial Guinea?,raw_question,Ciudad de la Paz,"
+
+",The capital of Equatorial Guinea is Rio,rio,121,-11.9375,0.0,0.0
+Equatorial Guinea,The capital of Equatorial Guinea is,declarative,Ciudad de la Paz,Lu,"Luanda, and the capital of the","luanda, and the capital of the",442,-8.6875,0.0,0.0
+Equatorial Guinea,"Q: What is the capital of Equatorial Guinea?
+A:",qa,Ciudad de la Paz,The,The capital of Equatorial Guinea is the capital,the capital,382,-7.4375,0.0,0.0
+Equatorial Guinea,What is the capital of Equatorial Guinea? Answer with only the capital city.,chat_template,Ciudad de la Paz,Port,Port-au-Prince,port-au-prince,12830,-21.53125,0.0,0.0
+Eritrea,What is the capital of Eritrea?,raw_question,Asmara,"
+
+",The capital of Eritrea is the capital,the capital,63,-10.75,0.0,0.0
+Eritrea,The capital of Eritrea is,declarative,Asmara,the,the capital city of the capital city of,the capital city of the capital city of,2,0.0,0.0,0.0
+Eritrea,"Q: What is the capital of Eritrea?
+A:",qa,Asmara,The,The capital of Eritrea is Thora.,thora.,34,-4.125,0.0,0.0
+Eritrea,What is the capital of Eritrea? Answer with only the capital city.,chat_template,Asmara,E,Eritzee,eritzee,32309,-28.25,0.0,0.0
+Estonia,What is the capital of Estonia?,raw_question,Tallinn,"
+
+","A) Tallinn
+B) Riga",tallinn,13,-8.0,1.0,1.0
+Estonia,The capital of Estonia is,declarative,Tallinn,Tallinn,"Tallinn.
+
+The capital of Estonia is",tallinn.,1,6.0,1.0,1.0
+Estonia,"Q: What is the capital of Estonia?
+A:",qa,Tallinn,Tallinn,"Tallinn
+
+Q: What is the capital",tallinn,1,3.375,1.0,1.0
+Estonia,What is the capital of Estonia? Answer with only the capital city.,chat_template,Tallinn,Tall,Tallinn,tallinn,4,-2.25,1.0,1.0
+Eswatini,What is the capital of Eswatini?,raw_question,Mbabane,"
+
+","A) Johannesburg
+B) Cape",johannesburg,203,-11.28125,0.0,0.0
+Eswatini,The capital of Eswatini is,declarative,Mbabane,**,"**Johannesburg**.
+
+The capital of",**johannesburg**.,6,-1.0,0.0,0.0
+Eswatini,"Q: What is the capital of Eswatini?
+A:",qa,Mbabane,Sw,"Swaziland
+
+Q: What is the",swaziland,9,-2.0625,0.0,0.0
+Eswatini,What is the capital of Eswatini? Answer with only the capital city.,chat_template,Mbabane,Johannes,Johannesburg,johannesburg,182,-10.5625,0.0,0.0
+Ethiopia,What is the capital of Ethiopia?,raw_question,Addis Ababa,"
+
+","A) Addis Ababa
+B)",addis ababa,46,-10.5,1.0,1.0
+Ethiopia,The capital of Ethiopia is,declarative,Addis Ababa,Addis,"Addis Ababa.
+The capital of Ethiopia",ddis ababa.,1,4.0,0.0,0.0
+Ethiopia,"Q: What is the capital of Ethiopia?
+A:",qa,Addis Ababa,Addis,"Addis Ababa
+Q: What is the",ddis ababa,1,2.125,0.0,0.0
+Ethiopia,What is the capital of Ethiopia? Answer with only the capital city.,chat_template,Addis Ababa,Dod,Dodomo,dodomo,2,0.0,0.0,0.0
+Fiji,What is the capital of Fiji?,raw_question,Suva,"
+
+",The capital of Fiji is the capital,the capital,195,-11.8125,0.0,0.0
+Fiji,The capital of Fiji is,declarative,Suva,Su,"Suva, and the capital of the","suva, and the capital of the",1,1.875,1.0,1.0
+Fiji,"Q: What is the capital of Fiji?
+A:",qa,Suva,Fiji,Fiji is the capital of the country.,fiji is the capital of the country.,12,-3.5625,0.0,0.0
+Fiji,What is the capital of Fiji? Answer with only the capital city.,chat_template,Suva,F,Fiji,fiji,1257,-15.84375,0.0,0.0
+Finland,What is the capital of Finland?,raw_question,Helsinki,"
+
+","A) Helsinki
+B) Tamp",helsinki,17,-8.75,1.0,1.0
+Finland,The capital of Finland is,declarative,Helsinki,Helsinki,"Helsinki.
+
+The capital of Finland is",helsinki.,1,5.0,1.0,1.0
+Finland,"Q: What is the capital of Finland?
+A:",qa,Helsinki,Helsinki,"Helsinki
+Q: What is the capital",helsinki,1,2.25,1.0,1.0
+Finland,What is the capital of Finland? Answer with only the capital city.,chat_template,Helsinki,\,\Paris,\paris,20,-4.25,0.0,0.0
+France,What is the capital of France?,raw_question,Paris,"
+
+","A) Paris
+B) Lyon",paris,10,-7.4375,1.0,1.0
+France,The capital of France is,declarative,Paris,Paris,"Paris.
+
+The capital of France is",paris.,1,9.25,1.0,1.0
+France,"Q: What is the capital of France?
+A:",qa,Paris,Paris,"Paris
+Q: What is the capital",paris,1,3.125,1.0,1.0
+France,What is the capital of France? Answer with only the capital city.,chat_template,Paris,Paris,Paris,paris,33,-7.625,1.0,1.0
+Gabon,What is the capital of Gabon?,raw_question,Libreville,"
+
+","A) Brazzaville
+B",brazzaville,674,-14.0,0.0,0.0
+Gabon,The capital of Gabon is,declarative,Libreville,the,"the capital of the country, and the","the capital of the country, and the",2,0.0,0.0,0.0
+Gabon,"Q: What is the capital of Gabon?
+A:",qa,Libreville,The,The capital of Gabon is the capital of,the capital of,7,-3.875,0.0,0.0
+Gabon,What is the capital of Gabon? Answer with only the capital city.,chat_template,Libreville,B,Bile,bile,182,-9.75,0.0,0.0
+Gambia,What is the capital of Gambia?,raw_question,Banjul,"
+
+",The capital of Gambia is Banjul,banjul,6,-6.75,1.0,1.0
+Gambia,The capital of Gambia is,declarative,Banjul,Banj,"Banjul.
+
+The capital of Gambia",banjul.,1,3.625,1.0,1.0
+Gambia,"Q: What is the capital of Gambia?
+A:",qa,Banjul,The,The capital of Gambia is Banjul.,banjul.,3,-0.375,1.0,1.0
+Gambia,What is the capital of Gambia? Answer with only the capital city.,chat_template,Banjul,B,Bambassa,bambassa,3,-1.0,0.0,0.0
+Georgia,What is the capital of Georgia?,raw_question,Tbilisi,"
+
+",The capital of Georgia is Tbilisi.,tbilisi.,34,-10.8125,1.0,1.0
+Georgia,The capital of Georgia is,declarative,Tbilisi,Tbilisi,"Tbilisi.
+The capital of Georgia is",tbilisi.,1,6.25,1.0,1.0
+Georgia,"Q: What is the capital of Georgia?
+A:",qa,Tbilisi,Tbilisi,"Tbilisi
+Q: What is the capital",tbilisi,1,2.375,1.0,1.0
+Georgia,What is the capital of Georgia? Answer with only the capital city.,chat_template,Tbilisi,Atlanta,Atlanta,tlanta,5,-2.25,0.0,0.0
+Germany,What is the capital of Germany?,raw_question,Berlin,"
+
+","A) Berlin
+B) Munich",berlin,6,-7.0,1.0,1.0
+Germany,The capital of Germany is,declarative,Berlin,Berlin,"Berlin.
+
+Berlin is a city with",berlin.,1,4.0,1.0,1.0
+Germany,"Q: What is the capital of Germany?
+A:",qa,Berlin,Berlin,"Berlin
+Q: What is the capital",berlin,1,1.125,1.0,1.0
+Germany,What is the capital of Germany? Answer with only the capital city.,chat_template,Berlin,Berlin,Berlin,berlin,39,-7.25,1.0,1.0
+Ghana,What is the capital of Ghana?,raw_question,Accra,"
+
+",The capital of Ghana is Accra.,ccra.,33,-9.6875,0.0,0.0
+Ghana,The capital of Ghana is,declarative,Accra,Accra,"Accra.
+
+The capital of Ghana is",ccra.,1,4.5,0.0,0.0
+Ghana,"Q: What is the capital of Ghana?
+A:",qa,Accra,Accra,"Accra
+Q: What is the capital",ccra,1,0.75,0.0,0.0
+Ghana,What is the capital of Ghana? Answer with only the capital city.,chat_template,Accra,Accra,Accra,ccra,1,3.625,0.0,0.0
+Greece,What is the capital of Greece?,raw_question,Athens,"
+
+","A) Athens
+B) Rome",athens,12,-7.6875,1.0,1.0
+Greece,The capital of Greece is,declarative,Athens,Athens,"Athens.
+The capital of Greece is",thens.,1,4.875,0.0,0.0
+Greece,"Q: What is the capital of Greece?
+A:",qa,Athens,Athens,"Athens
+Q: What is the capital",thens,1,3.875,0.0,0.0
+Greece,What is the capital of Greece? Answer with only the capital city.,chat_template,Athens,Athens,Athens,thens,13,-5.0,0.0,0.0
+Grenada,What is the capital of Grenada?,raw_question,St. George's,"
+
+","A) London
+B) Paris",london,59,-10.5,0.0,0.0
+Grenada,The capital of Grenada is,declarative,St. George's,the,the town of St. George.,the town of st. george.,3,-0.875,0.0,0.0
+Grenada,"Q: What is the capital of Grenada?
+A:",qa,St. George's,Gren,"Grenada
+Q: What is the",grenada,6,-3.0625,0.0,0.0
+Grenada,What is the capital of Grenada? Answer with only the capital city.,chat_template,St. George's,Gren,Grenada,grenada,24928,-21.46875,0.0,0.0
+Guatemala,What is the capital of Guatemala?,raw_question,Guatemala City,"
+
+",The capital of Guatemala is **Gu,**gu,4,-5.375,0.0,0.0
+Guatemala,The capital of Guatemala is,declarative,Guatemala City,Guatemala,"Guatemala City.
+The capital of Guatemala",guatemala city.,1,0.5,1.0,1.0
+Guatemala,"Q: What is the capital of Guatemala?
+A:",qa,Guatemala City,Guatemala,Guatemala is the capital of the country.,guatemala is the capital of the country.,1,2.25,0.0,0.0
+Guatemala,What is the capital of Guatemala? Answer with only the capital city.,chat_template,Guatemala City,Gu,Guatemala,guatemala,23,-6.0,0.0,0.0
+Guinea,What is the capital of Guinea?,raw_question,Conakry,"
+
+",The capital of Guinea is the capital,the capital,1169,-15.625,0.0,0.0
+Guinea,The capital of Guinea is,declarative,Conakry,the,"the capital of **Guinea**.
+There",the capital of **guinea**.,18,-2.5,0.0,0.0
+Guinea,"Q: What is the capital of Guinea?
+A:",qa,Conakry,The,The capital of Guinea is the capital of,the capital of,82,-6.5,0.0,0.0
+Guinea,What is the capital of Guinea? Answer with only the capital city.,chat_template,Conakry,Guinea,Guinea,guinea,12491,-23.65625,0.0,0.0
+Guyana,What is the capital of Guyana?,raw_question,Georgetown,"
+
+",The capital of Guyana is Georgetown.,georgetown.,46,-10.5625,1.0,1.0
+Guyana,The capital of Guyana is,declarative,Georgetown,Georgetown,"Georgetown. Georgetown is a small, relatively","georgetown. georgetown is a small, relatively",1,3.375,1.0,1.0
+Guyana,"Q: What is the capital of Guyana?
+A:",qa,Georgetown,Guyana,"Guyana
+Q: What is the capital",guyana,3,-0.875,0.0,0.0
+Guyana,What is the capital of Guyana? Answer with only the capital city.,chat_template,Georgetown,Ottawa,Ottawa,ottawa,7,-2.75,0.0,0.0
+Haiti,What is the capital of Haiti?,raw_question,Port-au-Prince,"
+
+",The capital of Haiti is located in,located in,157,-12.375,0.0,0.0
+Haiti,The capital of Haiti is,declarative,Port-au-Prince,Port,"Port-au-Prince, a city","port-au-prince, a city",1,0.625,1.0,1.0
+Haiti,"Q: What is the capital of Haiti?
+A:",qa,Port-au-Prince,The,The capital of Haiti is Paris.,paris.,9,-3.0,0.0,0.0
+Haiti,What is the capital of Haiti? Answer with only the capital city.,chat_template,Port-au-Prince,Port,Port-au-Prince,port-au-prince,1776,-18.375,1.0,1.0
+Honduras,What is the capital of Honduras?,raw_question,Tegucigalpa,"
+
+",The capital of Honduras is **San,**san,4274,-17.53125,0.0,0.0
+Honduras,The capital of Honduras is,declarative,Tegucigalpa,San,"San José, and the capital of Guatemala","san josé, and the capital of guatemala",2,0.0,0.0,0.0
+Honduras,"Q: What is the capital of Honduras?
+A:",qa,Tegucigalpa,The,The capital of Honduras is La Paz.,la paz.,26,-3.875,0.0,0.0
+Honduras,What is the capital of Honduras? Answer with only the capital city.,chat_template,Tegucigalpa,San,San José,san josé,93,-8.625,0.0,0.0
+Hungary,What is the capital of Hungary?,raw_question,Budapest,"
+
+","A) Budapest
+B) Vienna",budapest,19,-8.8125,1.0,1.0
+Hungary,The capital of Hungary is,declarative,Budapest,Budapest,"Budapest.
+The capital of Hungary is",budapest.,1,5.375,1.0,1.0
+Hungary,"Q: What is the capital of Hungary?
+A:",qa,Budapest,Budapest,"Budapest
+Q: What is the capital",budapest,1,2.625,1.0,1.0
+Hungary,What is the capital of Hungary? Answer with only the capital city.,chat_template,Budapest,Bud,Budapest,budapest,4,-3.0,1.0,1.0
+Iceland,What is the capital of Iceland?,raw_question,Reykjavik,"
+
+",The capital of Iceland is Reykjavík,reykjavík,17,-8.0,0.0,0.0
+Iceland,The capital of Iceland is,declarative,Reykjavik,Reykjavik,"Reykjavik, and the city is known for","reykjavik, and the city is known for",1,0.75,1.0,1.0
+Iceland,"Q: What is the capital of Iceland?
+A:",qa,Reykjavik,Reykjavik,"Reykjavik
+Q: What is the capital",reykjavik,1,0.375,1.0,1.0
+Iceland,What is the capital of Iceland? Answer with only the capital city.,chat_template,Reykjavik,Rey,Reykjavik,reykjavik,5,-2.75,1.0,1.0
+India,What is the capital of India?,raw_question,New Delhi,"
+
+","A) Mumbai
+B) Delhi",mumbai,27,-9.4375,0.0,0.0
+India,The capital of India is,declarative,New Delhi,New,"New Delhi.
+The capital of India",new delhi.,1,2.625,1.0,1.0
+India,"Q: What is the capital of India?
+A:",qa,New Delhi,Delhi,"Delhi
+Q: What is the capital",delhi,3,-0.25,0.0,0.0
+India,What is the capital of India? Answer with only the capital city.,chat_template,New Delhi,Gand,Gandhinagar,gandhinagar,1095,-17.875,0.0,0.0
+Indonesia,What is the capital of Indonesia?,raw_question,Jakarta,"
+
+","A) Jakarta
+B) Surabaya",jakarta,5,-6.625,1.0,1.0
+Indonesia,The capital of Indonesia is,declarative,Jakarta,Jakarta,"Jakarta.
+The capital of Indonesia is",jakarta.,1,5.25,1.0,1.0
+Indonesia,"Q: What is the capital of Indonesia?
+A:",qa,Jakarta,Jakarta,"Jakarta
+Q: What is the capital",jakarta,1,4.0,1.0,1.0
+Indonesia,What is the capital of Indonesia? Answer with only the capital city.,chat_template,Jakarta,Jakarta,Jakarta,jakarta,25,-8.25,1.0,1.0
+Iran,What is the capital of Iran?,raw_question,Tehran,"
+
+","A) Tehran
+B) Shiraz",tehran,124,-11.8125,1.0,1.0
+Iran,The capital of Iran is,declarative,Tehran,Tehran,"Tehran.
+The capital of Iran is",tehran.,1,3.75,1.0,1.0
+Iran,"Q: What is the capital of Iran?
+A:",qa,Tehran,Tehran,"Tehran
+Q: What is the capital",tehran,1,0.375,1.0,1.0
+Iran,What is the capital of Iran? Answer with only the capital city.,chat_template,Tehran,Te,Tehran,tehran,12,-4.75,1.0,1.0
+Iraq,What is the capital of Iraq?,raw_question,Baghdad,"
+
+","A) Baghdad
+B) Damascus",baghdad,36,-9.625,1.0,1.0
+Iraq,The capital of Iraq is,declarative,Baghdad,Baghdad,"Baghdad, and the capital of Syria is","baghdad, and the capital of syria is",1,2.5,1.0,1.0
+Iraq,"Q: What is the capital of Iraq?
+A:",qa,Baghdad,The,The capital of Iraq is Baghdad.,baghdad.,1,0.0,1.0,1.0
+Iraq,What is the capital of Iraq? Answer with only the capital city.,chat_template,Baghdad,Bag,Baghdad,baghdad,7,-4.0,1.0,1.0
+Ireland,What is the capital of Ireland?,raw_question,Dublin,"
+
+","A) Dublin
+B) Cork",dublin,20,-8.5625,1.0,1.0
+Ireland,The capital of Ireland is,declarative,Dublin,Dublin,"Dublin.
+
+The capital of Ireland is",dublin.,1,5.375,1.0,1.0
+Ireland,"Q: What is the capital of Ireland?
+A:",qa,Dublin,Dublin,"Dublin
+Q: What is the capital",dublin,1,2.25,1.0,1.0
+Ireland,What is the capital of Ireland? Answer with only the capital city.,chat_template,Dublin,Dublin,Dublin,dublin,5,-1.625,1.0,1.0
+Israel,What is the capital of Israel?,raw_question,Jerusalem,"
+
+",The capital of Israel is Jerusalem.,jerusalem.,17,-8.1875,1.0,1.0
+Israel,The capital of Israel is,declarative,Jerusalem,Tel,"Tel Aviv, and the city is known","tel aviv, and the city is known",1,0.0,0.0,0.0
+Israel,"Q: What is the capital of Israel?
+A:",qa,Jerusalem,Jerusalem,"Jerusalem
+Q: What is the capital",jerusalem,1,3.125,1.0,1.0
+Israel,What is the capital of Israel? Answer with only the capital city.,chat_template,Jerusalem,Yes,"Yes, the capital city of Israel is","yes, the capital city of israel is",19,-9.5,0.0,0.0
+Italy,What is the capital of Italy?,raw_question,Rome,"
+
+","A) Rome
+B) Florence",rome,5,-6.9375,1.0,1.0
+Italy,The capital of Italy is,declarative,Rome,Rome,Rome.,rome.,1,4.0,1.0,1.0
+Italy,"Q: What is the capital of Italy?
+A:",qa,Rome,Rome,"Rome
+Q: What is the capital",rome,1,4.75,1.0,1.0
+Italy,What is the capital of Italy? Answer with only the capital city.,chat_template,Rome,Rome,Rome,rome,74,-8.875,1.0,1.0
+Ivory Coast,What is the capital of Ivory Coast?,raw_question,Yamoussoukro,"
+
+",The capital of Ivory Coast is located,located,1606,-15.3125,0.0,0.0
+Ivory Coast,The capital of Ivory Coast is,declarative,Yamoussoukro,**,"**Abidjan**.
+
+The capital",**abidjan**.,9,-2.25,0.0,0.0
+Ivory Coast,"Q: What is the capital of Ivory Coast?
+A:",qa,Yamoussoukro,The,The capital of Ivory Coast is the capital,the capital,260,-6.125,0.0,0.0
+Ivory Coast,What is the capital of Ivory Coast? Answer with only the capital city.,chat_template,Yamoussoukro,\,\Paris,\paris,3165,-18.875,0.0,0.0
+Jamaica,What is the capital of Jamaica?,raw_question,Kingston,"
+
+","A) Kingston
+B) Fort",kingston,44,-10.3125,1.0,1.0
+Jamaica,The capital of Jamaica is,declarative,Kingston,Kingston,"Kingston, and the capital of the United","kingston, and the capital of the united",1,4.125,1.0,1.0
+Jamaica,"Q: What is the capital of Jamaica?
+A:",qa,Kingston,Jamaica,Jamaica is the capital of the United Kingdom,jamaica is the capital of the united kingdom,2,0.0,0.0,0.0
+Jamaica,What is the capital of Jamaica? Answer with only the capital city.,chat_template,Kingston,Jamaica,Jamaica,jamaica,25,-4.5,0.0,0.0
+Japan,What is the capital of Japan?,raw_question,Tokyo,"
+
+","A) Tokyo
+B) Kyoto",tokyo,20,-8.25,1.0,1.0
+Japan,The capital of Japan is,declarative,Tokyo,Tokyo,"Tokyo.
+
+The capital of Japan is",tokyo.,1,2.5,1.0,1.0
+Japan,"Q: What is the capital of Japan?
+A:",qa,Tokyo,Tokyo,"Tokyo
+Q: What is the capital",tokyo,1,1.0,1.0,1.0
+Japan,What is the capital of Japan? Answer with only the capital city.,chat_template,Tokyo,Tokyo,Tokyo,tokyo,7,-4.5,1.0,1.0
+Jordan,What is the capital of Jordan?,raw_question,Amman,"
+
+","A) Amman
+B) Petra",amman,35,-9.875,1.0,1.0
+Jordan,The capital of Jordan is,declarative,Amman,Amman,"Amman, and the capital of Egypt is","mman, and the capital of egypt is",1,7.5,0.0,0.0
+Jordan,"Q: What is the capital of Jordan?
+A:",qa,Amman,Amman,"Amman
+Q: What is the capital",mman,1,1.375,0.0,0.0
+Jordan,What is the capital of Jordan? Answer with only the capital city.,chat_template,Amman,Jordan,Jordan,jordan,2,0.0,0.0,0.0
+Kazakhstan,What is the capital of Kazakhstan?,raw_question,Astana,"
+
+",The capital of Kazakhstan is Astana.,stana.,71,-11.1875,0.0,0.0
+Kazakhstan,The capital of Kazakhstan is,declarative,Astana,Astana,"Astana.
+The capital of Kazakhstan is",stana.,1,4.5,0.0,0.0
+Kazakhstan,"Q: What is the capital of Kazakhstan?
+A:",qa,Astana,The,The capital of Kazakhstan is Astana.,stana.,2,0.0,0.0,0.0
+Kazakhstan,What is the capital of Kazakhstan? Answer with only the capital city.,chat_template,Astana,Ast,Astana,stana,2,0.0,0.0,0.0
+Kenya,What is the capital of Kenya?,raw_question,Nairobi,"
+
+",The capital of Kenya is Nairobi.,nairobi.,19,-7.8125,1.0,1.0
+Kenya,The capital of Kenya is,declarative,Nairobi,Nairobi,"Nairobi.
+
+**The capital of Kenya",nairobi.,1,3.25,1.0,1.0
+Kenya,"Q: What is the capital of Kenya?
+A:",qa,Nairobi,Nairobi,"Nairobi
+Q: What is the capital",nairobi,1,1.5,1.0,1.0
+Kenya,What is the capital of Kenya? Answer with only the capital city.,chat_template,Nairobi,Nairobi,Nairobi,nairobi,1,0.125,1.0,1.0
+Kiribati,What is the capital of Kiribati?,raw_question,South Tarawa,"
+
+",The capital of Kiribati is,,176,-12.0625,0.0,0.0
+Kiribati,The capital of Kiribati is,declarative,South Tarawa,the,the capital of the island of Kirib,the capital of the island of kirib,3214,-12.625,0.0,0.0
+Kiribati,"Q: What is the capital of Kiribati?
+A:",qa,South Tarawa,Kir,"Kiribati
+Q: What is",kiribati,93,-6.1875,0.0,0.0
+Kiribati,What is the capital of Kiribati? Answer with only the capital city.,chat_template,South Tarawa,Kir,Kiribati,kiribati,19907,-22.48828125,0.0,0.0
+Kuwait,What is the capital of Kuwait?,raw_question,Kuwait City,"
+
+",The capital of Kuwait is located in,located in,4,-5.875,0.0,0.0
+Kuwait,The capital of Kuwait is,declarative,Kuwait City,Kuwait,"Kuwait City.
+The capital of Saudi",kuwait city.,1,2.75,1.0,1.0
+Kuwait,"Q: What is the capital of Kuwait?
+A:",qa,Kuwait City,Kuwait,"Kuwait
+Q: What is the capital",kuwait,1,4.0,0.0,0.0
+Kuwait,What is the capital of Kuwait? Answer with only the capital city.,chat_template,Kuwait City,Answer,Answer: Kuwait,nswer: kuwait,2,0.0,0.0,0.0
+Kyrgyzstan,What is the capital of Kyrgyzstan?,raw_question,Bishkek,"
+
+",The capital of Kyrgyzstan is Bishkek,bishkek,105,-12.1875,1.0,1.0
+Kyrgyzstan,The capital of Kyrgyzstan is,declarative,Bishkek,Bish,"Bishkek, and the city is known","bishkek, and the city is known",1,4.75,1.0,1.0
+Kyrgyzstan,"Q: What is the capital of Kyrgyzstan?
+A:",qa,Bishkek,Bish,"Bishkek
+Q: What is the",bishkek,1,1.375,1.0,1.0
+Kyrgyzstan,What is the capital of Kyrgyzstan? Answer with only the capital city.,chat_template,Bishkek,Kyr,Kyrgyzstan,kyrgyzstan,11,-3.5,0.0,0.0
+Laos,What is the capital of Laos?,raw_question,Vientiane,"
+
+",The capital of Laos is Luang,luang,103,-11.5,0.0,0.0
+Laos,The capital of Laos is,declarative,Vientiane,La,"Laotian, and the capital of","laotian, and the capital of",3,-1.75,0.0,0.0
+Laos,"Q: What is the capital of Laos?
+A:",qa,Vientiane,La,"Laotian
+Q: What is",laotian,5,-1.875,0.0,0.0
+Laos,What is the capital of Laos? Answer with only the capital city.,chat_template,Vientiane,V,Vientiane,vientiane,4006,-24.25,1.0,1.0
+Latvia,What is the capital of Latvia?,raw_question,Riga,"
+
+","A) Vilnius
+B) Riga",vilnius,19,-9.375,0.0,0.0
+Latvia,The capital of Latvia is,declarative,Riga,Riga,"Riga.
+
+The capital of Latvia is",riga.,1,5.25,1.0,1.0
+Latvia,"Q: What is the capital of Latvia?
+A:",qa,Riga,Riga,"Riga
+Q: What is the capital",riga,1,0.375,1.0,1.0
+Latvia,What is the capital of Latvia? Answer with only the capital city.,chat_template,Riga,Riga,Riga,riga,72,-11.5,1.0,1.0
+Lebanon,What is the capital of Lebanon?,raw_question,Beirut,"
+
+",The capital of Lebanon is Beirut.,beirut.,31,-9.6875,1.0,1.0
+Lebanon,The capital of Lebanon is,declarative,Beirut,Beirut,"Beirut.
+
+The capital of Syria is",beirut.,1,5.75,1.0,1.0
+Lebanon,"Q: What is the capital of Lebanon?
+A:",qa,Beirut,Beirut,"Beirut
+Q: What is the capital",beirut,1,2.75,1.0,1.0
+Lebanon,What is the capital of Lebanon? Answer with only the capital city.,chat_template,Beirut,Jer,Jerusalem,jerusalem,2,0.0,0.0,0.0
+Lesotho,What is the capital of Lesotho?,raw_question,Maseru,"
+
+","A) Cape Town
+B)",cape town,1099,-15.375,0.0,0.0
+Lesotho,The capital of Lesotho is,declarative,Maseru,the,"the capital of Lesotho, and the capital","the capital of lesotho, and the capital",56,-3.25,0.0,0.0
+Lesotho,"Q: What is the capital of Lesotho?
+A:",qa,Maseru,Lesotho,"Lesotho is a small, isolated country in","lesotho is a small, isolated country in",118,-7.5,0.0,0.0
+Lesotho,What is the capital of Lesotho? Answer with only the capital city.,chat_template,Maseru,Johannes,Johannesburg,johannesburg,9805,-26.375,0.0,0.0
+Liberia,What is the capital of Liberia?,raw_question,Monrovia,"
+
+",The capital of Liberia is the capital,the capital,55,-11.1875,0.0,0.0
+Liberia,The capital of Liberia is,declarative,Monrovia,Monro,"Monrovia.
+The capital of Liberia",monrovia.,1,3.375,1.0,1.0
+Liberia,"Q: What is the capital of Liberia?
+A:",qa,Monrovia,Liberia,Liberia is the capital of Liberia.,liberia is the capital of liberia.,3,-0.625,0.0,0.0
+Liberia,What is the capital of Liberia? Answer with only the capital city.,chat_template,Monrovia,Monro,Monrovia,monrovia,1,0.625,1.0,1.0
+Libya,What is the capital of Libya?,raw_question,Tripoli,"
+
+","A) Tunis
+B) Tripoli",tunis,71,-11.25,0.0,0.0
+Libya,The capital of Libya is,declarative,Tripoli,Tripoli,"Tripoli, and the capital of the United","tripoli, and the capital of the united",1,2.125,1.0,1.0
+Libya,"Q: What is the capital of Libya?
+A:",qa,Tripoli,The,The capital of Libya is Tripoli.,tripoli.,3,-0.25,1.0,1.0
+Libya,What is the capital of Libya? Answer with only the capital city.,chat_template,Tripoli,Lib,Libya,libya,28,-4.0,0.0,0.0
+Liechtenstein,What is the capital of Liechtenstein?,raw_question,Vaduz,"
+
+","A) Vienna
+B) Zurich",vienna,41,-10.625,0.0,0.0
+Liechtenstein,The capital of Liechtenstein is,declarative,Vaduz,Vad,"Vaduz.
+
+The capital of Liechtenstein",vaduz.,1,4.0,1.0,1.0
+Liechtenstein,"Q: What is the capital of Liechtenstein?
+A:",qa,Vaduz,Liechtenstein,Liechtenstein is the capital of the Kingdom of,liechtenstein is the capital of the kingdom of,6,-3.375,0.0,0.0
+Liechtenstein,What is the capital of Liechtenstein? Answer with only the capital city.,chat_template,Vaduz,Vad,Vadstor,vadstor,1133,-19.625,0.0,0.0
+Lithuania,What is the capital of Lithuania?,raw_question,Vilnius,"
+
+","A) Warsaw
+B) Vilnius",warsaw,7,-6.9375,0.0,0.0
+Lithuania,The capital of Lithuania is,declarative,Vilnius,Vilnius,Vilnius. Vilnius is a major city in,vilnius. vilnius is a major city in,1,3.375,1.0,1.0
+Lithuania,"Q: What is the capital of Lithuania?
+A:",qa,Vilnius,Vilnius,"Vilnius
+
+Q: What is the capital",vilnius,1,4.0,1.0,1.0
+Lithuania,What is the capital of Lithuania? Answer with only the capital city.,chat_template,Vilnius,Vil,Vilnius,vilnius,4,-1.5,1.0,1.0
+Luxembourg,What is the capital of Luxembourg?,raw_question,Luxembourg,"
+
+","A) Paris
+B) Berlin",paris,4,-4.5,0.0,0.0
+Luxembourg,The capital of Luxembourg is,declarative,Luxembourg,Luxembourg,"Luxembourg City.
+
+The capital of Luxembourg",luxembourg city.,1,1.75,1.0,1.0
+Luxembourg,"Q: What is the capital of Luxembourg?
+A:",qa,Luxembourg,Luxembourg,"Luxembourg
+Q: What is the capital",luxembourg,1,3.375,1.0,1.0
+Luxembourg,What is the capital of Luxembourg? Answer with only the capital city.,chat_template,Luxembourg,Lux,Luxembourg,luxembourg,7,-5.75,1.0,1.0
+Madagascar,What is the capital of Madagascar?,raw_question,Antananarivo,"
+
+","A) Phnom Penh
+B)",phnom penh,213,-12.875,0.0,0.0
+Madagascar,The capital of Madagascar is,declarative,Antananarivo,the,the capital of **Madagascar**.,the capital of **madagascar**.,6,-1.5,0.0,0.0
+Madagascar,"Q: What is the capital of Madagascar?
+A:",qa,Antananarivo,The,The capital of Madagascar is the capital of,the capital of,18,-4.9375,0.0,0.0
+Madagascar,What is the capital of Madagascar? Answer with only the capital city.,chat_template,Antananarivo,Ant,Antananarossa,ntananarossa,3811,-20.21875,0.0,0.0
+Malawi,What is the capital of Malawi?,raw_question,Lilongwe,"
+
+",The capital of Malawi is Lilong,lilong,8,-6.9375,0.0,0.0
+Malawi,The capital of Malawi is,declarative,Lilongwe,Lil,"Lilongwe.
+
+The capital of",lilongwe.,1,3.75,1.0,1.0
+Malawi,"Q: What is the capital of Malawi?
+A:",qa,Lilongwe,Malawi,"Malawi
+Q: What is the capital",malawi,3,-1.375,0.0,0.0
+Malawi,What is the capital of Malawi? Answer with only the capital city.,chat_template,Lilongwe,Lil,Lilongwe,lilongwe,11,-5.5,1.0,1.0

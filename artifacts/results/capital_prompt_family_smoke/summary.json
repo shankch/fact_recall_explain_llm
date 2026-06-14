@@ -1,0 +1,23 @@
+{
+  "num_prompts": 20,
+  "mean_exact_match": 0.35,
+  "mean_contains_expected": 0.35,
+  "mean_target_rank": 380.25,
+  "mean_target_margin": -3.41875,
+  "strongest_shared_layer": 0,
+  "best_prompt_family_by_rank": "declarative",
+  "artifacts": {
+    "profiles": "artifacts/results/capital_prompt_family_smoke/capital_prompt_profiles.jsonl",
+    "metrics": "artifacts/results/capital_prompt_family_smoke/capital_prompt_metrics.csv",
+    "norms": "artifacts/results/capital_prompt_family_smoke/capital_layer_component_norms.csv",
+    "heatmap_csv": "artifacts/results/capital_prompt_family_smoke/capital_top_neuron_heatmap.csv",
+    "neuron_summary": "artifacts/results/capital_prompt_family_smoke/capital_neuron_summary.csv",
+    "family_summary": "artifacts/results/capital_prompt_family_smoke/capital_prompt_family_summary.csv",
+    "family_layer_summary": "artifacts/results/capital_prompt_family_smoke/capital_prompt_family_layer_summary.csv",
+    "prompt_heatmap_png": "artifacts/results/capital_prompt_family_smoke/capital_prompt_neuron_heatmap.png",
+    "layer_heatmap_png": "artifacts/results/capital_prompt_family_smoke/capital_layer_hidden_heatmap.png",
+    "component_profile_png": "artifacts/results/capital_prompt_family_smoke/capital_architecture_component_profile.png",
+    "family_contains_png": "artifacts/results/capital_prompt_family_smoke/capital_prompt_family_contains_expected.png",
+    "family_rank_png": "artifacts/results/capital_prompt_family_smoke/capital_prompt_family_rank_median.png"
+  }
+}

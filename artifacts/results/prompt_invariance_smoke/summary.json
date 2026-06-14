@@ -1,0 +1,19 @@
+{
+  "models": [
+    "gemma_270m_base",
+    "gemma_270m_it",
+    "qwen2_5_0_5b_base",
+    "qwen2_5_0_5b_instruct",
+    "smollm2_360m_instruct"
+  ],
+  "num_models": 5,
+  "artifacts": {
+    "multimodel_family_summary": "artifacts/results/prompt_invariance_smoke/multimodel_family_summary.csv",
+    "multimodel_paired_family_comparisons": "artifacts/results/prompt_invariance_smoke/multimodel_paired_family_comparisons.csv",
+    "multimodel_ablation_summary": "artifacts/results/prompt_invariance_smoke/multimodel_ablation_summary.csv",
+    "multimodel_family_answer_f1_png": "artifacts/results/prompt_invariance_smoke/multimodel_family_answer_f1.png",
+    "multimodel_family_heatmap_png": "artifacts/results/prompt_invariance_smoke/multimodel_family_heatmap.png",
+    "multimodel_ablation_effects_png": "artifacts/results/prompt_invariance_smoke/multimodel_ablation_effects.png",
+    "report": "artifacts/results/prompt_invariance_smoke/multimodel_prompt_invariance_report.md"
+  }
+}

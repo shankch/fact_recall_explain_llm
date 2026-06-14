@@ -1,0 +1,16 @@
+{
+  "model_name": "smollm2_360m_instruct",
+  "model_family": "smollm2",
+  "model_variant": "instruct",
+  "num_prompts": 240,
+  "subject_invariance_depth_mean": 0.0,
+  "preanswer_invariance_depth_mean": 26.944444444444443,
+  "artifacts": {
+    "profiles": "artifacts/results/storage_access_competition_access/smollm2_360m_instruct/activation_profiles.jsonl",
+    "layer_similarity_summary": "artifacts/results/storage_access_competition_access/smollm2_360m_instruct/layer_similarity_summary.csv",
+    "fact_layer_similarity": "artifacts/results/storage_access_competition_access/smollm2_360m_instruct/fact_layer_similarity.csv",
+    "fact_invariance_summary": "artifacts/results/storage_access_competition_access/smollm2_360m_instruct/fact_invariance_summary.csv",
+    "subject_dynamics_png": "artifacts/results/storage_access_competition_access/smollm2_360m_instruct/subject_dynamics.png",
+    "preanswer_dynamics_png": "artifacts/results/storage_access_competition_access/smollm2_360m_instruct/preanswer_dynamics.png"
+  }
+}

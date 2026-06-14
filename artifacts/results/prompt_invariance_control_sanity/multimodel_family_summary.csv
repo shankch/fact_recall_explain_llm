@@ -1,0 +1,5 @@
+prompt_family,target_rank,target_margin,full_exact_match,contains_expected,answer_f1,answer_similarity,model_name,model_family,model_variant
+chat_template,65.0,-2.40625,0.25,0.25,0.25,0.4821820175438596,gemma_270m_base,gemma,base
+declarative,1.25,0.5625,0.0,0.75,0.2053571428571428,0.258436222721937,gemma_270m_base,gemma,base
+qa,7.75,-1.3125,0.0,0.25,0.0625,0.1928030303030303,gemma_270m_base,gemma,base
+raw_question,125.5,-5.671875,0.0,0.0,0.0,0.1990972222222222,gemma_270m_base,gemma,base

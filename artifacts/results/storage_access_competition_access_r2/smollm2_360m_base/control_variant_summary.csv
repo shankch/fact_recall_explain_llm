@@ -1,0 +1,13 @@
+model_name,model_family,model_variant,split_eval,analysis_variant,position,num_facts,found_rate,invariance_depth_mean,mean_invariance_gap,peak_invariance_gap
+smollm2_360m_base,smollm2,base,all,all_families,subject,90,1.0,0.0,0.13218735837607648,0.6638115330361853
+smollm2_360m_base,smollm2,base,all,all_families,preanswer,90,0.9777777777777777,26.329545454545453,-0.03687468173927354,0.18347299982811882
+smollm2_360m_base,smollm2,base,all,no_chat,subject,90,1.0,0.0,0.1150959767992341,0.6615919394820344
+smollm2_360m_base,smollm2,base,all,no_chat,preanswer,90,0.9222222222222223,26.518072289156628,-0.05702778176812369,0.20876276259328808
+smollm2_360m_base,smollm2,base,all,length_matched_delta4,subject,90,0.6555555555555556,3.4915254237288136,0.0618614648775886,0.6626407631805965
+smollm2_360m_base,smollm2,base,all,length_matched_delta4,preanswer,90,0.2,27.055555555555557,-0.15051906329148815,0.11960716726623966
+smollm2_360m_base,smollm2,base,holdout,all_families,subject,20,1.0,0.0,0.1441504109107579,0.5903175566345453
+smollm2_360m_base,smollm2,base,holdout,all_families,preanswer,20,0.95,26.42105263157895,-0.038279621206068745,0.1647177177170912
+smollm2_360m_base,smollm2,base,holdout,no_chat,subject,20,1.0,0.0,0.1261816551408696,0.5900663269890679
+smollm2_360m_base,smollm2,base,holdout,no_chat,preanswer,20,0.9,26.555555555555557,-0.058618681436335605,0.18892436998861806
+smollm2_360m_base,smollm2,base,holdout,length_matched_delta4,subject,20,1.0,0.6,0.07353240065506828,0.587560358501616
+smollm2_360m_base,smollm2,base,holdout,length_matched_delta4,preanswer,20,0.2,27.0,-0.15061649320923715,0.09300003239983001

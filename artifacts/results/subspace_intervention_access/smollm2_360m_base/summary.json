@@ -1,0 +1,9 @@
+{
+  "model_name": "smollm2_360m_base",
+  "model_variant": "base",
+  "artifacts": {
+    "interventions": "artifacts/results/subspace_intervention_access/smollm2_360m_base/subspace_interventions.csv",
+    "summary": "artifacts/results/subspace_intervention_access/smollm2_360m_base/summary.csv",
+    "alignment_delta_bar_png": "artifacts/results/subspace_intervention_access/smollm2_360m_base/alignment_delta_bar.png"
+  }
+}

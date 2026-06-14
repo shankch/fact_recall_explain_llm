@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────────────────────────
+#  fact_recall_explain_llm — reproducibility repo
+#
+#  Large, regenerable, or vendor-licensed assets are NOT committed.
+#  See models/README.md, artifacts/README.md, and README.md for how
+#  to fetch / regenerate them.
+# ─────────────────────────────────────────────────────────────
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.conda-env/
+.venv/
+venv/
+env/
+.env
+
+# --- Node / React viewer ---
+node_modules/
+viewer/node_modules/
+viewer/dist/
+
+# --- Model weights (~7.8 GB; download from Hugging Face) ---
+# Keep only the pointer README; vendor licenses (e.g. Gemma) restrict redistribution.
+models/*
+!models/README.md
+
+# --- Large, regenerable experiment artifacts ---
+# Raw activation tensors, per-record dumps, and per-neuron score dumps.
+# Regenerate with the scripts/ entrypoints (see README.md).
+*.npz
+artifacts/results/**/*.npz
+artifacts/results/**/*.jsonl
+artifacts/results/**/neuron_scores.csv
+
+# --- Third-party raw datasets (re-downloaded by scripts/prepare_counterfact.py) ---
+artifacts/datasets/counterfact/raw_counterfact.json
+
+# --- Downloaded datasets ---
+data/MNIST/
+
+# --- Snapshot archives ---
+*.zip
+
+# --- LaTeX build intermediates (sources .tex/.bbl/.cls/.bib and final .pdf are kept) ---
+*.aux
+*.log
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

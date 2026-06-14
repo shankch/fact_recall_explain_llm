@@ -1,0 +1,451 @@
+country,prompt,prompt_family,layer,hidden_norm,attention_norm,mlp_mean_abs
+Afghanistan,What is the capital of Afghanistan?,raw_question,0,154.10948181152344,193.6166229248047,0.25568264722824097
+Afghanistan,What is the capital of Afghanistan?,raw_question,1,1067.5889892578125,105.24807739257812,0.19785256683826447
+Afghanistan,What is the capital of Afghanistan?,raw_question,2,1331.8486328125,16.047161102294922,0.16086500883102417
+Afghanistan,What is the capital of Afghanistan?,raw_question,3,1614.8094482421875,13.712949752807617,0.19942107796669006
+Afghanistan,What is the capital of Afghanistan?,raw_question,4,2333.033203125,9.74887466430664,0.18468350172042847
+Afghanistan,What is the capital of Afghanistan?,raw_question,5,2744.24609375,20.30721664428711,0.14476998150348663
+Afghanistan,What is the capital of Afghanistan?,raw_question,6,3199.39892578125,8.18453598022461,0.15763162076473236
+Afghanistan,What is the capital of Afghanistan?,raw_question,7,4997.1005859375,16.529233932495117,0.16768446564674377
+Afghanistan,What is the capital of Afghanistan?,raw_question,8,5980.64599609375,16.283517837524414,0.17038652300834656
+Afghanistan,What is the capital of Afghanistan?,raw_question,9,5403.0537109375,12.136427879333496,0.13166587054729462
+Afghanistan,What is the capital of Afghanistan?,raw_question,10,10514.8916015625,24.626266479492188,0.19335705041885376
+Afghanistan,What is the capital of Afghanistan?,raw_question,11,10963.8193359375,3.545529365539551,0.17100906372070312
+Afghanistan,What is the capital of Afghanistan?,raw_question,12,12971.3369140625,27.506139755249023,0.12949605286121368
+Afghanistan,What is the capital of Afghanistan?,raw_question,13,16454.23828125,25.733226776123047,0.10633355379104614
+Afghanistan,What is the capital of Afghanistan?,raw_question,14,17386.611328125,44.409000396728516,0.10952134430408478
+Afghanistan,What is the capital of Afghanistan?,raw_question,15,18650.16796875,33.66351318359375,0.1025046706199646
+Afghanistan,What is the capital of Afghanistan?,raw_question,16,25015.701171875,39.984046936035156,0.09123977273702621
+Afghanistan,What is the capital of Afghanistan?,raw_question,17,166.82061767578125,10.46361255645752,0.12273183465003967
+Afghanistan,The capital of Afghanistan is,declarative,0,131.79763793945312,157.57000732421875,0.21468546986579895
+Afghanistan,The capital of Afghanistan is,declarative,1,859.7459106445312,127.75251770019531,0.242141991853714
+Afghanistan,The capital of Afghanistan is,declarative,2,1211.34326171875,21.711057662963867,0.19042754173278809
+Afghanistan,The capital of Afghanistan is,declarative,3,1636.49072265625,14.283276557922363,0.22101335227489471
+Afghanistan,The capital of Afghanistan is,declarative,4,2444.824951171875,9.961956024169922,0.17922426760196686
+Afghanistan,The capital of Afghanistan is,declarative,5,2821.826171875,20.17271614074707,0.14693616330623627
+Afghanistan,The capital of Afghanistan is,declarative,6,3573.826416015625,8.391302108764648,0.16560833156108856
+Afghanistan,The capital of Afghanistan is,declarative,7,5609.8251953125,17.27313804626465,0.1720493733882904
+Afghanistan,The capital of Afghanistan is,declarative,8,5439.564453125,16.45174789428711,0.17234310507774353
+Afghanistan,The capital of Afghanistan is,declarative,9,5573.59326171875,14.486563682556152,0.13573810458183289
+Afghanistan,The capital of Afghanistan is,declarative,10,8555.474609375,28.396780014038086,0.19710427522659302
+Afghanistan,The capital of Afghanistan is,declarative,11,9917.240234375,5.004693508148193,0.19810868799686432
+Afghanistan,The capital of Afghanistan is,declarative,12,12076.4189453125,35.80345153808594,0.160457044839859
+Afghanistan,The capital of Afghanistan is,declarative,13,15151.1865234375,23.795913696289062,0.12628906965255737
+Afghanistan,The capital of Afghanistan is,declarative,14,18528.908203125,51.8219108581543,0.11963677406311035
+Afghanistan,The capital of Afghanistan is,declarative,15,19960.63671875,35.6472053527832,0.10777410119771957
+Afghanistan,The capital of Afghanistan is,declarative,16,23059.9296875,38.25489044189453,0.10568975657224655
+Afghanistan,The capital of Afghanistan is,declarative,17,273.9698181152344,10.26716136932373,0.13628984987735748
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,0,126.2735366821289,161.15994262695312,0.28756704926490784
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,1,812.9414672851562,146.67320251464844,0.23879531025886536
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,2,1007.3404541015625,21.469362258911133,0.17478781938552856
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,3,1805.7808837890625,14.030733108520508,0.21914711594581604
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,4,2123.7509765625,11.552313804626465,0.1749897599220276
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,5,3491.549560546875,16.676437377929688,0.15267357230186462
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,6,3661.55419921875,6.157358646392822,0.15252594649791718
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,7,4887.11083984375,16.084815979003906,0.16128580272197723
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,8,5400.0595703125,15.262829780578613,0.19072669744491577
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,9,5220.12939453125,14.813720703125,0.13601914048194885
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,10,8357.2333984375,30.37650489807129,0.1887054443359375
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,11,8926.64453125,5.152633190155029,0.19111047685146332
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,12,11981.0478515625,34.334537506103516,0.15439854562282562
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,13,14612.4599609375,25.742176055908203,0.11628393828868866
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,14,18104.767578125,46.66788101196289,0.11542925238609314
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,15,19349.59375,35.64076232910156,0.10126014053821564
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,16,24589.3359375,36.79452133178711,0.09404710680246353
+Afghanistan,"Q: What is the capital of Afghanistan?
+A:",qa,17,191.84996032714844,11.170021057128906,0.12273909151554108
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,0,171.93124389648438,169.47726440429688,0.20174582302570343
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,1,783.6271362304688,128.4949951171875,0.17034530639648438
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,2,1046.783203125,23.450937271118164,0.15973003208637238
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,3,1385.4620361328125,13.578612327575684,0.19497302174568176
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,4,792.948974609375,12.246552467346191,0.19484686851501465
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,5,2376.774169921875,19.912891387939453,0.13958081603050232
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,6,3443.766357421875,6.83525276184082,0.16473186016082764
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,7,4758.01513671875,15.775250434875488,0.17102184891700745
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,8,5273.056640625,18.222923278808594,0.20150357484817505
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,9,5504.71826171875,13.912355422973633,0.14994782209396362
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,10,8946.75390625,27.583419799804688,0.2244473397731781
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,11,9329.5615234375,3.9111428260803223,0.2052748203277588
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,12,12995.771484375,27.74394989013672,0.15949296951293945
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,13,15682.4140625,22.411916732788086,0.12375704199075699
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,14,18467.279296875,47.92890548706055,0.12223049253225327
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,15,19010.158203125,32.15690994262695,0.11245713382959366
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,16,22840.37109375,31.333602905273438,0.1174137145280838
+Afghanistan,What is the capital of Afghanistan? Answer with only the capital city.,chat_template,17,303.2867126464844,8.748191833496094,0.15047785639762878
+Albania,What is the capital of Albania?,raw_question,0,154.36663818359375,192.4629669189453,0.2564489245414734
+Albania,What is the capital of Albania?,raw_question,1,1067.6204833984375,110.75120544433594,0.1959824115037918
+Albania,What is the capital of Albania?,raw_question,2,1301.2890625,16.35715675354004,0.16093190014362335
+Albania,What is the capital of Albania?,raw_question,3,1604.80859375,13.675591468811035,0.20128723978996277
+Albania,What is the capital of Albania?,raw_question,4,2304.90478515625,10.212458610534668,0.1854267716407776
+Albania,What is the capital of Albania?,raw_question,5,2726.11767578125,20.595186233520508,0.1434028297662735
+Albania,What is the capital of Albania?,raw_question,6,3220.887451171875,8.329994201660156,0.15942621231079102
+Albania,What is the capital of Albania?,raw_question,7,5023.943359375,16.564237594604492,0.16842155158519745
+Albania,What is the capital of Albania?,raw_question,8,5867.91796875,16.393081665039062,0.17027080059051514
+Albania,What is the capital of Albania?,raw_question,9,5264.60498046875,12.18384075164795,0.13286153972148895
+Albania,What is the capital of Albania?,raw_question,10,10455.9306640625,25.401058197021484,0.19926035404205322
+Albania,What is the capital of Albania?,raw_question,11,10781.30859375,3.456592082977295,0.17046689987182617
+Albania,What is the capital of Albania?,raw_question,12,13013.6982421875,26.33754539489746,0.12815174460411072
+Albania,What is the capital of Albania?,raw_question,13,16262.6591796875,25.596290588378906,0.10658122599124908
+Albania,What is the capital of Albania?,raw_question,14,17263.466796875,45.137672424316406,0.10709641873836517
+Albania,What is the capital of Albania?,raw_question,15,18292.259765625,34.06049728393555,0.10003317892551422
+Albania,What is the capital of Albania?,raw_question,16,24758.400390625,39.081878662109375,0.08988101035356522
+Albania,What is the capital of Albania?,raw_question,17,172.5299530029297,10.35899543762207,0.11692796647548676
+Albania,The capital of Albania is,declarative,0,132.79641723632812,157.13429260253906,0.2155168652534485
+Albania,The capital of Albania is,declarative,1,870.1217041015625,133.40304565429688,0.23746415972709656
+Albania,The capital of Albania is,declarative,2,1225.801513671875,21.599843978881836,0.18801680207252502
+Albania,The capital of Albania is,declarative,3,1616.857421875,14.298069953918457,0.21593107283115387
+Albania,The capital of Albania is,declarative,4,2417.263671875,10.389795303344727,0.18123282492160797
+Albania,The capital of Albania is,declarative,5,2815.178955078125,20.961620330810547,0.14657698571681976
+Albania,The capital of Albania is,declarative,6,3529.14697265625,8.655284881591797,0.1660192459821701
+Albania,The capital of Albania is,declarative,7,5617.67431640625,17.227384567260742,0.17192253470420837
+Albania,The capital of Albania is,declarative,8,5478.73046875,16.43155288696289,0.17402249574661255
+Albania,The capital of Albania is,declarative,9,5519.89697265625,14.759847640991211,0.13782542943954468
+Albania,The capital of Albania is,declarative,10,8486.845703125,29.322223663330078,0.1983700394630432
+Albania,The capital of Albania is,declarative,11,9553.5634765625,4.987576961517334,0.196549192070961
+Albania,The capital of Albania is,declarative,12,12401.0478515625,34.84833526611328,0.1620740294456482
+Albania,The capital of Albania is,declarative,13,15396.4970703125,23.552907943725586,0.13294914364814758
+Albania,The capital of Albania is,declarative,14,19345.515625,51.62539291381836,0.12590324878692627
+Albania,The capital of Albania is,declarative,15,20816.375,37.47964859008789,0.10495647042989731
+Albania,The capital of Albania is,declarative,16,23862.435546875,36.60309600830078,0.10721205919981003
+Albania,The capital of Albania is,declarative,17,281.8673400878906,8.96325397491455,0.1365291178226471
+Albania,"Q: What is the capital of Albania?
+A:",qa,0,125.88496398925781,161.79164123535156,0.2842758893966675
+Albania,"Q: What is the capital of Albania?
+A:",qa,1,811.7340087890625,148.88363647460938,0.235122412443161
+Albania,"Q: What is the capital of Albania?
+A:",qa,2,1006.0767822265625,20.859710693359375,0.17379944026470184
+Albania,"Q: What is the capital of Albania?
+A:",qa,3,1804.7469482421875,14.00676155090332,0.22043664753437042
+Albania,"Q: What is the capital of Albania?
+A:",qa,4,2116.559326171875,11.574268341064453,0.17641803622245789
+Albania,"Q: What is the capital of Albania?
+A:",qa,5,3504.328369140625,16.67119026184082,0.1528390645980835
+Albania,"Q: What is the capital of Albania?
+A:",qa,6,3584.80029296875,6.275291919708252,0.153509259223938
+Albania,"Q: What is the capital of Albania?
+A:",qa,7,4921.04931640625,16.046314239501953,0.16247189044952393
+Albania,"Q: What is the capital of Albania?
+A:",qa,8,5405.48681640625,15.338907241821289,0.18991388380527496
+Albania,"Q: What is the capital of Albania?
+A:",qa,9,5162.4931640625,15.0007905960083,0.13600385189056396
+Albania,"Q: What is the capital of Albania?
+A:",qa,10,8233.0283203125,31.078405380249023,0.19030523300170898
+Albania,"Q: What is the capital of Albania?
+A:",qa,11,8613.568359375,5.149439811706543,0.1914716362953186
+Albania,"Q: What is the capital of Albania?
+A:",qa,12,12149.41015625,36.253883361816406,0.15442688763141632
+Albania,"Q: What is the capital of Albania?
+A:",qa,13,14610.294921875,24.428207397460938,0.12091800570487976
+Albania,"Q: What is the capital of Albania?
+A:",qa,14,18615.376953125,47.04600524902344,0.11769711226224899
+Albania,"Q: What is the capital of Albania?
+A:",qa,15,19728.244140625,37.89448165893555,0.0997079461812973
+Albania,"Q: What is the capital of Albania?
+A:",qa,16,25016.998046875,35.78135681152344,0.09664516150951385
+Albania,"Q: What is the capital of Albania?
+A:",qa,17,219.7451171875,10.788337707519531,0.12224642932415009
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,0,171.7183380126953,169.6473846435547,0.20183271169662476
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,1,784.7360229492188,128.5533905029297,0.16983097791671753
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,2,1043.98779296875,23.444602966308594,0.15981528162956238
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,3,1386.5123291015625,13.59327507019043,0.19595086574554443
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,4,785.5180053710938,12.27113151550293,0.19555668532848358
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,5,2381.65625,19.968828201293945,0.13967885076999664
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,6,3475.91259765625,6.753599643707275,0.1644628494977951
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,7,4813.912109375,15.599359512329102,0.16979286074638367
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,8,5297.5732421875,18.345382690429688,0.20003162324428558
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,9,5587.59814453125,14.093621253967285,0.15093617141246796
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,10,9006.3125,26.915184020996094,0.22159314155578613
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,11,9212.103515625,3.8047525882720947,0.20349378883838654
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,12,13067.318359375,30.775014877319336,0.1583481729030609
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,13,15501.50390625,21.65894889831543,0.12993595004081726
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,14,19218.880859375,46.560791015625,0.12749923765659332
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,15,19908.67578125,35.32048034667969,0.1110953539609909
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,16,23403.51953125,29.391193389892578,0.11975233256816864
+Albania,What is the capital of Albania? Answer with only the capital city.,chat_template,17,307.3345947265625,10.009111404418945,0.15194663405418396
+Algeria,What is the capital of Algeria?,raw_question,0,156.3033447265625,192.54067993164062,0.2566165328025818
+Algeria,What is the capital of Algeria?,raw_question,1,1067.6414794921875,104.5130844116211,0.19866104423999786
+Algeria,What is the capital of Algeria?,raw_question,2,1309.095458984375,16.246896743774414,0.16161441802978516
+Algeria,What is the capital of Algeria?,raw_question,3,1594.475341796875,13.594091415405273,0.20111383497714996
+Algeria,What is the capital of Algeria?,raw_question,4,2316.9130859375,10.013879776000977,0.18656381964683533
+Algeria,What is the capital of Algeria?,raw_question,5,2719.45458984375,20.17218589782715,0.14327245950698853
+Algeria,What is the capital of Algeria?,raw_question,6,3245.527099609375,8.391939163208008,0.15846280753612518
+Algeria,What is the capital of Algeria?,raw_question,7,5053.99169921875,16.84896469116211,0.1677604615688324
+Algeria,What is the capital of Algeria?,raw_question,8,5896.75927734375,16.30360221862793,0.17116524279117584
+Algeria,What is the capital of Algeria?,raw_question,9,5324.74658203125,12.082616806030273,0.1327076554298401
+Algeria,What is the capital of Algeria?,raw_question,10,10580.17578125,25.19095230102539,0.19596175849437714
+Algeria,What is the capital of Algeria?,raw_question,11,10987.5927734375,3.4771535396575928,0.17016205191612244
+Algeria,What is the capital of Algeria?,raw_question,12,12818.845703125,26.529762268066406,0.12799707055091858
+Algeria,What is the capital of Algeria?,raw_question,13,16311.4765625,26.20722198486328,0.10684660077095032
+Algeria,What is the capital of Algeria?,raw_question,14,17263.861328125,44.78955078125,0.10765479505062103
+Algeria,What is the capital of Algeria?,raw_question,15,18323.30078125,33.846492767333984,0.10265712440013885
+Algeria,What is the capital of Algeria?,raw_question,16,24956.451171875,39.75244903564453,0.09241009503602982
+Algeria,What is the capital of Algeria?,raw_question,17,162.3059539794922,10.773816108703613,0.11880047619342804
+Algeria,The capital of Algeria is,declarative,0,131.7299041748047,157.37757873535156,0.21589910984039307
+Algeria,The capital of Algeria is,declarative,1,856.2045288085938,126.74040222167969,0.24364382028579712
+Algeria,The capital of Algeria is,declarative,2,1241.02294921875,22.148563385009766,0.19201751053333282
+Algeria,The capital of Algeria is,declarative,3,1622.8385009765625,13.964078903198242,0.21947357058525085
+Algeria,The capital of Algeria is,declarative,4,2380.517333984375,10.049789428710938,0.18004699051380157
+Algeria,The capital of Algeria is,declarative,5,2814.61865234375,20.2827205657959,0.14559796452522278
+Algeria,The capital of Algeria is,declarative,6,3580.260009765625,8.443292617797852,0.1650131642818451
+Algeria,The capital of Algeria is,declarative,7,5646.474609375,17.47863006591797,0.17070670425891876
+Algeria,The capital of Algeria is,declarative,8,5391.0283203125,16.301618576049805,0.17329630255699158
+Algeria,The capital of Algeria is,declarative,9,5555.216796875,14.656314849853516,0.13693732023239136
+Algeria,The capital of Algeria is,declarative,10,8677.9052734375,28.876911163330078,0.19939768314361572
+Algeria,The capital of Algeria is,declarative,11,9930.0927734375,5.015052318572998,0.19729042053222656
+Algeria,The capital of Algeria is,declarative,12,12301.8974609375,36.33076477050781,0.16019123792648315
+Algeria,The capital of Algeria is,declarative,13,15400.21484375,23.781740188598633,0.12997651100158691
+Algeria,The capital of Algeria is,declarative,14,19243.255859375,51.180397033691406,0.1224077045917511
+Algeria,The capital of Algeria is,declarative,15,21508.9296875,36.1722412109375,0.10670904815196991
+Algeria,The capital of Algeria is,declarative,16,25215.888671875,37.52580642700195,0.10859975218772888
+Algeria,The capital of Algeria is,declarative,17,256.2596130371094,10.54901123046875,0.13628000020980835
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,0,125.9061279296875,161.45761108398438,0.28687846660614014
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,1,815.6131591796875,147.93768310546875,0.23970036208629608
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,2,1003.3721313476562,21.516284942626953,0.17637093365192413
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,3,1820.6986083984375,14.11843490600586,0.22018256783485413
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,4,2100.897705078125,11.634997367858887,0.17757897078990936
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,5,3472.660400390625,16.68236541748047,0.15302714705467224
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,6,3688.300048828125,6.15568733215332,0.1524018794298172
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,7,4882.18603515625,16.21065330505371,0.15873989462852478
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,8,5375.7724609375,15.296496391296387,0.1880747377872467
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,9,5136.76953125,14.660979270935059,0.1352895349264145
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,10,8230.8193359375,30.340106964111328,0.18838977813720703
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,11,8803.697265625,5.106662750244141,0.19048723578453064
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,12,11767.7080078125,34.74803161621094,0.1531401127576828
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,13,14404.564453125,26.500751495361328,0.11827406287193298
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,14,18209.91015625,46.50337600708008,0.1162605956196785
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,15,19824.13671875,37.27022171020508,0.09939226508140564
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,16,25724.333984375,35.419437408447266,0.0959058403968811
+Algeria,"Q: What is the capital of Algeria?
+A:",qa,17,176.75341796875,11.910351753234863,0.12043583393096924
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,0,172.0592498779297,169.22203063964844,0.2018444985151291
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,1,791.3779907226562,127.94571685791016,0.17007474601268768
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,2,1054.9171142578125,23.424251556396484,0.15975335240364075
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,3,1385.4549560546875,13.613179206848145,0.1948111355304718
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,4,798.664306640625,12.251199722290039,0.1935221254825592
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,5,2373.8876953125,19.77605628967285,0.1396201103925705
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,6,3458.210693359375,6.763370990753174,0.16372674703598022
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,7,4725.09326171875,15.743484497070312,0.16940884292125702
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,8,5217.0087890625,18.462894439697266,0.19929227232933044
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,9,5503.5654296875,13.683758735656738,0.1494777351617813
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,10,9000.5126953125,27.12604331970215,0.22000963985919952
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,11,9265.494140625,3.745795726776123,0.2044983059167862
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,12,12632.0869140625,31.357322692871094,0.15752093493938446
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,13,15036.0078125,22.579105377197266,0.1292998492717743
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,14,18638.283203125,46.595863342285156,0.12724186480045319
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,15,20538.84765625,34.21696472167969,0.11583466827869415
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,16,25574.712890625,31.41303253173828,0.12354986369609833
+Algeria,What is the capital of Algeria? Answer with only the capital city.,chat_template,17,292.95281982421875,10.103782653808594,0.14995771646499634
+Andorra,What is the capital of Andorra?,raw_question,0,155.638427734375,193.6228790283203,0.25610411167144775
+Andorra,What is the capital of Andorra?,raw_question,1,1070.580078125,108.31080627441406,0.19743573665618896
+Andorra,What is the capital of Andorra?,raw_question,2,1293.2984619140625,17.09017562866211,0.1641932874917984
+Andorra,What is the capital of Andorra?,raw_question,3,1591.3662109375,14.279947280883789,0.19893674552440643
+Andorra,What is the capital of Andorra?,raw_question,4,2456.109375,9.745636940002441,0.18427523970603943
+Andorra,What is the capital of Andorra?,raw_question,5,2771.190673828125,20.70030403137207,0.14450907707214355
+Andorra,What is the capital of Andorra?,raw_question,6,3152.770263671875,8.35772705078125,0.15748877823352814
+Andorra,What is the capital of Andorra?,raw_question,7,4915.73486328125,16.99698829650879,0.16627493500709534
+Andorra,What is the capital of Andorra?,raw_question,8,5696.9921875,16.50929832458496,0.17121350765228271
+Andorra,What is the capital of Andorra?,raw_question,9,5180.74951171875,12.435784339904785,0.13284724950790405
+Andorra,What is the capital of Andorra?,raw_question,10,10386.7998046875,25.228422164916992,0.19836321473121643
+Andorra,What is the capital of Andorra?,raw_question,11,10735.4599609375,3.6422104835510254,0.17054224014282227
+Andorra,What is the capital of Andorra?,raw_question,12,13257.96484375,26.539342880249023,0.1309179812669754
+Andorra,What is the capital of Andorra?,raw_question,13,16063.193359375,27.465314865112305,0.1075369268655777
+Andorra,What is the capital of Andorra?,raw_question,14,17271.25,44.65451431274414,0.1107492744922638
+Andorra,What is the capital of Andorra?,raw_question,15,18448.568359375,37.334537506103516,0.10033942759037018
+Andorra,What is the capital of Andorra?,raw_question,16,25152.009765625,39.84126663208008,0.08894592523574829
+Andorra,What is the capital of Andorra?,raw_question,17,165.22369384765625,10.979703903198242,0.11493276804685593
+Andorra,The capital of Andorra is,declarative,0,132.8133087158203,157.48736572265625,0.21635295450687408
+Andorra,The capital of Andorra is,declarative,1,866.8341064453125,135.75711059570312,0.24148528277873993
+Andorra,The capital of Andorra is,declarative,2,1203.023681640625,22.250818252563477,0.19158443808555603
+Andorra,The capital of Andorra is,declarative,3,1583.9656982421875,15.303730010986328,0.21761757135391235
+Andorra,The capital of Andorra is,declarative,4,2530.46240234375,10.017342567443848,0.18032512068748474
+Andorra,The capital of Andorra is,declarative,5,2924.284912109375,20.228309631347656,0.1480528861284256
+Andorra,The capital of Andorra is,declarative,6,3396.06884765625,9.04177188873291,0.16213400661945343
+Andorra,The capital of Andorra is,declarative,7,5379.51416015625,17.298362731933594,0.16706834733486176
+Andorra,The capital of Andorra is,declarative,8,5362.30859375,16.622243881225586,0.17399263381958008
+Andorra,The capital of Andorra is,declarative,9,5622.77783203125,15.386237144470215,0.1357298642396927
+Andorra,The capital of Andorra is,declarative,10,8514.775390625,29.1391658782959,0.19494271278381348
+Andorra,The capital of Andorra is,declarative,11,9928.8544921875,5.1161603927612305,0.19587922096252441
+Andorra,The capital of Andorra is,declarative,12,12849.03125,35.690181732177734,0.15872403979301453
+Andorra,The capital of Andorra is,declarative,13,15701.7880859375,24.100181579589844,0.12921851873397827
+Andorra,The capital of Andorra is,declarative,14,19837.09765625,50.5202751159668,0.12434519827365875
+Andorra,The capital of Andorra is,declarative,15,21541.701171875,37.64011001586914,0.10486982762813568
+Andorra,The capital of Andorra is,declarative,16,25254.638671875,39.9130744934082,0.10317869484424591
+Andorra,The capital of Andorra is,declarative,17,259.93365478515625,11.731057167053223,0.13076865673065186
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,0,126.22351837158203,161.5758056640625,0.2871059477329254
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,1,808.577880859375,152.27769470214844,0.23997004330158234
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,2,1014.0093994140625,21.17014503479004,0.17606768012046814
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,3,1820.55908203125,14.122027397155762,0.21889309585094452
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,4,2117.052490234375,11.502037048339844,0.1764889359474182
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,5,3492.964599609375,16.725231170654297,0.15232360363006592
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,6,3544.04541015625,6.317060947418213,0.15221287310123444
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,7,4850.9609375,16.001693725585938,0.16045956313610077
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,8,5366.63623046875,15.326692581176758,0.18763749301433563
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,9,5192.50341796875,14.462567329406738,0.13554799556732178
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,10,8258.1171875,30.955141067504883,0.19056569039821625
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,11,8522.61328125,5.128113269805908,0.19339805841445923
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,12,12080.6474609375,37.95128631591797,0.15468375384807587
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,13,14465.7080078125,25.65801239013672,0.11644800007343292
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,14,18245.494140625,44.62038040161133,0.11629742383956909
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,15,19513.763671875,39.5034065246582,0.09621362388134003
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,16,25619.251953125,35.97637939453125,0.09240049123764038
+Andorra,"Q: What is the capital of Andorra?
+A:",qa,17,187.12059020996094,14.789440155029297,0.11513377726078033
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,0,171.79965209960938,169.724609375,0.20167195796966553
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,1,788.0458984375,130.2942352294922,0.1699412614107132
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,2,1051.1767578125,23.533344268798828,0.15910068154335022
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,3,1396.9088134765625,13.568037986755371,0.1946985423564911
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,4,807.7456665039062,12.244832992553711,0.19395385682582855
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,5,2393.335205078125,19.770780563354492,0.13930605351924896
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,6,3446.956787109375,6.730982303619385,0.16395319998264313
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,7,4760.6982421875,15.76507568359375,0.17021405696868896
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,8,5274.1875,18.613271713256836,0.19943898916244507
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,9,5503.8828125,14.320781707763672,0.15068158507347107
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,10,8942.2333984375,26.51833152770996,0.2208670824766159
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,11,8906.48046875,3.9967775344848633,0.2038847655057907
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,12,12327.0546875,31.217905044555664,0.1588321179151535
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,13,14633.7099609375,22.043344497680664,0.1291658878326416
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,14,18622.806640625,46.462852478027344,0.12867656350135803
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,15,19574.609375,33.4103889465332,0.1106574609875679
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,16,24623.5078125,32.09832763671875,0.11941508948802948
+Andorra,What is the capital of Andorra? Answer with only the capital city.,chat_template,17,322.6549072265625,9.79708480834961,0.14978080987930298
+Angola,What is the capital of Angola?,raw_question,0,153.73443603515625,193.1116485595703,0.2566879391670227
+Angola,What is the capital of Angola?,raw_question,1,1067.0177001953125,105.30142974853516,0.19881324470043182
+Angola,What is the capital of Angola?,raw_question,2,1293.2496337890625,16.34830093383789,0.16286075115203857
+Angola,What is the capital of Angola?,raw_question,3,1622.5726318359375,13.688750267028809,0.20223721861839294
+Angola,What is the capital of Angola?,raw_question,4,2300.87353515625,9.956256866455078,0.18646347522735596
+Angola,What is the capital of Angola?,raw_question,5,2716.613525390625,19.79542350769043,0.1451205313205719
+Angola,What is the capital of Angola?,raw_question,6,3174.75830078125,8.301420211791992,0.15747150778770447
+Angola,What is the capital of Angola?,raw_question,7,4997.95263671875,16.74637222290039,0.1680525541305542
+Angola,What is the capital of Angola?,raw_question,8,5931.04150390625,16.25311279296875,0.1719425916671753
+Angola,What is the capital of Angola?,raw_question,9,5384.49365234375,12.100275039672852,0.1333656907081604
+Angola,What is the capital of Angola?,raw_question,10,10520.5244140625,24.86164665222168,0.1959480345249176
+Angola,What is the capital of Angola?,raw_question,11,10783.533203125,3.498532295227051,0.17155174911022186
+Angola,What is the capital of Angola?,raw_question,12,12922.94140625,26.425159454345703,0.12899133563041687
+Angola,What is the capital of Angola?,raw_question,13,16246.36328125,26.183698654174805,0.1068049967288971
+Angola,What is the capital of Angola?,raw_question,14,17164.162109375,44.750064849853516,0.10929654538631439
+Angola,What is the capital of Angola?,raw_question,15,18349.380859375,34.4832649230957,0.10177073627710342
+Angola,What is the capital of Angola?,raw_question,16,24854.966796875,39.8079948425293,0.09046359360218048
+Angola,What is the capital of Angola?,raw_question,17,163.47654724121094,11.041936874389648,0.11766274273395538
+Angola,The capital of Angola is,declarative,0,131.68772888183594,157.17840576171875,0.2156878411769867
+Angola,The capital of Angola is,declarative,1,860.570556640625,127.1646499633789,0.24198545515537262
+Angola,The capital of Angola is,declarative,2,1211.4969482421875,21.959840774536133,0.19249805808067322
+Angola,The capital of Angola is,declarative,3,1631.4278564453125,14.195584297180176,0.22141195833683014
+Angola,The capital of Angola is,declarative,4,2381.6064453125,9.934444427490234,0.1799221634864807
+Angola,The capital of Angola is,declarative,5,2783.261474609375,19.689111709594727,0.14741772413253784
+Angola,The capital of Angola is,declarative,6,3539.067138671875,8.504136085510254,0.16453135013580322
+Angola,The capital of Angola is,declarative,7,5705.58935546875,17.578447341918945,0.1732097864151001
+Angola,The capital of Angola is,declarative,8,5452.3125,16.2620792388916,0.17441114783287048
+Angola,The capital of Angola is,declarative,9,5647.64599609375,14.842799186706543,0.13828596472740173
+Angola,The capital of Angola is,declarative,10,8751.1103515625,28.489429473876953,0.2003244310617447
+Angola,The capital of Angola is,declarative,11,10012.23828125,4.919918537139893,0.19795694947242737
+Angola,The capital of Angola is,declarative,12,13287.7431640625,35.574073791503906,0.1580696552991867
+Angola,The capital of Angola is,declarative,13,15907.4345703125,24.08221435546875,0.12695066630840302
+Angola,The capital of Angola is,declarative,14,19151.26953125,52.56201171875,0.12197673320770264
+Angola,The capital of Angola is,declarative,15,21370.0,36.53510665893555,0.10754580795764923
+Angola,The capital of Angola is,declarative,16,24631.41015625,37.55582809448242,0.1060340404510498
+Angola,The capital of Angola is,declarative,17,256.2947082519531,10.185230255126953,0.13462746143341064
+Angola,"Q: What is the capital of Angola?
+A:",qa,0,125.49528503417969,161.6991729736328,0.286495178937912
+Angola,"Q: What is the capital of Angola?
+A:",qa,1,816.6326904296875,149.4764404296875,0.24046866595745087
+Angola,"Q: What is the capital of Angola?
+A:",qa,2,1004.4615478515625,21.77512550354004,0.17755472660064697
+Angola,"Q: What is the capital of Angola?
+A:",qa,3,1829.044189453125,14.133557319641113,0.22060440480709076
+Angola,"Q: What is the capital of Angola?
+A:",qa,4,2126.08935546875,11.511021614074707,0.17670324444770813
+Angola,"Q: What is the capital of Angola?
+A:",qa,5,3450.54345703125,16.71805191040039,0.1518477201461792
+Angola,"Q: What is the capital of Angola?
+A:",qa,6,3561.639892578125,6.132930755615234,0.15112674236297607
+Angola,"Q: What is the capital of Angola?
+A:",qa,7,4866.2265625,16.25478172302246,0.1603681743144989
+Angola,"Q: What is the capital of Angola?
+A:",qa,8,5382.39013671875,15.153644561767578,0.18910565972328186
+Angola,"Q: What is the capital of Angola?
+A:",qa,9,5172.11328125,14.768510818481445,0.13542664051055908
+Angola,"Q: What is the capital of Angola?
+A:",qa,10,8266.4912109375,30.50499153137207,0.19006198644638062
+Angola,"Q: What is the capital of Angola?
+A:",qa,11,8804.4990234375,5.110422611236572,0.19200538098812103
+Angola,"Q: What is the capital of Angola?
+A:",qa,12,12373.7763671875,32.93304443359375,0.15237629413604736
+Angola,"Q: What is the capital of Angola?
+A:",qa,13,14834.9833984375,25.61393165588379,0.1172780692577362
+Angola,"Q: What is the capital of Angola?
+A:",qa,14,18228.267578125,46.01398468017578,0.11587996780872345
+Angola,"Q: What is the capital of Angola?
+A:",qa,15,20340.76171875,37.435150146484375,0.09879171848297119
+Angola,"Q: What is the capital of Angola?
+A:",qa,16,25859.962890625,36.66062927246094,0.0891093760728836
+Angola,"Q: What is the capital of Angola?
+A:",qa,17,178.9374542236328,11.95815658569336,0.11546622961759567
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,0,172.16490173339844,169.28216552734375,0.20160067081451416
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,1,787.0734252929688,127.9104995727539,0.1699657291173935
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,2,1050.5047607421875,23.51114273071289,0.15956591069698334
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,3,1391.005126953125,13.678409576416016,0.19597890973091125
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,4,798.114501953125,12.293986320495605,0.19473345577716827
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,5,2375.579345703125,19.712003707885742,0.13938622176647186
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,6,3414.534423828125,6.786929130554199,0.16434969007968903
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,7,4726.478515625,15.767691612243652,0.1710854321718216
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,8,5216.70263671875,18.41326332092285,0.20113074779510498
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,9,5473.73828125,13.863374710083008,0.1506601870059967
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,10,9001.76171875,27.138996124267578,0.22156274318695068
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,11,9303.93359375,3.701237440109253,0.20363499224185944
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,12,13610.716796875,29.027265548706055,0.15600304305553436
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,13,15817.267578125,22.470943450927734,0.12555775046348572
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,14,18291.107421875,47.79938507080078,0.1254415661096573
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,15,20864.970703125,35.521080017089844,0.11484117805957794
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,16,25124.919921875,32.54753494262695,0.11531566083431244
+Angola,What is the capital of Angola? Answer with only the capital city.,chat_template,17,295.2069091796875,9.274845123291016,0.14633703231811523

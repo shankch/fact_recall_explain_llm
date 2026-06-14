@@ -1,0 +1,24 @@
+model_dir: models/gemma-3-270m-it
+output_root: artifacts/results/passive_default
+seed: 13
+batch_size: 1
+max_examples: 24
+max_paraphrases: 2
+max_salience_examples: 6
+max_patch_examples: 12
+max_new_tokens: 6
+metric_set:
+  - target_rank
+  - target_margin
+  - exact_match
+component_granularity:
+  - layer
+  - attention
+  - mlp
+  - head
+intervention_types:
+  - ablation
+  - activation_patching
+  - weight_zeroing
+dtype: auto
+require_cuda: false

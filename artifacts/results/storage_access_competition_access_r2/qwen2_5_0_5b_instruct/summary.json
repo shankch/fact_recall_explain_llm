@@ -1,0 +1,17 @@
+{
+  "model_name": "qwen2_5_0_5b_instruct",
+  "model_family": "qwen",
+  "model_variant": "instruct",
+  "num_prompts": 360,
+  "subject_invariance_depth_mean": 0.4666666666666667,
+  "preanswer_invariance_depth_mean": 20.733333333333334,
+  "artifacts": {
+    "profiles": "artifacts/results/storage_access_competition_access_r2/qwen2_5_0_5b_instruct/activation_profiles.jsonl",
+    "layer_similarity_summary": "artifacts/results/storage_access_competition_access_r2/qwen2_5_0_5b_instruct/layer_similarity_summary.csv",
+    "fact_layer_similarity": "artifacts/results/storage_access_competition_access_r2/qwen2_5_0_5b_instruct/fact_layer_similarity.csv",
+    "fact_invariance_summary": "artifacts/results/storage_access_competition_access_r2/qwen2_5_0_5b_instruct/fact_invariance_summary.csv",
+    "control_variant_summary": "artifacts/results/storage_access_competition_access_r2/qwen2_5_0_5b_instruct/control_variant_summary.csv",
+    "subject_dynamics_png": "artifacts/results/storage_access_competition_access_r2/qwen2_5_0_5b_instruct/subject_dynamics.png",
+    "preanswer_dynamics_png": "artifacts/results/storage_access_competition_access_r2/qwen2_5_0_5b_instruct/preanswer_dynamics.png"
+  }
+}

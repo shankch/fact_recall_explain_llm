@@ -1,0 +1,187 @@
+{
+  "headquarters": [
+    {
+      "subject": "Apple",
+      "object": "Cupertino",
+      "aliases": [
+        "Cupertino",
+        "Cupertino, California"
+      ]
+    },
+    {
+      "subject": "Microsoft",
+      "object": "Redmond",
+      "aliases": [
+        "Redmond",
+        "Redmond, Washington"
+      ]
+    },
+    {
+      "subject": "Amazon",
+      "object": "Seattle",
+      "aliases": [
+        "Seattle",
+        "Seattle, Washington"
+      ]
+    },
+    {
+      "subject": "Meta",
+      "object": "Menlo Park",
+      "aliases": [
+        "Menlo Park",
+        "Menlo Park, California"
+      ]
+    },
+    {
+      "subject": "NVIDIA",
+      "object": "Santa Clara",
+      "aliases": [
+        "Santa Clara",
+        "Santa Clara, California"
+      ]
+    },
+    {
+      "subject": "IBM",
+      "object": "Armonk",
+      "aliases": [
+        "Armonk",
+        "Armonk, New York"
+      ]
+    },
+    {
+      "subject": "Tesla",
+      "object": "Austin",
+      "aliases": [
+        "Austin",
+        "Austin, Texas"
+      ]
+    },
+    {
+      "subject": "Sony",
+      "object": "Tokyo",
+      "aliases": [
+        "Tokyo"
+      ]
+    },
+    {
+      "subject": "Samsung",
+      "object": "Seoul",
+      "aliases": [
+        "Seoul"
+      ]
+    },
+    {
+      "subject": "SAP",
+      "object": "Walldorf",
+      "aliases": [
+        "Walldorf"
+      ]
+    },
+    {
+      "subject": "Toyota",
+      "object": "Toyota City",
+      "aliases": [
+        "Toyota City"
+      ]
+    },
+    {
+      "subject": "Intel",
+      "object": "Santa Clara",
+      "aliases": [
+        "Santa Clara",
+        "Santa Clara, California"
+      ]
+    }
+  ],
+  "birth_place": [
+    {
+      "subject": "Barack Obama",
+      "object": "Honolulu",
+      "aliases": [
+        "Honolulu",
+        "Honolulu, Hawaii"
+      ]
+    },
+    {
+      "subject": "Taylor Swift",
+      "object": "West Reading",
+      "aliases": [
+        "West Reading",
+        "West Reading, Pennsylvania"
+      ]
+    },
+    {
+      "subject": "Cristiano Ronaldo",
+      "object": "Funchal",
+      "aliases": [
+        "Funchal"
+      ]
+    },
+    {
+      "subject": "Lionel Messi",
+      "object": "Rosario",
+      "aliases": [
+        "Rosario"
+      ]
+    },
+    {
+      "subject": "Elon Musk",
+      "object": "Pretoria",
+      "aliases": [
+        "Pretoria"
+      ]
+    },
+    {
+      "subject": "Adele",
+      "object": "London",
+      "aliases": [
+        "London"
+      ]
+    },
+    {
+      "subject": "Shakira",
+      "object": "Barranquilla",
+      "aliases": [
+        "Barranquilla"
+      ]
+    },
+    {
+      "subject": "Marie Curie",
+      "object": "Warsaw",
+      "aliases": [
+        "Warsaw"
+      ]
+    },
+    {
+      "subject": "Bill Gates",
+      "object": "Seattle",
+      "aliases": [
+        "Seattle",
+        "Seattle, Washington"
+      ]
+    },
+    {
+      "subject": "Steve Jobs",
+      "object": "San Francisco",
+      "aliases": [
+        "San Francisco",
+        "San Francisco, California"
+      ]
+    },
+    {
+      "subject": "Emma Watson",
+      "object": "Paris",
+      "aliases": [
+        "Paris"
+      ]
+    },
+    {
+      "subject": "Serena Williams",
+      "object": "Saginaw",
+      "aliases": [
+        "Saginaw",
+        "Saginaw, Michigan"
+      ]
+    }
+  ]
+}

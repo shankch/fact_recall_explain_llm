@@ -1,0 +1,17 @@
+{
+  "num_prompts": 100,
+  "mean_exact_match": 0.0,
+  "mean_target_rank": 174.19,
+  "mean_target_margin": -10.01,
+  "strongest_shared_layer": 0,
+  "artifacts": {
+    "profiles": "artifacts/results/capital_study/capital_prompt_profiles.jsonl",
+    "metrics": "artifacts/results/capital_study/capital_prompt_metrics.csv",
+    "norms": "artifacts/results/capital_study/capital_layer_component_norms.csv",
+    "heatmap_csv": "artifacts/results/capital_study/capital_top_neuron_heatmap.csv",
+    "neuron_summary": "artifacts/results/capital_study/capital_neuron_summary.csv",
+    "prompt_heatmap_png": "artifacts/results/capital_study/capital_prompt_neuron_heatmap.png",
+    "layer_heatmap_png": "artifacts/results/capital_study/capital_layer_hidden_heatmap.png",
+    "component_profile_png": "artifacts/results/capital_study/capital_architecture_component_profile.png"
+  }
+}

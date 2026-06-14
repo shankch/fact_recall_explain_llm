@@ -1,0 +1,9 @@
+{
+  "prompt_metrics_path": "artifacts/results/passive_default/prompt_metrics.csv",
+  "hidden_features_path": "artifacts/results/passive_default/hidden_features.jsonl",
+  "probe_results_path": "artifacts/results/passive_default/probe_results.csv",
+  "salience_path": "artifacts/results/passive_default/salience.csv",
+  "similarity_path": "artifacts/results/passive_default/paraphrase_similarity.csv",
+  "mean_target_rank": 1891.5208333333333,
+  "mean_exact_match": 0.07291666666666667
+}

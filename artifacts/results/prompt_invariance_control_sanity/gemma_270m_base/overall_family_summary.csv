@@ -1,0 +1,5 @@
+prompt_family,target_rank,target_margin,full_exact_match,contains_expected,answer_f1,answer_similarity
+chat_template,65.0,-2.40625,0.25,0.25,0.25,0.48218201754385964
+declarative,1.25,0.5625,0.0,0.75,0.20535714285714285,0.258436222721937
+qa,7.75,-1.3125,0.0,0.25,0.0625,0.1928030303030303
+raw_question,125.5,-5.671875,0.0,0.0,0.0,0.19909722222222223

@@ -1,0 +1,315 @@
+model_name,model_family,model_variant,fact_id,relation,subject,expected_answer,prompt_family,split,generated_text,normalized_generated_text,top_prediction,target_rank,target_margin,full_exact_match,contains_expected,answer_f1,answer_similarity,same_subject_control_fact_id,same_relation_control_fact_id,lexical_distractor
+gemma_270m_base,gemma,base,capital:0,capital,Afghanistan,Kabul,raw_question,analysis,"What is the capital of Afghanistan?
+
+What",what is the capital of afghanistan? what,"
+
+",9,-3.6875,0.0,0.0,0.0,0.08888888888888889,official_language:0,capital:1,Tirana
+gemma_270m_base,gemma,base,capital:0,capital,Afghanistan,Kabul,declarative,analysis,"Kabul, the capital of the country. The capital",kabul the capital of the country the capital,Kabul,1,1.25,0.0,1.0,0.2222222222222222,0.20408163265306123,official_language:0,capital:1,Tirana
+gemma_270m_base,gemma,base,capital:0,capital,Afghanistan,Kabul,qa,analysis,Afghanistan is a country in Central Asia. It is,fghanistan is a country in central asia it is,Afghanistan,3,-1.375,0.0,0.0,0.0,0.12,official_language:0,capital:1,Tirana
+gemma_270m_base,gemma,base,capital:0,capital,Afghanistan,Kabul,chat_template,analysis,"The capital of Afghanistan is Kabul.
+User:",kabul user,The,3,-0.5625,0.0,1.0,0.6666666666666666,0.6666666666666666,official_language:0,capital:1,Tirana
+gemma_270m_base,gemma,base,capital:1,capital,Albania,Tirana,raw_question,analysis,Albania is a country in the Balkans.,lbania is a country in the balkans,"
+
+",51,-6.4375,0.0,0.0,0.0,0.15,official_language:1,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:1,capital,Albania,Tirana,declarative,analysis,"Tirana, which is located in the north of",tirana which is located in the north of,Tir,1,0.25,0.0,1.0,0.2222222222222222,0.26666666666666666,official_language:1,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:1,capital,Albania,Tirana,qa,analysis,Albania is a country in the Balkans. It is,lbania is a country in the balkans it is,Albania,8,-3.75,0.0,0.0,0.0,0.13043478260869565,official_language:1,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:1,capital,Albania,Tirana,chat_template,analysis,"Albania is the capital of Albania.
+User:",lbania is the capital of albania user,Albania,64,-4.25,0.0,0.0,0.0,0.13953488372093023,official_language:1,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:2,capital,Algeria,Algiers,raw_question,analysis,Algeria is a country in North Africa.,lgeria is a country in north africa,"
+
+",28,-5.75,0.0,0.0,0.0,0.23809523809523808,official_language:2,capital:0,Andorra la Vella
+gemma_270m_base,gemma,base,capital:2,capital,Algeria,Algiers,declarative,analysis,the capital of the country of Algeria. It is,the capital of the country of algeria it is,the,3,-1.25,0.0,0.0,0.0,0.24,official_language:2,capital:0,Andorra la Vella
+gemma_270m_base,gemma,base,capital:2,capital,Algeria,Algiers,qa,analysis,Algeria is a country in North Africa. It is,lgeria is a country in north africa it is,Algeria,5,-3.375,0.0,0.0,0.0,0.20833333333333334,official_language:2,capital:0,Andorra la Vella
+gemma_270m_base,gemma,base,capital:2,capital,Algeria,Algiers,chat_template,analysis,"The capital of Algeria is Algiers.
+User",lgiers user,The,23,-2.875,0.0,0.0,0.0,0.6666666666666666,official_language:2,capital:0,Andorra la Vella
+gemma_270m_base,gemma,base,capital:3,capital,Andorra,Andorra la Vella,raw_question,analysis,The capital of Andorra is Andorra la Vella,ndorra la vella,"
+
+",2,-0.625,0.0,0.0,0.6666666666666666,0.967741935483871,official_language:3,capital:0,Algiers
+gemma_270m_base,gemma,base,capital:3,capital,Andorra,Andorra la Vella,declarative,analysis,the capital of Andorra. It is located in the,the capital of andorra it is located in the,the,3,-0.625,0.0,0.0,0.16666666666666666,0.3728813559322034,official_language:3,capital:0,Algiers
+gemma_270m_base,gemma,base,capital:3,capital,Andorra,Andorra la Vella,qa,analysis,Andorra is a country in the south of Spain.,ndorra is a country in the south of spain,Andorra,1,2.875,0.0,0.0,0.0,0.38596491228070173,official_language:3,capital:0,Algiers
+gemma_270m_base,gemma,base,capital:3,capital,Andorra,Andorra la Vella,chat_template,analysis,"Andorra is the capital of Andorra.
+User:",ndorra is the capital of andorra user,Andorra,1,1.125,0.0,0.0,0.2,0.33962264150943394,official_language:3,capital:0,Algiers
+gemma_270m_base,gemma,base,capital:4,capital,Angola,Luanda,raw_question,analysis,"What is the capital of Angola?
+
+What",what is the capital of angola? what,"
+
+",30,-6.0,0.0,0.0,0.0,0.1951219512195122,official_language:4,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:4,capital,Angola,Luanda,declarative,analysis,the capital of the country of Angola. It is,the capital of the country of angola it is,the,7,-2.0,0.0,0.0,0.0,0.20833333333333334,official_language:4,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:4,capital,Angola,Luanda,qa,analysis,Angola is a country in the South-West of,ngola is a country in the south-west of,Angola,6,-3.0625,0.0,0.0,0.0,0.08888888888888889,official_language:4,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:4,capital,Angola,Luanda,chat_template,analysis,"Angola is the capital of Angola.
+User:",ngola is the capital of angola user,Angola,29,-3.4375,0.0,0.0,0.0,0.1951219512195122,official_language:4,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:5,capital,Antigua and Barbuda,Saint John's,raw_question,analysis,Antigua and Barbuda is a British Overseas Territory in,ntigua and barbuda is a british overseas territory in,Antigua,172,-8.4375,0.0,0.0,0.0,0.15384615384615385,official_language:5,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:5,capital,Antigua and Barbuda,Saint John's,declarative,analysis,"a small, but beautiful island in the Caribbean.",small but beautiful island in the caribbean,a,226,-6.5,0.0,0.0,0.0,0.18181818181818182,official_language:5,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:5,capital,Antigua and Barbuda,Saint John's,qa,analysis,Antigua and Barbuda is a British colony in the,ntigua and barbuda is a british colony in the,Antigua,38,-7.75,0.0,0.0,0.0,0.17543859649122806,official_language:5,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:5,capital,Antigua and Barbuda,Saint John's,chat_template,analysis,Antigua and Barbuda is the capital of Antigua and,ntigua and barbuda is the capital of antigua and,Antigua,149,-6.625,0.0,0.0,0.0,0.16666666666666666,official_language:5,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:6,capital,Argentina,Buenos Aires,raw_question,holdout,"What is the capital of Argentina?
+
+What",what is the capital of argentina? what,"
+
+",8,-3.375,0.0,0.0,0.0,0.12,official_language:6,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:6,capital,Argentina,Buenos Aires,declarative,holdout,Buenos Aires. It is the largest city in Argentina,buenos aires it is the largest city in argentina,Buenos,1,0.875,0.0,1.0,0.3636363636363636,0.4,official_language:6,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:6,capital,Argentina,Buenos Aires,qa,holdout,Argentina is a country in South America. It is,rgentina is a country in south america it is,Argentina,2,0.0,0.0,0.0,0.0,0.25,official_language:6,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:6,capital,Argentina,Buenos Aires,chat_template,holdout,"Buenos Aires.
+User: Buenos Aires is the",buenos aires user buenos aires is the,Buenos,1,0.75,0.0,1.0,0.4444444444444445,0.4897959183673469,official_language:6,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:7,capital,Armenia,Yerevan,raw_question,holdout,"What is the capital of Armenia?
+
+What",what is the capital of armenia? what,"
+
+",11,-3.75,0.0,0.0,0.0,0.09302325581395349,official_language:7,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:7,capital,Armenia,Yerevan,declarative,holdout,Yerevan. It is the capital of the Republic of,yerevan it is the capital of the republic of,Yerevan,1,1.125,0.0,1.0,0.19999999999999998,0.27450980392156865,official_language:7,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:7,capital,Armenia,Yerevan,qa,holdout,Armenia is a country in the Caucasus region of the,rmenia is a country in the caucasus region of the,Armenia,3,-0.375,0.0,0.0,0.0,0.14285714285714285,official_language:7,capital:0,Kabul
+gemma_270m_base,gemma,base,capital:7,capital,Armenia,Yerevan,chat_template,holdout,"Armenia is the capital of Armenia.
+User:",rmenia is the capital of armenia user,Armenia,3,-0.5625,0.0,0.0,0.0,0.09090909090909091,official_language:7,capital:0,Kabul
+gemma_270m_base,gemma,base,official_language:0,official_language,Afghanistan,Dari,raw_question,analysis,What is the official language of Afghanistan?,what is the official language of afghanistan?,"
+
+",436,-9.9375,0.0,0.0,0.0,0.11764705882352941,capital:0,official_language:1,Albanian
+gemma_270m_base,gemma,base,official_language:0,official_language,Afghanistan,Dari,declarative,analysis,the Afghan language. The Afghan language is spoken by,the afghan language the afghan language is spoken by,the,2,-0.9375,0.0,0.0,0.0,0.1694915254237288,capital:0,official_language:1,Albanian
+gemma_270m_base,gemma,base,official_language:0,official_language,Afghanistan,Dari,qa,analysis,"The official language of Afghanistan is Dari.
+
+Q",the official language of afghanistan is dari q,The,19,-3.4375,0.0,1.0,0.2222222222222222,0.16,capital:0,official_language:1,Albanian
+gemma_270m_base,gemma,base,official_language:0,official_language,Afghanistan,Dari,chat_template,analysis,I am not sure. I have no idea.,i am not sure i have no idea,I,192,-5.3125,0.0,0.0,0.0,0.2857142857142857,capital:0,official_language:1,Albanian
+gemma_270m_base,gemma,base,official_language:1,official_language,Albania,Albanian,raw_question,analysis,Albanian is a language of the Albanian language,lbanian is a language of the albanian language,"
+
+",6,-2.625,0.0,1.0,0.2222222222222222,0.2962962962962963,capital:1,official_language:0,Arabic
+gemma_270m_base,gemma,base,official_language:1,official_language,Albania,Albanian,declarative,analysis,Albanian. Albanian is the official language of Albania.,lbanian albanian is the official language of albania,Albanian,1,1.6875,0.0,1.0,0.2222222222222222,0.26666666666666666,capital:1,official_language:0,Arabic
+gemma_270m_base,gemma,base,official_language:1,official_language,Albania,Albanian,qa,analysis,Albanian is a national language. It is spoken by,lbanian is a national language it is spoken by,Albanian,1,3.3125,0.0,0.0,0.0,0.25925925925925924,capital:1,official_language:0,Arabic
+gemma_270m_base,gemma,base,official_language:1,official_language,Albania,Albanian,chat_template,analysis,"Albanian.
+User: What is the official language",lbanian user what is the official language,Albanian,1,0.5,0.0,0.0,0.0,0.28,capital:1,official_language:0,Arabic
+gemma_270m_base,gemma,base,official_language:2,official_language,Algeria,Arabic,raw_question,analysis,What is the official language of Algeria?,what is the official language of algeria?,"
+
+",36,-5.625,0.0,0.0,0.0,0.1276595744680851,capital:2,official_language:0,Albanian
+gemma_270m_base,gemma,base,official_language:2,official_language,Algeria,Arabic,declarative,analysis,Arabic. It is the official language of the country,rabic it is the official language of the country,Arabic,1,0.25,0.0,0.0,0.0,0.18518518518518517,capital:2,official_language:0,Albanian
+gemma_270m_base,gemma,base,official_language:2,official_language,Algeria,Arabic,qa,analysis,"Arabic is the official language of Algeria.
+
+Q",rabic is the official language of algeria q,Arabic,1,0.125,0.0,0.0,0.0,0.20408163265306123,capital:2,official_language:0,Albanian
+gemma_270m_base,gemma,base,official_language:2,official_language,Algeria,Arabic,chat_template,analysis,I am not sure. I think it is French,i am not sure i think it is french,I,29,-2.6875,0.0,0.0,0.0,0.1,capital:2,official_language:0,Albanian
+gemma_270m_base,gemma,base,official_language:3,official_language,Andorra,Catalan,raw_question,analysis,The official language of Andorra is French.,the official language of andorra is french,"
+
+",94,-7.5,0.0,0.0,0.0,0.20408163265306123,capital:3,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:3,official_language,Andorra,Catalan,declarative,analysis,"Spanish.
+
+The official language of Andorra is Spanish",spanish the official language of andorra is spanish,Spanish,3,-0.1875,0.0,0.0,0.0,0.20689655172413793,capital:3,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:3,official_language,Andorra,Catalan,qa,analysis,Andorra is a country in the south of Spain.,ndorra is a country in the south of spain,Andorra,14,-4.5,0.0,0.0,0.0,0.041666666666666664,capital:3,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:3,official_language,Andorra,Catalan,chat_template,analysis,Andorra is a country in the region of the Py,ndorra is a country in the region of the py,Andorra,71,-4.5,0.0,0.0,0.0,0.04,capital:3,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:4,official_language,Angola,Portuguese,raw_question,analysis,Angola is a country in South-West,ngola is a country in south-west,"
+
+",42,-5.75,0.0,0.0,0.0,0.19047619047619047,capital:4,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:4,official_language,Angola,Portuguese,declarative,analysis,the Angolan language. It is the official language,the angolan language it is the official language,the,2,-0.5625,0.0,0.0,0.0,0.20689655172413793,capital:4,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:4,official_language,Angola,Portuguese,qa,analysis,"The official language of Angola is Portuguese.
+
+Q",the official language of angola is portuguese q,The,2,-0.125,0.0,1.0,0.2222222222222222,0.3508771929824561,capital:4,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:4,official_language,Angola,Portuguese,chat_template,analysis,"I am a native Angolan speaker.
+User",i am a native angolan speaker user,I,18,-2.1875,0.0,0.0,0.0,0.18181818181818182,capital:4,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:5,official_language,Antigua and Barbuda,English,raw_question,analysis,The official language of Antigua and Barbuda is,the official language of antigua and barbuda is,"
+
+",25,-4.75,0.0,0.0,0.0,0.18518518518518517,capital:5,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:5,official_language,Antigua and Barbuda,English,declarative,analysis,"English.
+
+The official language of Antigua and Barb",english the official language of antigua and barb,English,1,0.125,0.0,1.0,0.2222222222222222,0.25,capital:5,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:5,official_language,Antigua and Barbuda,English,qa,analysis,"English
+
+Q: What is the official language of",english q what is the official language of,English,1,0.875,0.0,1.0,0.2222222222222222,0.2857142857142857,capital:5,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:5,official_language,Antigua and Barbuda,English,chat_template,analysis,I am not sure. I think it is the,i am not sure i think it is the,I,13,-1.75,0.0,0.0,0.0,0.21052631578947367,capital:5,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:6,official_language,Argentina,Guaraní,raw_question,holdout,What is the official language of Argentina?,what is the official language of argentina?,"
+
+",40,-5.625,0.0,0.0,0.0,0.2,capital:6,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:6,official_language,Argentina,Guaraní,declarative,holdout,the Argentine language. It is the official language of,the argentine language it is the official language of,the,2,-0.5625,0.0,0.0,0.0,0.16666666666666666,capital:6,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:6,official_language,Argentina,Guaraní,qa,holdout,"The official language of Argentina is Spanish.
+
+Q",the official language of argentina is spanish q,The,2,0.0,0.0,1.0,0.2222222222222222,0.25925925925925924,capital:6,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:6,official_language,Argentina,Guaraní,chat_template,holdout,"I am a native Argentinian speaker.
+User",i am a native argentinian speaker user,I,17,-2.0625,0.0,0.0,0.0,0.17777777777777778,capital:6,official_language:0,Dari
+gemma_270m_base,gemma,base,official_language:7,official_language,Armenia,Armenian,raw_question,holdout,The official language of Armenia is Armenian.,the official language of armenia is armenian,"
+
+",19,-4.25,0.0,1.0,0.25,0.3076923076923077,capital:7,official_language:0,Albanian
+gemma_270m_base,gemma,base,official_language:7,official_language,Armenia,Armenian,declarative,holdout,the Armenian language. The Armenian language is spoken in,the armenian language the armenian language is spoken in,the,2,-0.1875,0.0,1.0,0.19999999999999998,0.25,capital:7,official_language:0,Albanian
+gemma_270m_base,gemma,base,official_language:7,official_language,Armenia,Armenian,qa,holdout,"Armenian is the official language of Armenia.
+
+Q",rmenian is the official language of armenia q,Armenian,1,0.875,0.0,0.0,0.0,0.2641509433962264,capital:7,official_language:0,Albanian
+gemma_270m_base,gemma,base,official_language:7,official_language,Armenia,Armenian,chat_template,holdout,"I am Armenian.
+User: What is the",i am armenian user what is the,I,4,-0.6875,0.0,1.0,0.25,0.42105263157894735,capital:7,official_language:0,Albanian
+gemma_270m_base,gemma,base,currency:0,currency,Afghanistan,Afghan afghani,raw_question,analysis,Afghanistan is a country in the Central Asian region,fghanistan is a country in the central asian region,"
+
+",20,-4.9375,0.0,0.0,0.0,0.18461538461538463,capital:0,currency:1,Albanian lek
+gemma_270m_base,gemma,base,currency:0,currency,Afghanistan,Afghan afghani,declarative,analysis,"the Afghani.
+
+The Afghani is a",the afghani the afghani is a,the,9,-3.3125,0.0,0.0,0.25,0.42857142857142855,capital:0,currency:1,Albanian lek
+gemma_270m_base,gemma,base,currency:0,currency,Afghanistan,Afghan afghani,qa,analysis,The currency of Afghanistan is the Afghani.,the afghani,The,3,-1.8125,0.0,0.0,0.5,0.72,capital:0,currency:1,Albanian lek
+gemma_270m_base,gemma,base,currency:0,currency,Afghanistan,Afghan afghani,chat_template,analysis,The currency of Afghanistan is the Afghani.,the afghani,The,13,-1.875,0.0,0.0,0.5,0.72,capital:0,currency:1,Albanian lek
+gemma_270m_base,gemma,base,currency:1,currency,Albania,Albanian lek,raw_question,analysis,Albania is a country in the Balkans.,lbania is a country in the balkans,"
+
+",9,-3.625,0.0,0.0,0.0,0.43478260869565216,capital:1,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:1,currency,Albania,Albanian lek,declarative,analysis,"the Albanian Lira (Lira).
+
+The",the albanian lira lira the,the,6,-4.25,0.0,0.0,0.28571428571428575,0.5789473684210527,capital:1,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:1,currency,Albania,Albanian lek,qa,analysis,"Albanian currency is the Albanian Lira.
+Q",lbanian currency is the albanian lira q,Albanian,1,0.5,0.0,0.0,0.22222222222222224,0.39215686274509803,capital:1,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:1,currency,Albania,Albanian lek,chat_template,analysis,"Albania is a country in the Balkans.
+User",lbania is a country in the balkans user,Albania,5,-0.8125,0.0,0.0,0.0,0.39215686274509803,capital:1,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:2,currency,Algeria,Algerian dinar,raw_question,analysis,Algeria is a country in North Africa.,lgeria is a country in north africa,"
+
+",20,-5.0,0.0,0.0,0.0,0.40816326530612246,capital:2,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:2,currency,Algeria,Algerian dinar,declarative,analysis,"the franc.
+
+The Algerian franc is the official",the franc the algerian franc is the official,the,34,-5.9375,0.0,0.0,0.2,0.3448275862068966,capital:2,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:2,currency,Algeria,Algerian dinar,qa,analysis,The Algerian franc is the official currency of Algeria.,the algerian franc is the official currency of algeria,The,3,-1.25,0.0,0.0,0.1818181818181818,0.29411764705882354,capital:2,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:2,currency,Algeria,Algerian dinar,chat_template,analysis,"Algeria is a country in North Africa.
+User",lgeria is a country in north africa user,Algeria,8,-1.6875,0.0,0.0,0.0,0.37037037037037035,capital:2,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:3,currency,Andorra,euro,raw_question,analysis,The currency of Andorra is the Euro.,the euro,"
+
+",2457,-13.125,0.0,1.0,0.6666666666666666,0.6666666666666666,capital:3,currency:0,Eastern Caribbean dollar
+gemma_270m_base,gemma,base,currency:3,currency,Andorra,euro,declarative,analysis,the Euro. Andorra is a country in the region,the euro andorra is a country in the region,the,12,-5.1875,0.0,1.0,0.19999999999999998,0.1702127659574468,capital:3,currency:0,Eastern Caribbean dollar
+gemma_270m_base,gemma,base,currency:3,currency,Andorra,euro,qa,analysis,Andorra is a country in the south of Spain.,ndorra is a country in the south of spain,Andorra,141,-7.9375,0.0,0.0,0.0,0.044444444444444446,capital:3,currency:0,Eastern Caribbean dollar
+gemma_270m_base,gemma,base,currency:3,currency,Andorra,euro,chat_template,analysis,Andorra is a country in the region of Andorra.,ndorra is a country in the region of andorra,Andorra,264,-7.25,0.0,0.0,0.0,0.041666666666666664,capital:3,currency:0,Eastern Caribbean dollar
+gemma_270m_base,gemma,base,currency:4,currency,Angola,Angolan kwanza,raw_question,analysis,Angola is a country in the South-,ngola is a country in the south-,"
+
+",20,-5.375,0.0,0.0,0.0,0.30434782608695654,capital:4,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:4,currency,Angola,Angolan kwanza,declarative,analysis,"the US dollar.
+
+The currency of Angola is",the us dollar the currency of angola is,the,4,-4.75,0.0,0.0,0.0,0.2641509433962264,capital:4,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:4,currency,Angola,Angolan kwanza,qa,analysis,The currency of Angola is the US dollar.,the us dollar,The,4,-2.125,0.0,0.0,0.0,0.2222222222222222,capital:4,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:4,currency,Angola,Angolan kwanza,chat_template,analysis,"The currency of Angola is the dollar.
+User",the dollar user,The,17,-2.375,0.0,0.0,0.0,0.27586206896551724,capital:4,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:5,currency,Antigua and Barbuda,Eastern Caribbean dollar,raw_question,analysis,The currency of Antigua and Barbuda is the,the,"
+
+",1085,-11.6875,0.0,0.0,0.0,0.14814814814814814,capital:5,currency:0,euro
+gemma_270m_base,gemma,base,currency:5,currency,Antigua and Barbuda,Eastern Caribbean dollar,declarative,analysis,"the US dollar.
+
+The currency of Antigua and",the us dollar the currency of antigua and,the,1517,-11.8125,0.0,0.0,0.18181818181818182,0.3076923076923077,capital:5,currency:0,euro
+gemma_270m_base,gemma,base,currency:5,currency,Antigua and Barbuda,Eastern Caribbean dollar,qa,analysis,The currency of Antigua and Barbuda is the US,the us,The,415,-8.375,0.0,0.0,0.0,0.2,capital:5,currency:0,euro
+gemma_270m_base,gemma,base,currency:5,currency,Antigua and Barbuda,Eastern Caribbean dollar,chat_template,analysis,Antigua and Barbuda is a country in the Caribbean,ntigua and barbuda is a country in the caribbean,Antigua,670,-8.0625,0.0,0.0,0.16666666666666666,0.3055555555555556,capital:5,currency:0,euro
+gemma_270m_base,gemma,base,currency:6,currency,Argentina,Argentine peso,raw_question,holdout,"What is the currency of Argentina?
+
+What",what is the currency of argentina? what,"
+
+",45,-6.5,0.0,0.0,0.0,0.33962264150943394,capital:6,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:6,currency,Argentina,Argentine peso,declarative,holdout,the Argentine peso (ARG). The currency of Argentina,the argentine peso arg the currency of argentina,the,12,-4.625,0.0,1.0,0.4,0.45161290322580644,capital:6,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:6,currency,Argentina,Argentine peso,qa,holdout,"The Argentine currency is the Argentine peso.
+Q",the argentine currency is the argentine peso q,The,3,-1.25,0.0,1.0,0.4,0.4666666666666667,capital:6,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:6,currency,Argentina,Argentine peso,chat_template,holdout,The currency of Argentina is the Argentine peso.,the argentine peso,The,15,-2.125,0.0,1.0,0.8,0.875,capital:6,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:7,currency,Armenia,Armenian dram,raw_question,holdout,The currency of Armenia is the Armenian dram.,the armenian dram,"
+
+",21,-4.875,0.0,1.0,0.8,0.8666666666666667,capital:7,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:7,currency,Armenia,Armenian dram,declarative,holdout,"the Armenian dram.
+
+The currency of Armenia is",the armenian dram the currency of armenia is,the,15,-4.875,0.0,1.0,0.4,0.45614035087719296,capital:7,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:7,currency,Armenia,Armenian dram,qa,holdout,"The Armenian currency is the Armenian dram.
+Q",the armenian currency is the armenian dram q,The,2,-0.5625,0.0,1.0,0.4,0.45614035087719296,capital:7,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,currency:7,currency,Armenia,Armenian dram,chat_template,holdout,Armenia is a country in the Caucasus region of the,rmenia is a country in the caucasus region of the,Armenia,6,-1.0,0.0,0.0,0.0,0.2903225806451613,capital:7,currency:0,Afghan afghani
+gemma_270m_base,gemma,base,headquarters:0,headquarters,Amazon,Seattle,raw_question,analysis,Amazon is a company that is based in the,mazon is a company that is based in the,"
+
+",75,-6.375,0.0,0.0,0.0,0.17391304347826086,,headquarters:1,Santa Clara
+gemma_270m_base,gemma,base,headquarters:0,headquarters,Amazon,Seattle,declarative,analysis,"the heart of the city of Seattle, Washington,",the heart of the city of seattle washington,the,2,-0.375,0.0,1.0,0.4,0.5901639344262295,,headquarters:1,Santa Clara
+gemma_270m_base,gemma,base,headquarters:0,headquarters,Amazon,Seattle,qa,analysis,"Amazon is located in Seattle, Washington.
+
+Q",mazon is located in seattle washington q,Amazon,2,-1.125,0.0,1.0,0.4444444444444445,0.6206896551724138,,headquarters:1,Santa Clara
+gemma_270m_base,gemma,base,headquarters:0,headquarters,Amazon,Seattle,chat_template,analysis,"I'm in the office.
+User:",i'm in the office user,I,60,-3.8125,0.0,0.0,0.0,0.25,,headquarters:1,Santa Clara
+gemma_270m_base,gemma,base,headquarters:1,headquarters,Apple,Cupertino,raw_question,analysis,"The headquarters of Apple is located in Cupertino,",the headquarters of apple is located in cupertino,"
+
+",26,-4.125,0.0,1.0,0.2222222222222222,0.3103448275862069,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:1,headquarters,Apple,Cupertino,declarative,analysis,"Cupertino, California, and the company is known for",cupertino california and the company is known for,Cupertino,1,3.0,0.0,1.0,0.4,0.5797101449275363,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:1,headquarters,Apple,Cupertino,qa,analysis,"Cupertino, California, USA
+Q: What is",cupertino california usa q what is,Cupertino,1,0.625,0.0,1.0,0.5,0.7407407407407407,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:1,headquarters,Apple,Cupertino,chat_template,analysis,"The headquarters of Apple is in Cupertino, California.",cupertino california,The,24,-2.5625,1.0,1.0,1.0,1.0,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:2,headquarters,IBM,Armonk,raw_question,analysis,The headquarters of IBM is located in the heart,the headquarters of ibm is located in the heart,"
+
+",1911,-11.75,0.0,0.0,0.0,0.1509433962264151,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:2,headquarters,IBM,Armonk,declarative,analysis,"the heart of the city, in the heart of",the heart of the city in the heart of,the,203,-5.6875,0.0,0.0,0.0,0.19230769230769232,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:2,headquarters,IBM,Armonk,qa,analysis,"IBM is located in the United States.
+
+Q",ibm is located in the united states q,IBM,250,-5.75,0.0,0.0,0.0,0.15384615384615385,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:2,headquarters,IBM,Armonk,chat_template,analysis,The headquarters of IBM is in San Francisco.,san francisco,The,2019,-8.625,0.0,0.0,0.0,0.2857142857142857,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:3,headquarters,Intel,Santa Clara,raw_question,analysis,"Intel is headquartered in what?
+
+Intel is",intel is headquartered in what? intel is,"
+
+",283,-8.5,0.0,0.0,0.0,0.25806451612903225,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:3,headquarters,Intel,Santa Clara,declarative,analysis,"the heart of Silicon Valley, and the company is",the heart of silicon valley and the company is,the,19,-3.125,0.0,0.0,0.0,0.29411764705882354,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:3,headquarters,Intel,Santa Clara,qa,analysis,"Intel is located in the United States.
+
+Q",intel is located in the united states q,Intel,31,-4.0,0.0,0.0,0.0,0.32786885245901637,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:3,headquarters,Intel,Santa Clara,chat_template,analysis,"Intel is located in the United States.
+User",intel is located in the united states user,Intel,204,-5.5625,0.0,0.0,0.0,0.3125,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:4,headquarters,Meta,Menlo Park,raw_question,analysis,The headquarters of Meta is located in the Netherlands,the headquarters of meta is located in the netherlands,"
+
+",663,-9.9375,0.0,0.0,0.0,0.26666666666666666,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:4,headquarters,Meta,Menlo Park,declarative,analysis,"the heart of the city of Barcelona, in the",the heart of the city of barcelona in the,the,5,-1.625,0.0,0.0,0.0,0.2903225806451613,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:4,headquarters,Meta,Menlo Park,qa,analysis,The headquarters of Meta is in the Netherlands.,the netherlands,The,13,-2.0625,0.0,0.0,0.0,0.24,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:4,headquarters,Meta,Menlo Park,chat_template,analysis,"I'm in the office.
+User:",i'm in the office user,I,1188,-8.125,0.0,0.0,0.0,0.1875,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:5,headquarters,Microsoft,Redmond,raw_question,analysis,"The headquarters of Microsoft is located in Redmond,",the headquarters of microsoft is located in redmond,"
+
+",49,-5.75,0.0,1.0,0.2222222222222222,0.2413793103448276,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:5,headquarters,Microsoft,Redmond,declarative,analysis,"Redmond, Washington, and the company has a presence",redmond washington and the company has a presence,Redmond,1,1.125,0.0,1.0,0.4,0.5373134328358209,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:5,headquarters,Microsoft,Redmond,qa,analysis,"Redmond, Washington
+B: Redmond, Washington",redmond washington b redmond washington,Redmond,1,2.5,0.0,1.0,0.5714285714285715,0.631578947368421,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:5,headquarters,Microsoft,Redmond,chat_template,analysis,I'm in the office of Microsoft.,i'm in the office of microsoft,I,60,-3.625,0.0,0.0,0.0,0.25,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:6,headquarters,NVIDIA,Santa Clara,raw_question,holdout,The headquarters of NVIDIA is located in Sunnyvale,the headquarters of nvidia is located in sunnyvale,"
+
+",242,-8.4375,0.0,0.0,0.0,0.2222222222222222,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:6,headquarters,NVIDIA,Santa Clara,declarative,holdout,"the heart of Silicon Valley, and the company is",the heart of silicon valley and the company is,the,4,-0.75,0.0,0.0,0.0,0.29411764705882354,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:6,headquarters,NVIDIA,Santa Clara,qa,holdout,"The headquarters of NVIDIA is located in Sunnyvale,",the headquarters of nvidia is located in sunnyvale,The,12,-1.9375,0.0,0.0,0.0,0.2222222222222222,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:6,headquarters,NVIDIA,Santa Clara,chat_template,holdout,I'm in the city of San Francisco.,i'm in the city of san francisco,I,91,-4.1875,0.0,0.0,0.0,0.2962962962962963,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:7,headquarters,SAP,Walldorf,raw_question,holdout,The headquarters of SAP is located in the Netherlands,the headquarters of sap is located in the netherlands,"
+
+",2036,-12.0,0.0,0.0,0.0,0.13114754098360656,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:7,headquarters,SAP,Walldorf,declarative,holdout,"the heart of the city of Amsterdam, and the",the heart of the city of amsterdam and the,the,894,-7.9375,0.0,0.0,0.0,0.12,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:7,headquarters,SAP,Walldorf,qa,holdout,"SAP is located in the Netherlands.
+
+Q:",sap is located in the netherlands q,SAP,809,-7.6875,0.0,0.0,0.0,0.18604651162790697,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,headquarters:7,headquarters,SAP,Walldorf,chat_template,holdout,"SAP is located in the Netherlands.
+User:",sap is located in the netherlands user,SAP,1281,-8.25,0.0,0.0,0.0,0.17391304347826086,,headquarters:0,Seattle
+gemma_270m_base,gemma,base,birth_place:0,birth_place,Adele,London,raw_question,analysis,Adele was born in 197,197,"
+
+",81,-6.5,0.0,0.0,0.0,0.0,,birth_place:1,Honolulu
+gemma_270m_base,gemma,base,birth_place:0,birth_place,Adele,London,declarative,analysis,"1985 in London, England.",1985 in london england,▁,2,-1.125,0.0,1.0,0.4,0.42857142857142855,,birth_place:1,Honolulu
+gemma_270m_base,gemma,base,birth_place:0,birth_place,Adele,London,qa,analysis,"I was born in the Bronx, New York.",i was born in the bronx new york,I,10,-1.375,0.0,0.0,0.0,0.15789473684210525,,birth_place:1,Honolulu
+gemma_270m_base,gemma,base,birth_place:0,birth_place,Adele,London,chat_template,analysis,I'm not sure. I'm not,i'm not sure i'm not,I,22,-2.875,0.0,0.0,0.0,0.23076923076923078,,birth_place:1,Honolulu
+gemma_270m_base,gemma,base,birth_place:1,birth_place,Barack Obama,Honolulu,raw_question,analysis,"The former president was born in Chicago, Illinois",the former president was born in chicago illinois,"
+
+",822,-10.25,0.0,0.0,0.0,0.1875,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:1,birth_place,Barack Obama,Honolulu,declarative,analysis,1961 in the small town of,1961 in the small town of,▁,34,-3.75,0.0,0.0,0.0,0.18181818181818182,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:1,birth_place,Barack Obama,Honolulu,qa,analysis,"Born in Chicago, Illinois, Barack Obama was born",born in chicago illinois barack obama was born,Born,105,-4.1875,0.0,0.0,0.0,0.22950819672131148,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:1,birth_place,Barack Obama,Honolulu,chat_template,analysis,Where was Barack Obama born? Answer with only the,where was barack obama born? answer with only the,Where,338,-6.6875,0.0,0.0,0.0,0.15625,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:2,birth_place,Bill Gates,Seattle,raw_question,analysis,Bill Gates was born in 195,195,"
+
+",84,-6.25,0.0,0.0,0.0,0.0,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:2,birth_place,Bill Gates,Seattle,declarative,analysis,1955 in the small town of,1955 in the small town of,▁,4,-2.375,0.0,0.0,0.0,0.27906976744186046,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:2,birth_place,Bill Gates,Seattle,qa,analysis,"In the Bronx, New York.
+Q:",in the bronx new york q,In,7,-0.875,0.0,0.0,0.0,0.24390243902439024,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:2,birth_place,Bill Gates,Seattle,chat_template,analysis,Where was Bill Gates born? Answer with only the,where was bill gates born? answer with only the,Where,100,-4.875,0.0,0.0,0.0,0.3384615384615385,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,raw_question,analysis,"The Portuguese superstar was born in Portugal, but",the portuguese superstar was born in portugal but,"
+
+",388,-8.75,0.0,0.0,0.0,0.10714285714285714,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,declarative,analysis,Portugal on 15th May 19,portugal on 15th may 19,Portugal,70,-5.5,0.0,0.0,0.0,0.2,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,qa,analysis,"Portugal
+Q: What is the name of the",portugal q what is the name of the,Portugal,133,-5.6875,0.0,0.0,0.0,0.14634146341463414,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,chat_template,analysis,Where was Cristiano Ronaldo born? Answer with only the,where was cristiano ronaldo born? answer with only the,Where,119,-5.1875,0.0,0.0,0.0,0.09836065573770492,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:4,birth_place,Elon Musk,Pretoria,raw_question,analysis,"The billionaire entrepreneur, who is the CEO of",the billionaire entrepreneur who is the ceo of,"
+
+",5938,-13.5,0.0,0.0,0.0,0.18518518518518517,,birth_place:0,Paris
+gemma_270m_base,gemma,base,birth_place:4,birth_place,Elon Musk,Pretoria,declarative,analysis,"1971 in Musk, Texas.",1971 in musk texas,▁,763,-9.0,0.0,0.0,0.0,0.15384615384615385,,birth_place:0,Paris
+gemma_270m_base,gemma,base,birth_place:4,birth_place,Elon Musk,Pretoria,qa,analysis,"He was born in Musk, Texas, in",he was born in musk texas in,He,1560,-7.9375,0.0,0.0,0.0,0.2777777777777778,,birth_place:0,Paris
+gemma_270m_base,gemma,base,birth_place:4,birth_place,Elon Musk,Pretoria,chat_template,analysis,"I'm from the United States.
+User",i'm from the united states user,I,4549,-10.1875,0.0,0.0,0.0,0.10256410256410256,,birth_place:0,Paris
+gemma_270m_base,gemma,base,birth_place:5,birth_place,Emma Watson,Paris,raw_question,analysis,"Emma Watson was born in London, England,",london england,"
+
+",169,-7.6875,0.0,0.0,0.0,0.10526315789473684,,birth_place:0,Pretoria
+gemma_270m_base,gemma,base,birth_place:5,birth_place,Emma Watson,Paris,declarative,analysis,"1980 in London, England.",1980 in london england,▁,9,-3.0,0.0,0.0,0.0,0.07407407407407407,,birth_place:0,Pretoria
+gemma_270m_base,gemma,base,birth_place:5,birth_place,Emma Watson,Paris,qa,analysis,"London, England
+Q: What is the name",london england q what is the name,London,12,-2.375,0.0,0.0,0.0,0.15789473684210525,,birth_place:0,Pretoria
+gemma_270m_base,gemma,base,birth_place:5,birth_place,Emma Watson,Paris,chat_template,analysis,Where was Emma Watson born? Answer with only the,where was emma watson born? answer with only the,Where,113,-5.25,0.0,0.0,0.0,0.07547169811320754,,birth_place:0,Pretoria
+gemma_270m_base,gemma,base,birth_place:6,birth_place,Lionel Messi,Rosario,raw_question,holdout,"Lionel Messi was born in Rosario, Argentina,",rosario argentina,"
+
+",193,-7.75,0.0,1.0,0.6666666666666666,0.5833333333333334,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:6,birth_place,Lionel Messi,Rosario,declarative,holdout,Barcelona on 11th May 19,barcelona on 11th may 19,Barcelona,3,-0.25,0.0,0.0,0.0,0.1935483870967742,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:6,birth_place,Lionel Messi,Rosario,qa,holdout,"Argentina
+Q: What is the name of the",rgentina q what is the name of the,Argentina,44,-5.0,0.0,0.0,0.0,0.14634146341463414,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:6,birth_place,Lionel Messi,Rosario,chat_template,holdout,Where was Lionel Messi born? Answer with only the,where was lionel messi born? answer with only the,Where,468,-7.0625,0.0,0.0,0.0,0.14285714285714285,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:7,birth_place,Marie Curie,Warsaw,raw_question,holdout,"Marie Curie was born in Warsaw, Poland in",warsaw poland in,"
+
+",307,-8.875,0.0,1.0,0.5,0.5454545454545454,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:7,birth_place,Marie Curie,Warsaw,declarative,holdout,1867 in Paris. She was,1867 in paris she was,▁,2,-0.75,0.0,0.0,0.0,0.2962962962962963,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:7,birth_place,Marie Curie,Warsaw,qa,holdout,"She was born in Warsaw, Poland, in",she was born in warsaw poland in,She,12,-1.5,0.0,1.0,0.25,0.3157894736842105,,birth_place:0,London
+gemma_270m_base,gemma,base,birth_place:7,birth_place,Marie Curie,Warsaw,chat_template,holdout,Where was Marie Curie born? Answer with only the,where was marie curie born? answer with only the,Where,143,-5.5,0.0,0.0,0.0,0.18518518518518517,,birth_place:0,London

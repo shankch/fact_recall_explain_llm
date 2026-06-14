@@ -1,0 +1,9 @@
+candidate_type,prompt_family,answer_f1_drop,contains_drop,target_selectivity_drop,same_subject_control_f1_increase,same_relation_control_f1_increase,lexical_distractor_f1_increase,max_control_f1_increase,model_name
+invariant,chat_template,0.0,0.0,0.0,0.0,0.0,0.0,0.0,gemma_270m_base
+invariant,declarative,0.0,0.0,0.0,0.0,0.0,0.0,0.0,gemma_270m_base
+invariant,qa,0.0,0.0,0.0,0.0,0.0,0.0,0.0,gemma_270m_base
+invariant,raw_question,0.0,0.0,0.0,0.0,0.0,0.0,0.0,gemma_270m_base
+prompt_sensitive,chat_template,-0.5,-0.5,-0.5,0.0,0.0,0.0,0.0,gemma_270m_base
+prompt_sensitive,declarative,0.1428571428571428,0.5,0.1428571428571428,0.0,0.0,0.0,0.0,gemma_270m_base
+prompt_sensitive,qa,0.0,0.0,0.0,0.0,0.0,0.0,0.0,gemma_270m_base
+prompt_sensitive,raw_question,0.0,0.0,0.0,0.0,0.0,0.0,0.0,gemma_270m_base

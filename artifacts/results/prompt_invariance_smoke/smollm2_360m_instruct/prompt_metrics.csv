@@ -1,0 +1,93 @@
+model_name,model_family,model_variant,fact_id,relation,subject,expected_answer,prompt_family,split,generated_text,normalized_generated_text,top_prediction,target_rank,target_margin,full_exact_match,contains_expected,answer_f1,answer_similarity,same_subject_control_fact_id,same_relation_control_fact_id,lexical_distractor
+smollm2_360m_instruct,smollm2,instruct,capital:0,capital,Afghanistan,Kabul,raw_question,analysis,,,<|im_end|>,3723,-15.171875,0.0,0.0,0.0,0.0,official_language:0,capital:1,Tirana
+smollm2_360m_instruct,smollm2,instruct,capital:0,capital,Afghanistan,Kabul,declarative,analysis,"Kabul.
+
+The capital of Afghanistan is Kabul",kabul the capital of afghanistan is kabul,Kabul,1,5.0625,0.0,1.0,0.25,0.21739130434782608,official_language:0,capital:1,Tirana
+smollm2_360m_instruct,smollm2,instruct,capital:0,capital,Afghanistan,Kabul,qa,analysis,,,<|im_end|>,122,-9.8125,0.0,0.0,0.0,0.0,official_language:0,capital:1,Tirana
+smollm2_360m_instruct,smollm2,instruct,capital:0,capital,Afghanistan,Kabul,chat_template,analysis,Baghdad,baghdad,B,7,-3.1875,0.0,0.0,0.0,0.16666666666666666,official_language:0,capital:1,Tirana
+smollm2_360m_instruct,smollm2,instruct,capital:1,capital,Albania,Tirana,raw_question,analysis,A:,,Ċ,17634,-19.046875,0.0,0.0,0.0,0.0,official_language:1,capital:0,Kabul
+smollm2_360m_instruct,smollm2,instruct,capital:1,capital,Albania,Tirana,declarative,analysis,"Tirana, which is located in the north of",tirana which is located in the north of,Tir,1,5.625,0.0,1.0,0.2222222222222222,0.26666666666666666,official_language:1,capital:0,Kabul
+smollm2_360m_instruct,smollm2,instruct,capital:1,capital,Albania,Tirana,qa,analysis,,,<|im_end|>,491,-11.5625,0.0,0.0,0.0,0.0,official_language:1,capital:0,Kabul
+smollm2_360m_instruct,smollm2,instruct,capital:1,capital,Albania,Tirana,chat_template,analysis,The capital of Albania is Tirana.,tirana,The,19,-3.75,1.0,1.0,1.0,1.0,official_language:1,capital:0,Kabul
+smollm2_360m_instruct,smollm2,instruct,capital:2,capital,Algeria,Algiers,raw_question,analysis,,,<|im_end|>,15362,-18.359375,0.0,0.0,0.0,0.0,official_language:2,capital:0,Andorra la Vella
+smollm2_360m_instruct,smollm2,instruct,capital:2,capital,Algeria,Algiers,declarative,analysis,"Algiers.
+
+Algeria is a",lgiers algeria is a,Alg,1,3.75,0.0,0.0,0.0,0.46153846153846156,official_language:2,capital:0,Andorra la Vella
+smollm2_360m_instruct,smollm2,instruct,capital:2,capital,Algeria,Algiers,qa,analysis,,,<|im_end|>,432,-11.125,0.0,0.0,0.0,0.0,official_language:2,capital:0,Andorra la Vella
+smollm2_360m_instruct,smollm2,instruct,capital:2,capital,Algeria,Algiers,chat_template,analysis,The capital of Algeria is Algiers.,lgiers,The,281,-8.8125,0.0,0.0,0.0,0.9230769230769231,official_language:2,capital:0,Andorra la Vella
+smollm2_360m_instruct,smollm2,instruct,capital:3,capital,Andorra,Andorra la Vella,raw_question,holdout,,,<|im_end|>,11,-4.1875,0.0,0.0,0.0,0.0,official_language:3,capital:0,Algiers
+smollm2_360m_instruct,smollm2,instruct,capital:3,capital,Andorra,Andorra la Vella,declarative,holdout,"Pamplona, which is located in the province",pamplona which is located in the province,P,13,-3.5625,0.0,0.0,0.0,0.24561403508771928,official_language:3,capital:0,Algiers
+smollm2_360m_instruct,smollm2,instruct,capital:3,capital,Andorra,Andorra la Vella,qa,holdout,,,<|im_end|>,6,-6.4375,0.0,0.0,0.0,0.0,official_language:3,capital:0,Algiers
+smollm2_360m_instruct,smollm2,instruct,capital:3,capital,Andorra,Andorra la Vella,chat_template,holdout,Andorra La Vella,ndorra la vella,And,297,-8.4375,0.0,0.0,0.6666666666666666,0.967741935483871,official_language:3,capital:0,Algiers
+smollm2_360m_instruct,smollm2,instruct,official_language:0,official_language,Afghanistan,Dari,raw_question,analysis,,,<|im_end|>,386,-11.96875,0.0,0.0,0.0,0.0,capital:0,official_language:1,Albanian
+smollm2_360m_instruct,smollm2,instruct,official_language:0,official_language,Afghanistan,Dari,declarative,analysis,"Pashto, which is spoken by the Pashtun",pashto which is spoken by the pashtun,Pash,1,2.9375,0.0,1.0,0.25,0.27906976744186046,capital:0,official_language:1,Albanian
+smollm2_360m_instruct,smollm2,instruct,official_language:0,official_language,Afghanistan,Dari,qa,analysis,,,<|im_end|>,76,-8.6875,0.0,0.0,0.0,0.0,capital:0,official_language:1,Albanian
+smollm2_360m_instruct,smollm2,instruct,official_language:0,official_language,Afghanistan,Dari,chat_template,analysis,Afghanistan has no official language.,fghanistan has no official language,Af,35,-6.1875,0.0,0.0,0.0,0.14634146341463414,capital:0,official_language:1,Albanian
+smollm2_360m_instruct,smollm2,instruct,official_language:1,official_language,Albania,Albanian,raw_question,analysis,(Note: The official language of Albania,note the official language of albania,Ċ,11487,-18.07421875,0.0,0.0,0.0,0.3111111111111111,capital:1,official_language:0,Arabic
+smollm2_360m_instruct,smollm2,instruct,official_language:1,official_language,Albania,Albanian,declarative,analysis,"Albanian, which is the native language of the majority",lbanian which is the native language of the majority,Albanian,1,0.8125,0.0,0.0,0.0,0.23333333333333334,capital:1,official_language:0,Arabic
+smollm2_360m_instruct,smollm2,instruct,official_language:1,official_language,Albania,Albanian,qa,analysis,,,<|im_end|>,1334,-12.40625,0.0,0.0,0.0,0.0,capital:1,official_language:0,Arabic
+smollm2_360m_instruct,smollm2,instruct,official_language:1,official_language,Albania,Albanian,chat_template,analysis,Albanian is the official language of Albania.,lbanian is the official language of albania,Al,5,-3.75,0.0,0.0,0.0,0.27450980392156865,capital:1,official_language:0,Arabic
+smollm2_360m_instruct,smollm2,instruct,official_language:2,official_language,Algeria,Arabic,raw_question,analysis,,,<|im_end|>,2316,-14.796875,0.0,0.0,0.0,0.0,capital:2,official_language:0,Albanian
+smollm2_360m_instruct,smollm2,instruct,official_language:2,official_language,Algeria,Arabic,declarative,analysis,"Arabic, which is the native language of the majority",rabic which is the native language of the majority,Arabic,1,1.0,0.0,0.0,0.0,0.17857142857142858,capital:2,official_language:0,Albanian
+smollm2_360m_instruct,smollm2,instruct,official_language:2,official_language,Algeria,Arabic,qa,analysis,,,<|im_end|>,180,-10.0625,0.0,0.0,0.0,0.0,capital:2,official_language:0,Albanian
+smollm2_360m_instruct,smollm2,instruct,official_language:2,official_language,Algeria,Arabic,chat_template,analysis,Algeria's official language is Arabic.,lgeria's official language is arabic,Al,59,-7.0625,0.0,1.0,0.33333333333333337,0.2857142857142857,capital:2,official_language:0,Albanian
+smollm2_360m_instruct,smollm2,instruct,official_language:3,official_language,Andorra,Catalan,raw_question,holdout,,,<|im_end|>,2970,-14.6953125,0.0,0.0,0.0,0.0,capital:3,official_language:0,Dari
+smollm2_360m_instruct,smollm2,instruct,official_language:3,official_language,Andorra,Catalan,declarative,holdout,"Spanish, and the official language of the European Union",spanish and the official language of the european union,Spanish,3,-0.4375,0.0,0.0,0.0,0.16129032258064516,capital:3,official_language:0,Dari
+smollm2_360m_instruct,smollm2,instruct,official_language:3,official_language,Andorra,Catalan,qa,holdout,,,<|im_end|>,406,-11.15625,0.0,0.0,0.0,0.0,capital:3,official_language:0,Dari
+smollm2_360m_instruct,smollm2,instruct,official_language:3,official_language,Andorra,Catalan,chat_template,holdout,Andorra has two official languages: Spanish and,ndorra has two official languages spanish and,And,480,-9.1875,0.0,0.0,0.0,0.19230769230769232,capital:3,official_language:0,Dari
+smollm2_360m_instruct,smollm2,instruct,currency:0,currency,Afghanistan,Afghan afghani,raw_question,analysis,,,<|im_end|>,9444,-17.8671875,0.0,0.0,0.0,0.0,capital:0,currency:1,Albanian lek
+smollm2_360m_instruct,smollm2,instruct,currency:0,currency,Afghanistan,Afghan afghani,declarative,analysis,"the Afghani, which is divided into",the afghani which is divided into,the,9,-4.1875,0.0,0.0,0.25,0.3829787234042553,capital:0,currency:1,Albanian lek
+smollm2_360m_instruct,smollm2,instruct,currency:0,currency,Afghanistan,Afghan afghani,qa,analysis,,,<|im_end|>,109,-8.25,0.0,0.0,0.0,0.0,capital:0,currency:1,Albanian lek
+smollm2_360m_instruct,smollm2,instruct,currency:0,currency,Afghanistan,Afghan afghani,chat_template,analysis,Afghanistan's currency is the Afghani,fghanistan's currency is the afghani,Af,67,-9.8125,0.0,0.0,0.28571428571428575,0.52,capital:0,currency:1,Albanian lek
+smollm2_360m_instruct,smollm2,instruct,currency:1,currency,Albania,Albanian lek,raw_question,analysis,,,<|im_end|>,11285,-17.82421875,0.0,0.0,0.0,0.0,capital:1,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:1,currency,Albania,Albanian lek,declarative,analysis,"the lek, which is divided into 1",the lek which is divided into 1,the,11,-6.0625,0.0,0.0,0.22222222222222224,0.18604651162790697,capital:1,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:1,currency,Albania,Albanian lek,qa,analysis,,,<|im_end|>,622,-11.3125,0.0,0.0,0.0,0.0,capital:1,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:1,currency,Albania,Albanian lek,chat_template,analysis,Albania's currency is the Lek.,lbania's currency is the lek,Al,57,-6.875,0.0,0.0,0.28571428571428575,0.55,capital:1,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:2,currency,Algeria,Algerian dinar,raw_question,analysis,,,<|im_end|>,12894,-18.61328125,0.0,0.0,0.0,0.0,capital:2,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:2,currency,Algeria,Algerian dinar,declarative,analysis,"the dirham (DG), which is divided",the dirham dg which is divided,the,57,-6.9375,0.0,0.0,0.0,0.22727272727272727,capital:2,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:2,currency,Algeria,Algerian dinar,qa,analysis,,,<|im_end|>,489,-10.84375,0.0,0.0,0.0,0.0,capital:2,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:2,currency,Algeria,Algerian dinar,chat_template,analysis,Algeria's currency is the Algerian din,lgeria's currency is the algerian din,Al,64,-7.4375,0.0,0.0,0.25,0.47058823529411764,capital:2,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:3,currency,Andorra,euro,raw_question,holdout,,,<|im_end|>,7306,-17.568359375,0.0,0.0,0.0,0.0,capital:3,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:3,currency,Andorra,euro,declarative,holdout,"the euro, which is divided into 10",the euro which is divided into 10,the,16,-6.0625,0.0,1.0,0.25,0.21621621621621623,capital:3,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:3,currency,Andorra,euro,qa,holdout,,,<|im_end|>,5849,-16.1875,0.0,0.0,0.0,0.0,capital:3,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,currency:3,currency,Andorra,euro,chat_template,holdout,Andorra Francs (ARG),ndorra francs arg,And,1040,-9.921875,0.0,0.0,0.0,0.09523809523809523,capital:3,currency:0,Afghan afghani
+smollm2_360m_instruct,smollm2,instruct,headquarters:0,headquarters,Amazon,Seattle,raw_question,analysis,,,<|im_end|>,299,-11.8125,0.0,0.0,0.0,0.0,,headquarters:1,Santa Clara
+smollm2_360m_instruct,smollm2,instruct,headquarters:0,headquarters,Amazon,Seattle,declarative,analysis,"Seattle, Washington.
+
+Amazon's headquarters is",seattle washington amazon's headquarters is,Seattle,1,3.125,0.0,1.0,0.5714285714285715,0.5901639344262295,,headquarters:1,Santa Clara
+smollm2_360m_instruct,smollm2,instruct,headquarters:0,headquarters,Amazon,Seattle,qa,analysis,,,<|im_end|>,320,-10.9375,0.0,0.0,0.0,0.0,,headquarters:1,Santa Clara
+smollm2_360m_instruct,smollm2,instruct,headquarters:0,headquarters,Amazon,Seattle,chat_template,analysis,"Amazon's headquarters is in Seattle, Washington.",mazon's headquarters is in seattle washington,Amazon,499,-8.4375,0.0,1.0,0.5,0.5714285714285714,,headquarters:1,Santa Clara
+smollm2_360m_instruct,smollm2,instruct,headquarters:1,headquarters,Apple,Cupertino,raw_question,analysis,,,<|im_end|>,2858,-14.78125,0.0,0.0,0.0,0.0,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:1,headquarters,Apple,Cupertino,declarative,analysis,"Cupertino, California.
+
+Apple's",cupertino california apple's,Cu,1,0.625,0.0,1.0,0.8,0.8333333333333334,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:1,headquarters,Apple,Cupertino,qa,analysis,,,<|im_end|>,1433,-12.03125,0.0,0.0,0.0,0.0,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:1,headquarters,Apple,Cupertino,chat_template,analysis,"The headquarters of Apple is Apple Park, located in",the headquarters of apple is apple park located in,The,2494,-11.78125,0.0,0.0,0.0,0.22857142857142856,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:2,headquarters,IBM,Armonk,raw_question,analysis,,,<|im_end|>,2752,-14.171875,0.0,0.0,0.0,0.0,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:2,headquarters,IBM,Armonk,declarative,analysis,"Armonk, New York.
+
+I",rmonk new york i,Ar,1,0.125,0.0,0.0,0.5714285714285715,0.9032258064516129,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:2,headquarters,IBM,Armonk,qa,analysis,,,<|im_end|>,782,-10.0625,0.0,0.0,0.0,0.0,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:2,headquarters,IBM,Armonk,chat_template,analysis,IBM's headquarters is located in Armonk,ibm's headquarters is located in armonk,I,9937,-17.07421875,0.0,1.0,0.2857142857142857,0.26666666666666666,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:3,headquarters,Intel,Santa Clara,raw_question,holdout,,,<|im_end|>,881,-12.6875,0.0,0.0,0.0,0.0,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:3,headquarters,Intel,Santa Clara,declarative,holdout,"Santa Clara, California, USA.
+
+The",santa clara california usa the,Santa,1,1.6875,0.0,1.0,0.7499999999999999,0.8461538461538461,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:3,headquarters,Intel,Santa Clara,qa,holdout,,,<|im_end|>,270,-8.9375,0.0,0.0,0.0,0.0,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,headquarters:3,headquarters,Intel,Santa Clara,chat_template,holdout,"Intel's headquarters is in Santa Clara, California",intel's headquarters is in santa clara california,Int,3277,-12.9609375,0.0,1.0,0.6,0.6197183098591549,,headquarters:0,Seattle
+smollm2_360m_instruct,smollm2,instruct,birth_place:0,birth_place,Adele,London,raw_question,analysis,,,<|im_end|>,103,-9.8125,0.0,0.0,0.0,0.0,,birth_place:1,Honolulu
+smollm2_360m_instruct,smollm2,instruct,birth_place:0,birth_place,Adele,London,declarative,analysis,"1980 in New York City,",1980 in new york city,Ġ,4,-2.125,0.0,0.0,0.0,0.14814814814814814,,birth_place:1,Honolulu
+smollm2_360m_instruct,smollm2,instruct,birth_place:0,birth_place,Adele,London,qa,analysis,,,<|im_end|>,101,-7.875,0.0,0.0,0.0,0.0,,birth_place:1,Honolulu
+smollm2_360m_instruct,smollm2,instruct,birth_place:0,birth_place,Adele,London,chat_template,analysis,"Adele was born in London, England.",london england,A,1374,-11.21875,0.0,1.0,0.6666666666666666,0.6,,birth_place:1,Honolulu
+smollm2_360m_instruct,smollm2,instruct,birth_place:1,birth_place,Barack Obama,Honolulu,raw_question,analysis,,,<|im_end|>,2718,-13.3125,0.0,0.0,0.0,0.0,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:1,birth_place,Barack Obama,Honolulu,declarative,analysis,"Hawaii, and he was raised in Indonesia. He",hawaii and he was raised in indonesia he,Hawaii,3,-1.3125,0.0,0.0,0.2,0.21818181818181817,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:1,birth_place,Barack Obama,Honolulu,qa,analysis,,,<|im_end|>,3360,-13.09375,0.0,0.0,0.0,0.0,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:1,birth_place,Barack Obama,Honolulu,chat_template,analysis,"Barack Obama was born in Honolulu, Hawaii.",honolulu hawaii,Bar,2540,-17.03125,1.0,1.0,1.0,1.0,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:2,birth_place,Bill Gates,Seattle,raw_question,analysis,,,<|im_end|>,795,-12.28125,0.0,0.0,0.0,0.0,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:2,birth_place,Bill Gates,Seattle,declarative,analysis,"1955 in San Jose, California",1955 in san jose california,Ġ,1,0.0,0.0,0.0,0.0,0.23529411764705882,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:2,birth_place,Bill Gates,Seattle,qa,analysis,,,<|im_end|>,384,-9.84375,0.0,0.0,0.0,0.0,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:2,birth_place,Bill Gates,Seattle,chat_template,analysis,"Bill Gates was born in Seattle, Washington.",seattle washington,Bill,586,-11.625,1.0,1.0,1.0,1.0,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,raw_question,holdout,,,<|im_end|>,328,-11.21875,0.0,0.0,0.0,0.0,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,declarative,holdout,"1982 in Porto, Portugal",1982 in porto portugal,Ġ,68,-4.875,0.0,0.0,0.0,0.20689655172413793,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,qa,holdout,,,<|im_end|>,145,-8.4375,0.0,0.0,0.0,0.0,,birth_place:0,London
+smollm2_360m_instruct,smollm2,instruct,birth_place:3,birth_place,Cristiano Ronaldo,Funchal,chat_template,holdout,Cristiano Ronaldo was born in Port,port,C,5441,-15.080078125,0.0,0.0,0.0,0.0,,birth_place:0,London

@@ -1,0 +1,136 @@
+country,prompt,expected_capital,top_prediction,generated_text,target_rank,target_margin,exact_match
+Afghanistan,What is the capital of Afghanistan?,Kabul,,The capital of Afghanistan is,35,-9.3125,0.0
+Albania,What is the capital of Albania?,Tirana,,The capital of Albania is,54,-11.0,0.0
+Algeria,What is the capital of Algeria?,Algiers,,The capital of Algeria is,21,-9.8125,0.0
+Andorra,What is the capital of Andorra?,Andorra la Vella,,"A) Barcelona
+B",3,-3.25,0.0
+Angola,What is the capital of Angola?,Luanda,,The capital of Angola is,24,-9.5625,0.0
+Antigua and Barbuda,What is the capital of Antigua and Barbuda?,Saint John's,,"A) Barbados
+B",86,-12.25,0.0
+Argentina,What is the capital of Argentina?,Buenos Aires,,A) Buenos Aires,15,-8.0625,0.0
+Armenia,What is the capital of Armenia?,Yerevan,,"A) Yerevan
+B",26,-9.75,0.0
+Australia,What is the capital of Australia?,Canberra,,"A) Sydney
+B",6,-6.0,0.0
+Austria,What is the capital of Austria?,Vienna,,"A) Vienna
+B",9,-7.125,0.0
+Azerbaijan,What is the capital of Azerbaijan?,Baku,,The capital of Azerbaijan is,43,-10.8125,0.0
+Bahamas,What is the capital of Bahamas?,Nassau,,The capital of the Bahamas,85,-10.9375,0.0
+Bahrain,What is the capital of Bahrain?,Manama,,The capital of Bahrain is,496,-13.6875,0.0
+Bangladesh,What is the capital of Bangladesh?,Dhaka,,The capital of Bangladesh is,9,-7.5,0.0
+Barbados,What is the capital of Barbados?,Bridgetown,,The capital of Barbados is,68,-11.375,0.0
+Belarus,What is the capital of Belarus?,Minsk,,"A) Minsk
+B",134,-12.0,0.0
+Belgium,What is the capital of Belgium?,Brussels,,"A) Brussels
+B",26,-9.75,0.0
+Belize,What is the capital of Belize?,Belmopan,,A) San Juan,5,-5.875,0.0
+Benin,What is the capital of Benin?,Porto-Novo,,The capital of Benin is,437,-13.8125,0.0
+Bhutan,What is the capital of Bhutan?,Thimphu,,Bhutan is the capital,35,-9.25,0.0
+Bolivia,What is the capital of Bolivia?,Sucre,,A) Buenos Aires,495,-13.8125,0.0
+Bosnia and Herzegovina,What is the capital of Bosnia and Herzegovina?,Sarajevo,,"A) Sarajevo
+B",4,-6.25,0.0
+Botswana,What is the capital of Botswana?,Gaborone,,The capital of Botswana is,100,-11.875,0.0
+Brazil,What is the capital of Brazil?,Brasília,,A) Rio de Janeiro,20,-9.0,0.0
+Brunei,What is the capital of Brunei?,Bandar Seri Begawan,,A) Kuala Lumpur,377,-13.53125,0.0
+Bulgaria,What is the capital of Bulgaria?,Sofia,,The capital of Bulgaria is,17,-8.3125,0.0
+Burkina Faso,What is the capital of Burkina Faso?,Ouagadougou,,"A) Paris
+B",157,-12.625,0.0
+Burundi,What is the capital of Burundi?,Gitega,,The capital of Burundi is,202,-12.0,0.0
+Cambodia,What is the capital of Cambodia?,Phnom Penh,,The capital of Cambodia is,9,-7.6875,0.0
+Cameroon,What is the capital of Cameroon?,Yaoundé,,The capital of Cameroon is,636,-14.0625,0.0
+Canada,What is the capital of Canada?,Ottawa,,"A) Toronto
+B",24,-8.875,0.0
+Cape Verde,What is the capital of Cape Verde?,Praia,,The capital of Cape Verde,93,-11.5625,0.0
+Central African Republic,What is the capital of Central African Republic?,Bangui,,A) Addis Ababa,860,-15.1875,0.0
+Chad,What is the capital of Chad?,N'Djamena,,The capital of Chad is,150,-11.5625,0.0
+Chile,What is the capital of Chile?,Santiago,,A) Buenos Aires,16,-8.25,0.0
+China,What is the capital of China?,Beijing,,The capital of China is,17,-8.25,0.0
+Colombia,What is the capital of Colombia?,Bogotá,,"A) Lima
+B",19,-9.1875,0.0
+Comoros,What is the capital of Comoros?,Moroni,,The capital of Comoros,201,-12.0625,0.0
+Costa Rica,What is the capital of Costa Rica?,San José,,The capital of Costa Rica,27,-9.0625,0.0
+Croatia,What is the capital of Croatia?,Zagreb,,"A) Zagreb
+B",7,-7.0,0.0
+Cuba,What is the capital of Cuba?,Havana,,The capital of Cuba is,69,-10.6875,0.0
+Cyprus,What is the capital of Cyprus?,Nicosia,,The capital of Cyprus is,158,-12.4375,0.0
+Czechia,What is the capital of Czech Republic?,Prague,,The capital of Czech Republic,10,-7.375,0.0
+DR Congo,What is the capital of DR Congo?,Kinshasa,,A) Kinshabet,570,-14.15625,0.0
+Denmark,What is the capital of Denmark?,Copenhagen,,"A) Oslo
+B",20,-9.3125,0.0
+Djibouti,What is the capital of Djibouti?,Djibouti,,The capital of Djibouti is,4,-4.375,0.0
+Dominica,What is the capital of Dominica?,Roseau,,The capital of Dominica is,272,-13.6875,0.0
+Dominican Republic,What is the capital of Dominican Republic?,Santo Domingo,,The capital of Dominican Republic,19,-9.75,0.0
+Ecuador,What is the capital of Ecuador?,Quito,,The capital of Ecuador is,12,-8.0,0.0
+Egypt,What is the capital of Egypt?,Cairo,,The capital of Egypt is,62,-11.1875,0.0
+El Salvador,What is the capital of El Salvador?,San Salvador,,The capital of El Salvador,32,-9.25,0.0
+Equatorial Guinea,What is the capital of Equatorial Guinea?,Ciudad de la Paz,,The capital of Equatorial Guinea,121,-11.9375,0.0
+Eritrea,What is the capital of Eritrea?,Asmara,,The capital of Eritrea is,63,-10.75,0.0
+Estonia,What is the capital of Estonia?,Tallinn,,"A) Tallinn
+B",13,-8.0,0.0
+Eswatini,What is the capital of Eswatini?,Mbabane,,"A) Johannesburg
+B",203,-11.28125,0.0
+Ethiopia,What is the capital of Ethiopia?,Addis Ababa,,A) Addis Ababa,46,-10.5,0.0
+Fiji,What is the capital of Fiji?,Suva,,The capital of Fiji is,195,-11.8125,0.0
+Finland,What is the capital of Finland?,Helsinki,,"A) Helsinki
+B",17,-8.75,0.0
+France,What is the capital of France?,Paris,,"A) Paris
+B",10,-7.4375,0.0
+Gabon,What is the capital of Gabon?,Libreville,,A) Brazzaville,674,-14.0,0.0
+Gambia,What is the capital of Gambia?,Banjul,,The capital of Gambia is,6,-6.75,0.0
+Georgia,What is the capital of Georgia?,Tbilisi,,The capital of Georgia is,34,-10.8125,0.0
+Germany,What is the capital of Germany?,Berlin,,"A) Berlin
+B",6,-7.0,0.0
+Ghana,What is the capital of Ghana?,Accra,,The capital of Ghana is,33,-9.6875,0.0
+Greece,What is the capital of Greece?,Athens,,"A) Athens
+B",12,-7.6875,0.0
+Grenada,What is the capital of Grenada?,St. George's,,"A) London
+B",59,-10.5,0.0
+Guatemala,What is the capital of Guatemala?,Guatemala City,,The capital of Guatemala is,4,-5.375,0.0
+Guinea,What is the capital of Guinea?,Conakry,,The capital of Guinea is,1169,-15.625,0.0
+Guyana,What is the capital of Guyana?,Georgetown,,The capital of Guyana is,46,-10.5625,0.0
+Haiti,What is the capital of Haiti?,Port-au-Prince,,The capital of Haiti is,157,-12.375,0.0
+Honduras,What is the capital of Honduras?,Tegucigalpa,,The capital of Honduras is,4274,-17.53125,0.0
+Hungary,What is the capital of Hungary?,Budapest,,"A) Budapest
+B",19,-8.8125,0.0
+Iceland,What is the capital of Iceland?,Reykjavik,,The capital of Iceland is,17,-8.0,0.0
+India,What is the capital of India?,New Delhi,,"A) Mumbai
+B",27,-9.4375,0.0
+Indonesia,What is the capital of Indonesia?,Jakarta,,"A) Jakarta
+B",5,-6.625,0.0
+Iran,What is the capital of Iran?,Tehran,,"A) Tehran
+B",124,-11.8125,0.0
+Iraq,What is the capital of Iraq?,Baghdad,,"A) Baghdad
+B",36,-9.625,0.0
+Ireland,What is the capital of Ireland?,Dublin,,"A) Dublin
+B",20,-8.5625,0.0
+Israel,What is the capital of Israel?,Jerusalem,,The capital of Israel is,17,-8.1875,0.0
+Italy,What is the capital of Italy?,Rome,,"A) Rome
+B",5,-6.9375,0.0
+Ivory Coast,What is the capital of Ivory Coast?,Yamoussoukro,,The capital of Ivory Coast,1606,-15.3125,0.0
+Jamaica,What is the capital of Jamaica?,Kingston,,"A) Kingston
+B",44,-10.3125,0.0
+Japan,What is the capital of Japan?,Tokyo,,"A) Tokyo
+B",20,-8.25,0.0
+Jordan,What is the capital of Jordan?,Amman,,"A) Amman
+B",35,-9.875,0.0
+Kazakhstan,What is the capital of Kazakhstan?,Astana,,The capital of Kazakhstan is,71,-11.1875,0.0
+Kenya,What is the capital of Kenya?,Nairobi,,The capital of Kenya is,19,-7.8125,0.0
+Kiribati,What is the capital of Kiribati?,South Tarawa,,The capital of Kirib,176,-12.0625,0.0
+Kuwait,What is the capital of Kuwait?,Kuwait City,,The capital of Kuwait is,4,-5.875,0.0
+Kyrgyzstan,What is the capital of Kyrgyzstan?,Bishkek,,The capital of Kyrgyzstan is,105,-12.1875,0.0
+Laos,What is the capital of Laos?,Vientiane,,The capital of Laos is,103,-11.5,0.0
+Latvia,What is the capital of Latvia?,Riga,,"A) Vilnius
+B",19,-9.375,0.0
+Lebanon,What is the capital of Lebanon?,Beirut,,The capital of Lebanon is,31,-9.6875,0.0
+Lesotho,What is the capital of Lesotho?,Maseru,,A) Cape Town,1099,-15.375,0.0
+Liberia,What is the capital of Liberia?,Monrovia,,The capital of Liberia is,55,-11.1875,0.0
+Libya,What is the capital of Libya?,Tripoli,,"A) Tunis
+B",71,-11.25,0.0
+Liechtenstein,What is the capital of Liechtenstein?,Vaduz,,"A) Vienna
+B",41,-10.625,0.0
+Lithuania,What is the capital of Lithuania?,Vilnius,,"A) Warsaw
+B",7,-6.9375,0.0
+Luxembourg,What is the capital of Luxembourg?,Luxembourg,,"A) Paris
+B",4,-4.5,0.0
+Madagascar,What is the capital of Madagascar?,Antananarivo,,A) Phnom Penh,213,-12.875,0.0
+Malawi,What is the capital of Malawi?,Lilongwe,,The capital of Malawi is,8,-6.9375,0.0

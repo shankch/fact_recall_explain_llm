@@ -1,0 +1,9 @@
+relation,prompt_family,target_rank,target_margin,full_exact_match,contains_expected,answer_f1,answer_similarity
+capital,chat_template,33.5,-2.40625,0.5,0.5,0.5,0.5789473684210527
+capital,declarative,1.0,0.75,0.0,1.0,0.2857142857142857,0.30180180180180183
+capital,qa,5.5,-2.5625,0.0,0.0,0.0,0.1431818181818182
+capital,raw_question,30.0,-5.0625,0.0,0.0,0.0,0.14375
+official_language,chat_template,96.5,-2.40625,0.0,0.0,0.0,0.38541666666666663
+official_language,declarative,1.5,0.375,0.0,0.5,0.125,0.21507064364207223
+official_language,qa,10.0,-0.0625,0.0,0.5,0.125,0.24242424242424243
+official_language,raw_question,221.0,-6.28125,0.0,0.0,0.0,0.2544444444444445

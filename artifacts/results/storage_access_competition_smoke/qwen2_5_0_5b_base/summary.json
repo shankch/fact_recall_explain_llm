@@ -1,0 +1,16 @@
+{
+  "model_name": "qwen2_5_0_5b_base",
+  "model_family": "qwen",
+  "model_variant": "base",
+  "num_prompts": 48,
+  "subject_invariance_depth_mean": 0.0,
+  "preanswer_invariance_depth_mean": 21.0,
+  "artifacts": {
+    "profiles": "artifacts/results/storage_access_competition_smoke/qwen2_5_0_5b_base/activation_profiles.jsonl",
+    "layer_similarity_summary": "artifacts/results/storage_access_competition_smoke/qwen2_5_0_5b_base/layer_similarity_summary.csv",
+    "fact_layer_similarity": "artifacts/results/storage_access_competition_smoke/qwen2_5_0_5b_base/fact_layer_similarity.csv",
+    "fact_invariance_summary": "artifacts/results/storage_access_competition_smoke/qwen2_5_0_5b_base/fact_invariance_summary.csv",
+    "subject_dynamics_png": "artifacts/results/storage_access_competition_smoke/qwen2_5_0_5b_base/subject_dynamics.png",
+    "preanswer_dynamics_png": "artifacts/results/storage_access_competition_smoke/qwen2_5_0_5b_base/preanswer_dynamics.png"
+  }
+}

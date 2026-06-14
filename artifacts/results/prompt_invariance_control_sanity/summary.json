@@ -1,0 +1,19 @@
+{
+  "models": [
+    "gemma_270m_base"
+  ],
+  "num_models": 1,
+  "artifacts": {
+    "multimodel_family_summary": "artifacts/results/prompt_invariance_control_sanity/multimodel_family_summary.csv",
+    "multimodel_control_summary": "artifacts/results/prompt_invariance_control_sanity/multimodel_control_summary.csv",
+    "multimodel_paired_family_comparisons": "artifacts/results/prompt_invariance_control_sanity/multimodel_paired_family_comparisons.csv",
+    "multimodel_paired_selectivity_comparisons": "artifacts/results/prompt_invariance_control_sanity/multimodel_paired_selectivity_comparisons.csv",
+    "multimodel_ablation_summary": "artifacts/results/prompt_invariance_control_sanity/multimodel_ablation_summary.csv",
+    "multimodel_family_answer_f1_png": "artifacts/results/prompt_invariance_control_sanity/multimodel_family_answer_f1.png",
+    "multimodel_target_selectivity_png": "artifacts/results/prompt_invariance_control_sanity/multimodel_target_selectivity.png",
+    "multimodel_family_heatmap_png": "artifacts/results/prompt_invariance_control_sanity/multimodel_family_heatmap.png",
+    "multimodel_selectivity_heatmap_png": "artifacts/results/prompt_invariance_control_sanity/multimodel_selectivity_heatmap.png",
+    "multimodel_ablation_effects_png": "artifacts/results/prompt_invariance_control_sanity/multimodel_ablation_effects.png",
+    "report": "artifacts/results/prompt_invariance_control_sanity/multimodel_prompt_invariance_report.md"
+  }
+}

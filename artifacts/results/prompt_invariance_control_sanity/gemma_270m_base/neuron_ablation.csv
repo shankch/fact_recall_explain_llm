@@ -1,0 +1,17 @@
+model_name,relation,prompt_family,candidate_type,fact_id,baseline_answer_f1,ablated_answer_f1,answer_f1_drop,baseline_contains_expected,ablated_contains_expected,contains_drop,baseline_rank,ablated_rank,baseline_target_selectivity,ablated_target_selectivity,target_selectivity_drop,same_subject_control_f1_increase,same_relation_control_f1_increase,lexical_distractor_f1_increase,max_control_f1_increase
+gemma_270m_base,capital,raw_question,invariant,capital:1,0.0,0.0,0.0,0.0,0.0,0.0,51,49,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,capital,declarative,invariant,capital:1,0.2857142857142857,0.2857142857142857,0.0,1.0,1.0,0.0,1,1,0.2857142857142857,0.2857142857142857,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,capital,qa,invariant,capital:1,0.0,0.0,0.0,0.0,0.0,0.0,8,8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,capital,chat_template,invariant,capital:1,0.0,0.0,0.0,0.0,0.0,0.0,64,60,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,official_language,raw_question,invariant,official_language:1,0.0,0.0,0.0,0.0,0.0,0.0,6,6,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,official_language,declarative,invariant,official_language:1,0.25,0.25,0.0,1.0,1.0,0.0,1,1,0.25,0.25,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,official_language,qa,invariant,official_language:1,0.0,0.0,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,official_language,chat_template,invariant,official_language:1,0.0,0.0,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,capital,raw_question,prompt_sensitive,capital:1,0.0,0.0,0.0,0.0,0.0,0.0,51,63,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,capital,declarative,prompt_sensitive,capital:1,0.2857142857142857,0.0,0.2857142857142857,1.0,0.0,1.0,1,2,0.2857142857142857,0.0,0.2857142857142857,0.0,0.0,0.0,0.0
+gemma_270m_base,capital,qa,prompt_sensitive,capital:1,0.0,0.0,0.0,0.0,0.0,0.0,8,27,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,capital,chat_template,prompt_sensitive,capital:1,0.0,1.0,-1.0,0.0,1.0,-1.0,64,63,0.0,1.0,-1.0,0.0,0.0,0.0,0.0
+gemma_270m_base,official_language,raw_question,prompt_sensitive,official_language:1,0.0,0.0,0.0,0.0,0.0,0.0,6,8,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,official_language,declarative,prompt_sensitive,official_language:1,0.25,0.25,0.0,1.0,1.0,0.0,1,1,0.25,0.25,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,official_language,qa,prompt_sensitive,official_language:1,0.0,0.0,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemma_270m_base,official_language,chat_template,prompt_sensitive,official_language:1,0.0,0.0,0.0,0.0,0.0,0.0,1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0

@@ -57,6 +57,10 @@ data/MNIST/
 *.fls
 *.fdb_latexmk
 
+# --- Hugging Face upload/download caches ---
+.cache/
+.huggingface/
+
 # --- OS / editor cruft ---
 .DS_Store
 Thumbs.db

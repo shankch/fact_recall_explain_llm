@@ -30,9 +30,13 @@ fetch or regenerate the rest:
 
 - **Model weights (~7.8 GB)** — six Hugging Face checkpoints. Download with
   `python scripts/download_models.py` (see [models/README.md](models/README.md)).
-- **Raw activation artifacts (~2.6 GB)** — `*.npz`, `*.jsonl`, and the large
-  `neuron_scores.csv` dumps under `artifacts/results/`. Regenerate by running the
-  study scripts below (see [artifacts/README.md](artifacts/README.md)).
+- **Raw activation artifacts (~2.5 GB)** — `*.npz`, `*.jsonl`, and the large
+  `neuron_scores.csv` dumps under `artifacts/results/`. Hosted as a companion
+  Hugging Face dataset:
+  [`sch1/fact_recall_explain_llm`](https://huggingface.co/datasets/sch1/fact_recall_explain_llm).
+  Fetch with `python scripts/download_artifacts_hf.py --repo-id sch1/fact_recall_explain_llm`,
+  or regenerate by running the study scripts below (see
+  [artifacts/README.md](artifacts/README.md)).
 - **Third-party / downloaded data** — `artifacts/datasets/counterfact/raw_counterfact.json`
   (re-downloaded by `scripts/prepare_counterfact.py`) and `data/MNIST/`.
 

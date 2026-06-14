@@ -10,8 +10,18 @@ Experiment inputs (`datasets/`) and outputs (`results/`).
 
 ## Not committed (large, regenerable)
 
-These are excluded via `.gitignore` to keep the repo lightweight. Rebuild them
-by running the `scripts/` entrypoints described in the top-level
+These are excluded via `.gitignore` to keep the repo lightweight. They are hosted
+as a companion Hugging Face dataset and can also be regenerated locally.
+
+Download them back into this directory:
+
+```bash
+python ../scripts/download_artifacts_hf.py --repo-id sch1/fact_recall_explain_llm
+```
+
+Dataset: https://huggingface.co/datasets/sch1/fact_recall_explain_llm
+
+Or rebuild them by running the `scripts/` entrypoints described in the top-level
 [README](../README.md):
 
 - `results/**/*.npz` — raw activation tensors (~700 MB)

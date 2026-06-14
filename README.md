@@ -1,4 +1,4 @@
-# Prompt Families as Access Operators
+# Prompt Families as Access Operators: A Measurement Framework for Storage, Access, and Competition in Small Language Models
 
 This repository contains the code, configurations, and paper-relevant result summaries used to study factual recall in small language models through three linked lenses (model weights and large raw artifacts are not committed — see [Large Files Not in Git](#large-files-not-in-git)):
 

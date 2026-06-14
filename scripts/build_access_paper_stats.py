@@ -400,8 +400,8 @@ def main() -> None:
     parser.add_argument("--prompt-dir", default="artifacts/results/prompt_invariance_access_r2")
     parser.add_argument("--storage-dir", default="artifacts/results/storage_access_competition_access_r2")
     parser.add_argument("--subspace-dir", default="artifacts/results/subspace_intervention_access_r2")
-    parser.add_argument("--output-json", default="paper/paper_stats_access.json")
-    parser.add_argument("--output-md", default="paper/paper_stats_access.md")
+    parser.add_argument("--output-json", default="artifacts/paper_stats_access.json")
+    parser.add_argument("--output-md", default="artifacts/paper_stats_access.md")
     args = parser.parse_args()
 
     summary = {

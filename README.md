@@ -1,12 +1,10 @@
 # Prompt Families as Access Operators
 
-This repository contains the code, configurations, paper-relevant result summaries, and paper sources used to study factual recall in small language models through three linked lenses (model weights and large raw artifacts are not committed — see [Large Files Not in Git](#large-files-not-in-git)):
+This repository contains the code, configurations, and paper-relevant result summaries used to study factual recall in small language models through three linked lenses (model weights and large raw artifacts are not committed — see [Large Files Not in Git](#large-files-not-in-git)):
 
 - `prompt access`: which prompt family best retrieves a fact
 - `storage vs access`: where prompt-invariant fact structure emerges across layers
 - `subspace interventions`: whether early prompt-invariant fact components are necessary or sufficient for later answer formation
-
-The final manuscript is the IEEE Access submission source at [paper/ieee_access_submission.tex](paper/ieee_access_submission.tex), with aligned paper statistics in [paper/paper_stats_access.json](paper/paper_stats_access.json).
 
 ## What This README Covers
 
@@ -15,8 +13,7 @@ This README is focused on reproducing the final paper-stage results:
 1. multi-model prompt-family study
 2. storage/access/competition study
 3. controlled subspace intervention study
-4. aligned paper statistics
-5. final IEEE Access PDF
+4. aligned aggregate statistics
 
 It also documents the optional capital-prompt visualization demo and the earlier scaffold experiments that remain in the repo.
 
@@ -24,7 +21,7 @@ It also documents the optional capital-prompt visualization demo and the earlier
 
 To keep the repository lightweight (and to respect vendor model licenses), large
 or regenerable assets are intentionally excluded via `.gitignore`. What you get
-after cloning is all of the code, configs, paper sources, and the small result
+after cloning is all of the code, configs, and the small result
 summaries/figures that back the manuscript. To reproduce the full pipeline you
 fetch or regenerate the rest:
 
@@ -75,7 +72,6 @@ The project was designed to fit on a single 6 GB laptop GPU by running models se
 - [scripts](scripts): runnable entrypoints
 - [artifacts](artifacts): generated datasets, metrics, and figures
 - [models](models): local Hugging Face checkpoints
-- [paper](paper): manuscript sources and compiled PDFs
 - [viewer](viewer): React-based activation viewer
 
 ## Required Local Model Checkpoints
@@ -210,46 +206,23 @@ Main outputs:
 - [artifacts/results/subspace_intervention_access_r2/multimodel_project_alignment_delta.png](artifacts/results/subspace_intervention_access_r2/multimodel_project_alignment_delta.png)
 - [artifacts/results/subspace_intervention_access_r2/multimodel_patch_alignment_gain.png](artifacts/results/subspace_intervention_access_r2/multimodel_patch_alignment_gain.png)
 
-### 4. Build Aligned Paper Statistics
+### 4. Build Aligned Summary Statistics
 
-This script reads the three final result directories and writes the paper-ready summary files consumed during manuscript revision.
+This script reads the three final result directories and writes the aligned summary files (JSON and Markdown) that aggregate the study results.
 
 ```bash
 python scripts/build_access_paper_stats.py \
   --prompt-dir artifacts/results/prompt_invariance_access_r2 \
   --storage-dir artifacts/results/storage_access_competition_access_r2 \
   --subspace-dir artifacts/results/subspace_intervention_access_r2 \
-  --output-json paper/paper_stats_access.json \
-  --output-md paper/paper_stats_access.md
+  --output-json artifacts/paper_stats_access.json \
+  --output-md artifacts/paper_stats_access.md
 ```
 
 Outputs:
 
-- [paper/paper_stats_access.json](paper/paper_stats_access.json)
-- [paper/paper_stats_access.md](paper/paper_stats_access.md)
-
-### 5. Compile the IEEE Access Paper
-
-The manuscript source is:
-
-- [paper/ieee_access_submission.tex](paper/ieee_access_submission.tex)
-
-Build it with:
-
-```bash
-tectonic --keep-logs --keep-intermediates paper/ieee_access_submission.tex
-```
-
-If you prefer not to activate the environment:
-
-```bash
-conda run -p ./.conda-env \
-  tectonic --keep-logs --keep-intermediates paper/ieee_access_submission.tex
-```
-
-Output:
-
-- [paper/ieee_access_submission.pdf](paper/ieee_access_submission.pdf)
+- [artifacts/paper_stats_access.json](artifacts/paper_stats_access.json)
+- [artifacts/paper_stats_access.md](artifacts/paper_stats_access.md)
 
 ## Optional: Capital Prompt Activation Demo
 
@@ -350,7 +323,7 @@ python scripts/generate_report.py \
 
 ## Suggested Full Reproduction Order
 
-If you want the shortest end-to-end path from a clean checkout to the final PDF:
+If you want the shortest end-to-end path from a clean checkout to the aggregate statistics:
 
 ```bash
 conda activate ./.conda-env
@@ -358,16 +331,14 @@ python -m unittest discover -s tests -v
 python scripts/run_prompt_invariance_study.py --config configs/prompt_invariance_access_r2.yaml
 python scripts/run_storage_access_competition_study.py --config configs/storage_access_competition_access_r2.yaml
 python scripts/run_subspace_intervention_study.py --config configs/subspace_intervention_access_r2.yaml
-python scripts/build_access_paper_stats.py --prompt-dir artifacts/results/prompt_invariance_access_r2 --storage-dir artifacts/results/storage_access_competition_access_r2 --subspace-dir artifacts/results/subspace_intervention_access_r2 --output-json paper/paper_stats_access.json --output-md paper/paper_stats_access.md
-tectonic --keep-logs --keep-intermediates paper/ieee_access_submission.tex
+python scripts/build_access_paper_stats.py --prompt-dir artifacts/results/prompt_invariance_access_r2 --storage-dir artifacts/results/storage_access_competition_access_r2 --subspace-dir artifacts/results/subspace_intervention_access_r2 --output-json artifacts/paper_stats_access.json --output-md artifacts/paper_stats_access.md
 ```
 
 ## Final Outputs to Inspect
 
-For the paper:
+For the aggregate statistics:
 
-- [paper/ieee_access_submission.pdf](paper/ieee_access_submission.pdf)
-- [paper/paper_stats_access.md](paper/paper_stats_access.md)
+- [artifacts/paper_stats_access.md](artifacts/paper_stats_access.md)
 
 For the experiments:
 

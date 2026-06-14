@@ -1,5 +1,6 @@
 ---
 pretty_name: Fact Recall in Small LMs — Raw Experiment Artifacts
+license: mit
 tags:
   - interpretability
   - mechanistic-interpretability

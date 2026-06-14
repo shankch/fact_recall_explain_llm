@@ -50,6 +50,9 @@ data/MNIST/
 # --- Manuscript / paper folder (kept local; intentionally not published in this repo) ---
 paper/
 
+# --- IEEE LaTeX template (kept local; not published in this repo) ---
+ieee_template/
+
 # --- LaTeX build intermediates ---
 *.aux
 *.log
